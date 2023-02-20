@@ -1,7 +1,7 @@
 ---
 tag: [[Programming]]
 ---
-# Reactive Programming and ReactiveX
+## Reactive Programming and ReactiveX
 
 So what is reactive programming ? It is a way to write event driven code. The name comes from the fact that a reactive code is composed of entities that react to events being emitted by sources. These entities apply transformations on these events, and return other events as a result. So these entities - named _operators_ - can be chained together, to create computation graphs.
 
@@ -23,10 +23,20 @@ The python implementation of ReactiveX is [RxPY](https://github.com/ReactiveX/Rx
 pip3 install rx
 ```
 
-# Observable, Observer, Operator
+## Observable, Observer, Operator
 
 The foundation of ReactiveX is based on only a few key principles described in the [Observable Contract](http://reactivex.io/documentation/contract.html).
 
 The base entity in ReactiveX is the **Observable**. An Observable is an entity that is a source of **items**. Item is the ReactiveX term for an event. One could consider and Observable to be a stream of events.
 
-The second entity is the **Observer**. And Observer is the entity that **subscribes** to observers, so that it can process items as they are emitted. The subscription to an observable is explicit, meaning an observable does not emit items until an observer subscribes to it. When an observable is created, no data flows, it only flows when subscribed to
+The second entity is the **Observer**. And Observer is the entity that **subscribes** to observers, so that it can process items as they are emitted. The subscription to an observable is explicit, meaning an observable does not emit items until an observer subscribes to it. When an observable is created, no data flows, it only flows when subscribed to.
+
+We can then combine an Observer and an Observable to create an **Operator**. An operator subscribes to a source Observable, applies some transformations to the incoming items, an emits new items on another Observable.
+
+## Marble Diagrams
+
+Motto: A by example way to represent the behaviour of an operator.
+
+Consider the *map* operator, taking items from a source observable, applying a transformation, and returning a sink observable with the transformation function applied to the source items.
+
+![[map_marble.png]]
