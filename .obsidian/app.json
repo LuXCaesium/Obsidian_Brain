@@ -4,5 +4,6 @@
   "foldHeading": true,
   "trashOption": "local",
   "attachmentFolderPath": "./assets",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "promptDelete": false
 }

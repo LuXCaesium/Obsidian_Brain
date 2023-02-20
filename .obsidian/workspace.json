@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "new post.md",
+                "file": "templates/daily notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "new post.md",
+                "file": "templates/daily notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "new post.md",
+                "file": "templates/daily notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "new post.md"
+                "file": "templates/daily notes.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   },
   "active": "e6f1519de986633b",
   "lastOpenFiles": [
-    "templates/daily notes.md",
     "new post.md",
-    "templates/Daily.md",
     "Untitled.md",
+    "templates/daily notes.md",
+    "templates/Daily.md",
     "Reactive Programming.md"
   ]
 }
