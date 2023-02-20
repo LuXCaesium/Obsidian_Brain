@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "36b3f2f66c725af2",
+        "id": "0da25d1113fe9092",
         "type": "tabs",
         "children": [
           {
-            "id": "36c82564a98f6f05",
+            "id": "e07fc887bec9ed50",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,10 +135,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "36c82564a98f6f05",
+  "active": "e07fc887bec9ed50",
   "lastOpenFiles": [
     "Reactive Programming.md",
     "templates/daily notes.md",
