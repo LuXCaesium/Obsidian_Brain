@@ -7,7 +7,7 @@ So what is reactive programming ? It is a way to write event driven code. The na
 
 Reactive computation graphs are always directed. They flow in only one way. Some graphs are _Directed Acyclic Graphs_ - DAG - like this one:
 
-![[graph_dag.png|{width=50%}]]
+![[graph_dag.png]]
 
 
 
