@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "05460deb520a87ad",
+        "id": "219d56137b172dac",
         "type": "tabs",
         "children": [
           {
-            "id": "264743c853708b5e",
+            "id": "9a63f59b90a27224",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Reactive Programming.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reactive Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Reactive Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Reactive Programming.md"
+              }
             }
           }
         ]
@@ -139,17 +147,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "9a63f59b90a27224",
   "lastOpenFiles": [
     "templates/daily notes.md",
-    "Timestamps/2023/02-February/2023-02-21-Tuesday.md",
+    "Reactive Programming.md",
+    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd\") %>.md",
+    "+Daily Notes.md",
     "Timestamps/2023/02-February/2023-02-20-Monday.md",
+    "Timestamps/2023/02-February/2023-02-21-Tuesday.md",
     "Timestamps/2023/02-February/2023-02-19-Sunday.md",
     "Timestamps/2023/02-February/Monday-20-02-2023.md",
     "2020-02-21-Friday.md",
-    "Reactive Programming.md",
-    "+Daily Notes.md",
-    "new post.md",
-    "Untitled.md"
+    "new post.md"
   ]
 }
