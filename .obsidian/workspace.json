@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "01956a5cf82b2dd7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reactive Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reactive Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Reactive Programming.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,9 +148,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "d94e7a3c711e74d5",
-  "lastOpenFiles": []
+  "active": "01956a5cf82b2dd7",
+  "lastOpenFiles": [
+    "Reactive Programming.md"
+  ]
 }

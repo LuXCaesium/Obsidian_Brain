@@ -1,3 +1,6 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "url-into-selection",
+  "cm-editor-syntax-highlight-obsidian"
 ]
