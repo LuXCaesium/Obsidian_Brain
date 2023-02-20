@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5f36ecad4d3ac64b",
+        "id": "36b3f2f66c725af2",
         "type": "tabs",
         "children": [
           {
-            "id": "7ce95e0ef1a38e11",
+            "id": "36c82564a98f6f05",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reactive Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reactive Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,17 +118,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Reactive Programming.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,10 +138,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "36c82564a98f6f05",
   "lastOpenFiles": [
-    "templates/daily notes.md",
     "Reactive Programming.md",
+    "templates/daily notes.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd\") %>.md",
     "+Daily Notes.md",
     "Timestamps/2023/02-February/2023-02-20-Monday.md",

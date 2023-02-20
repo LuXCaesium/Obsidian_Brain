@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "cssTheme": "Obsidian Nord",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "interfaceFontFamily": "Inter"
 }
