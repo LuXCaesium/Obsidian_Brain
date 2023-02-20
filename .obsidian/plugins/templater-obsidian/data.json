@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Timestamps",
+      "template": "templates/daily notes.md"
     }
   ],
   "syntax_highlighting": true,
