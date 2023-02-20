@@ -91,3 +91,56 @@ source.pipe(
     ops.filter(lambda i: i % 2 == 0),
 )
 ```
+
+The pipe operator allows to chain other operators. It is an easy and readable way to create graphs. The _map_ and _filter_ operators take functions as parameters. We use lambdas here for these simple computations.
+
+You can execute this code already. However, remember that nothing will happen yet: The graph is created but nobody subscribed to it, so no data flows yet. Let's do that to consume the source observable:
+
+```python
+source.pipe(
+    ops.map(lambda i: i - 1),
+    ops.filter(lambda i: i % 2 == 0),
+).subscribe(
+    on_next=lambda i: print("on_next: {}".format(i)),
+    on_completed=lambda: print("on_completed"),
+    on_error=lambda e: print("on_error: {}".format(e))
+)
+```
+
+The subscribe method... subscribes to an observable. It takes three callbacks as arguments. These callbacks will be called at different times:
+
+-   _on_next_ is called each time an item is received.
+-   _on_completed_ is called when the observable completes on success.
+-   _on_error_ is called when the Observable completes on error.
+
+Note that according to the Observable Contract, the _on_next_ callback will never be called after the _on_completed_ and the _on_error_ callbacks.
+
+There is a final step needed to clean up the resources on completion. The subscription creates some resources. These resources have to be cleaned up when they are not needed anymore. For this, the subscribe method returns a **Disposable** object. The _dispose_ method of this Disposable object can be called to clean up these resources:
+
+```python
+import rx
+import rx.operators as ops
+
+source = rx.from_iterable([1, 2, 3, 4])
+
+disposable = source.pipe(
+    ops.map(lambda i: i - 1),
+    ops.filter(lambda i: i % 2 == 0),
+).subscribe(
+    on_next=lambda i: print("on_next: {}".format(i)),
+    on_completed=lambda: print("on_completed"),
+    on_error=lambda e: print("on_error: {}".format(e)),
+)
+
+disposable.dispose()
+print("Done!")
+```
+
+## Error Management
+As a consequence, here is the behavior of our application: Each time an item is emitted, it goes through the happy path of the map operator (i.e. its value is decreased). If all goes well, the resulting item continues on the happy path of the filter operator. On success, the on_next callback is called.
+
+In case of error in the map function, the map operator catches the exception, and emits it on the error path. The exception is forwarded to the error path of the filter operator. The filter operator just forwards it downstream, and the on_error callback is called.
+
+So operators deal explicitly with errors. There are also some operators dedicated to error management, such as retrying subscriptions, or generating errors on timeout.
+
+The great thing with this structure is that in many cases, you have error management for free. For people using functional programming, this is an implementation of the Try monad.
