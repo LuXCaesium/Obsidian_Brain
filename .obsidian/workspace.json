@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reactive Programming.md",
+                "file": "templates/daily notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reactive Programming.md",
+                "file": "templates/daily notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reactive Programming.md",
+                "file": "templates/daily notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reactive Programming.md"
+                "file": "templates/daily notes.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "9a63f59b90a27224",
   "lastOpenFiles": [
-    "templates/daily notes.md",
     "Reactive Programming.md",
+    "templates/daily notes.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd\") %>.md",
     "+Daily Notes.md",
     "Timestamps/2023/02-February/2023-02-20-Monday.md",
