@@ -3,5 +3,6 @@
   "readableLineLength": false,
   "foldHeading": true,
   "trashOption": "local",
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets",
+  "showInlineTitle": false
 }
