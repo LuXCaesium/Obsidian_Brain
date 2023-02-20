@@ -37,6 +37,11 @@ We can then combine an Observer and an Observable to create an **Operator**. An 
 
 Motto: A by example way to represent the behaviour of an operator.
 
-Consider the *map* operator, taking items from a source observable, applying a transformation, and returning a sink observable with the transformation function applied to the source items.
+Consider the *map* operator, taking items from a source observable, applying a transformation, and returning a sink observable with the transformation function applied to the source items. The marble diagram below explain this:
 
 ![[map_marble.png]]
+
+There are three parts to this diagram:
+- The top arrow represents the source observable: When being subscribed, this source observable emits the numbers 1 to 4
+- The rectangle represents the computation done by the operator. In this example, one is subtracted to each received item.
+- The bottom arrow represents the sink Observable. As a result of subtracting 1 to each item, it emits items 0 to 3.
