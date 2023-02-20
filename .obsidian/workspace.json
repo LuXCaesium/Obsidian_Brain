@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "343e7640bebe8950",
+        "id": "da8719e408ea81f8",
         "type": "tabs",
         "children": [
           {
-            "id": "e6f1519de986633b",
+            "id": "a71c25c7f898a554",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "templates/daily notes.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -147,11 +147,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e6f1519de986633b",
+  "active": "a71c25c7f898a554",
   "lastOpenFiles": [
+    "+Daily Notes.md",
+    "templates/daily notes.md",
+    "Timestamps/2023/02-February/2023-02-20-Monday.md",
     "new post.md",
     "Untitled.md",
-    "templates/daily notes.md",
     "templates/Daily.md",
     "Reactive Programming.md"
   ]
