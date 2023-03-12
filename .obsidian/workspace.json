@@ -143,7 +143,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
       "workspaces:Manage workspace layouts": false
     }
   },
