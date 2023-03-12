@@ -1,7 +1,7 @@
 ---
 created: <% tp.file.creation_date() %>
 ---
-tags:: [[+Daily Notes]]
+tags:: #DailyNotes
 
 # <% moment(tp.file.creation_date(),'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
