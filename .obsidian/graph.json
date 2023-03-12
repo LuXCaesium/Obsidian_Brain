@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
@@ -11,7 +11,7 @@
       "query": "tag:#Programming",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 14701138
       }
     },
     {
@@ -22,10 +22,17 @@
       }
     },
     {
-      "query": "tag:#git",
+      "query": "tag:",
       "color": {
         "a": 1,
         "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#DailyNotes",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
@@ -40,5 +47,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1,
-  "close": false
+  "close": true
 }

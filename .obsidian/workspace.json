@@ -27,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Git/Fixing Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Git/Fixing Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data/Git/Fixing Git.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,11 +151,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c16e133008ebc5f8",
+  "active": "82afee78b91d8b8a",
   "lastOpenFiles": [
+    "Reactive Programming.md",
     "Data/Git/Fixing Git.md",
     "templates/daily notes.md",
-    "Reactive Programming.md",
     "Untitled.canvas",
     "Data/Git",
     "Data",
