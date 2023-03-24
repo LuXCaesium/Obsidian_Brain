@@ -58,6 +58,8 @@ $$
 F_\beta = (1+\beta^2)\frac{\textrm{precision.recall}}{(\beta^2.\textrm{precision}) + \textrm{recall}}
 $$
 
-The $\beta$ parameter allows us to control the tradeoff of importance between precision and recall. $\beta <1$ favours precision whilst $\beta > 1$ the recall.
+The $\beta$ parameter allows us to control the trade-off of importance between precision and recall. $\beta <1$ favours precision whilst $\beta > 1$ the recall.
 
 ### Regression
+
+These metrics are rather different as we now predicting in a continuous range.
