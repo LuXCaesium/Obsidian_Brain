@@ -22,10 +22,10 @@ One problem with the train/test split that is so commonly used in today's machin
 
 When performing classification predictions, there's four types of outcomes that could occur.
 
-- **True Positives**: When you correctly predict an observation belongs to a class.
-- **True Negatives**: When you correctly predict an observation does not belong to a class.
-- **False Positives**: When you wrongly predict an observation belongs to a class.
-- **False Negatives**: When you wrongly predict an observation does not belong to a class.
+- **True Positives**: When you predict an observation belongs to a class and it actually does belong to that class.
+- **True Negatives**: When you predict an observation does not belong to a class and it actually does not belong to that class.
+- **False Positives**: When you predict an observation belongs to a class when in reality it does not.
+- **False Negatives**: When you predict an observation does not belong to a class when in fact it does.
 
 You often plot these results in a confusion matrix, and use the following metrics to evaluate the performance of the model.
 
@@ -43,5 +43,9 @@ $$
 
 **Recall**: fraction of examples which were predicted to belong to a class w.r.t all examples which truly belong to that class.
 
+$$
+\textrm{recall} = \frac{\textrm{true positives}}{\textrm{true positives + false negatives}}
+$$
 
-![[Precisionrecall.png|400]]
+
+![[Precisionrecall.png]]
