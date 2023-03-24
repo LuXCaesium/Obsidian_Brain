@@ -35,8 +35,13 @@ $$
 \textrm{accuracy} = \frac{\textrm{correct predictions}}{\textrm{all predictions}}
 $$
 
+**Precision**: fraction of relevant examples (true positives) among all examples predicted to belong in a certain class.
+
+$$
+\textrm{precision} = \frac{\textrm{true positives}}{\textrm{true positives} + \textrm{false positives}}
+$$
+
+**Recall**: fraction of examples which were predicted to belong to a class w.r.t all examples which truly belong to that class.
 
 
-
-
-
+![[Precisionrecall.png|400]]

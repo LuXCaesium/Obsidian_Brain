@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reactive Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d71aeff215c46c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Model Evaluation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,9 +149,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "781291600d392e03",
   "lastOpenFiles": [
     "Reactive Programming.md",
+    "assets/Precisionrecall.png",
     "Model Evaluation.md",
     "Data/Git/Fixing Git.md",
     "templates/daily notes.md",
