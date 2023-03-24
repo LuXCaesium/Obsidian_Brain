@@ -55,5 +55,9 @@ If you create a classifier that always predicts that the person does not have a 
 **F-Score**: this is a single metric which combines both precision and recall.
 
 $$
-F_\beta = (1+\beta^2)
+F_\beta = (1+\beta^2)\frac{\textrm{precision.recall}}{(\beta^2.\textrm{precision}) + \textrm{recall}}
 $$
+
+The $\beta$ parameter allows us to control the tradeoff of importance between precision and recall. $\beta <1$ favours precision whilst $\beta > 1$ the recall.
+
+### Regression
