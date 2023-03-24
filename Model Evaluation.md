@@ -49,3 +49,11 @@ $$
 
 
 ![[Precisionrecall.png]]
+
+If you create a classifier that always predicts that the person does not have a disease (when 1% of the population has the disease), you would have a model that is 99% accurate and 0% useful. In this example recall will ensure that we are not overlooking the people who have the disease, whilst precision ensures that we are not miss-classifying too many people as having the disease when they do not. So it is important to evaluate both the precision and the recall of the model.
+
+**F-Score**: this is a single metric which combines both precision and recall.
+
+$$
+F_\beta = (1+\beta^2)
+$$
