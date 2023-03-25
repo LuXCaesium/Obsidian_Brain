@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -141,12 +140,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a0e01943140bed09",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
-    "Managing machine learning infrastructure as code with Terraform.md",
-    "Model Evaluation.md",
     "Reactive Programming.md",
     "Untitled.md",
+    "Model Evaluation.md",
+    "Managing machine learning infrastructure as code with Terraform.md",
     "assets/Validation_curve.png",
     "assets/Precisionrecall.png",
     "Data/Git/Fixing Git.md",
