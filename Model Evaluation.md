@@ -91,3 +91,11 @@ $$
 
 **under-fitting**: When models with high bias pay little attention to the data being presented.
 
+**Variance**:  When we train out model and it learns *too much* from the training data. This causes the model to capture the noise in addition to the signal. So the model will have large fluctuations that does not represent the true trend. This is high **variance**.
+
+**over-fitting**: when the model pays too much attention to the training dataset, and will not generalise to new data.
+
+The best model will fit somewhere in between these two extremes, we want out model to capture all the required data for accurate prediction, but we do not want to over-fit and capture the noise rather than the signal.
+
+
+
