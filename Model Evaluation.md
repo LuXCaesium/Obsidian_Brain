@@ -75,4 +75,16 @@ $$
 MSE(y_{true}, y_{pred}) = \frac{1}{n_{samples}}\sum(y_{true} - y_{pred})^2
 $$
 
-**R^2 coefficient**: 
+**R$^2$ coefficient**: Represents the proportion of variance in the outcome that our model is capable of predicting based on its features. (Note how this is equal to the fraction of explained variance)
+
+$$
+R^2(y_{true}, y_{pred}) = 1 - \frac{\sum(y_{true} - y_{pred})^2}{\sum(y_{pred} - \bar{y})^2}
+$$
+
+$$
+\bar{y} = \frac{1}{n_{samples}\sum{y_{true}}}
+$$
+
+## Bias vs Variance
+
+Sometimes we provide a model with too much pre-build structure that we limit the model's ability to learn from the examples - 
