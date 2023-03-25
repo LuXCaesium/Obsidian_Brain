@@ -62,4 +62,17 @@ The $\beta$ parameter allows us to control the trade-off of importance between p
 
 ### Regression
 
-These metrics are rather different as we now predicting in a continuous range.
+These metrics are rather different as we now predicting in a continuous range instead of a discrete number of classes.
+
+**Explained Variance**: compares the variance within the expected outcomes to the variance in the error of our model. This represents the amount of variation in the original dateset that our model is able to explain.
+
+$$
+EV(y_{true}, y_{pred}) = 1- \frac{Var(y_{true} - y_{pred})}{y_{true}}
+$$
+**Mean Squared Error**: is simply the average of squared differences between the predicted output and the true output. Squared error is commonly used as its agnostic to whether the prediction was too high or low.
+
+$$
+MSE(y_{true}, y_{pred}) = \frac{1}{n_{samples}}\sum(y_{true} - y_{pred})^2
+$$
+
+**R^2 coefficient**: 
