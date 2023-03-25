@@ -97,7 +97,7 @@ $$
 
 The best model will fit somewhere in between these two extremes, we want out model to capture all the required data for accurate prediction, but we do not want to over-fit and capture the noise rather than the signal.
 
-**Validation curves**:
+### Validation curves:
 
 These curves allows us to find the *sweet spot* between under-fitting and over-fitting to build a model that generalises well.
 
@@ -105,5 +105,16 @@ A typical validation curve is a plot of the model's error as a function of some 
 
 ![[Validation_curve.png]]
 
+These curves allows us to determine whether the model is suffering from high bias or high variance. 
 
+### Learning Curves:
 
+Here we plot the error of the model as a function of the number of training examples. 
+
+If the model is **high bias**, we will observe fairly quick convergence to a high error for the validation and training datasets. Training on more samples is unlikely to be beneficial here, instead one should consider adding additional features to the dataset, so the model can be more equipped to learn the proper relationships.
+
+If the model is **high variance**, we will see a gap between the training and validation error. This is due to the model performing well on the training data, but is over-fit so does not generalise well to the validation dataset. In this case, feeding more data during training can help improve the model's performance.
+
+### Other Practical Advice:
+
+Another common practice is to reduce the dataset into fewer dimensions 
