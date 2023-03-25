@@ -97,5 +97,13 @@ $$
 
 The best model will fit somewhere in between these two extremes, we want out model to capture all the required data for accurate prediction, but we do not want to over-fit and capture the noise rather than the signal.
 
+**Validation curves**:
+
+These curves allows us to find the *sweet spot* between under-fitting and over-fitting to build a model that generalises well.
+
+A typical validation curve is a plot of the model's error as a function of some model hyper-parameter which controls the models tendency to over-fit the data. This parameter could be anything and usually has significant control over the complexity of the model.
+
+![[Validation_curve.png]]
+
 
 
