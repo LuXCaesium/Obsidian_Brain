@@ -87,4 +87,7 @@ $$
 
 ## Bias vs Variance
 
-Sometimes we provide a model with too much pre-build structure that we limit the model's ability to learn from the examples - 
+**Bias**: when the  pre-impose the structure of a model inhibits its ability to learn, i.e fitting a linear model to explain a exponential relationship. Bias can also be introduced when trying to teach it to perform a task without presenting all the necessary information.
+
+**under-fitting**: When models with high bias pay little attention to the data being presented.
+
