@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dafeb58e34f65871",
+        "id": "a1444d82c69a9c4b",
         "type": "tabs",
         "children": [
           {
-            "id": "82afee78b91d8b8a",
+            "id": "0a6334a161453502",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           }
         ]
@@ -140,10 +148,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "82afee78b91d8b8a",
+  "active": "0a6334a161453502",
   "lastOpenFiles": [
-    "Model Evaluation.md",
     "Reactive Programming.md",
+    "Untitled.md",
+    "Model Evaluation.md",
     "assets/Precisionrecall.png",
     "Data/Git/Fixing Git.md",
     "templates/daily notes.md",
