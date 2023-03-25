@@ -82,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Managing machine learning infrastructure as code with Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Managing machine learning infrastructure as code with Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Managing machine learning infrastructure as code with Terraform.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,12 +141,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "a0e01943140bed09",
   "lastOpenFiles": [
+    "Managing machine learning infrastructure as code with Terraform.md",
     "Model Evaluation.md",
     "Reactive Programming.md",
     "Untitled.md",
-    "Managing machine learning infrastructure as code with Terraform.md",
     "assets/Validation_curve.png",
     "assets/Precisionrecall.png",
     "Data/Git/Fixing Git.md",
