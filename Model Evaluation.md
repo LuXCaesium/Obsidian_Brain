@@ -4,6 +4,7 @@ created: <% tp.file.creation_date() %>
 
 ---
 tags:: #MachineLearning #DataScience
+
 # Evaluating Machine Learning Models
 
 Here we will discuss how to evaluate a machine learning model, and in the process answer some of the following questions:
@@ -117,4 +118,4 @@ If the model is **high variance**, we will see a gap between the training and va
 
 ### Other Practical Advice:
 
-Another common practice is to reduce the dataset into fewer dimensions 
+Another common practice is to reduce the dataset into fewer dimensions, this can be done with a variety of methods but *Principle Component Analysis* (PCA) is a common method.
