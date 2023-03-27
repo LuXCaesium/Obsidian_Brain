@@ -25,8 +25,15 @@ $\forall x,y \in \mathbb{R}, f(x, y) = (x-y)^2$
 A warping path is a sequence $p = (p_1, \dots, p_L)$ such that:
 
 * **Value Condition**: $\forall l \in \{1, \dots,L\},$ $p_l = (i_l, j_l) \in \{1, \dots, n\} \times \{1, \dots, m \}$
-* **Boundary Condition**: 
-* **Step Condition**: 
+* **Boundary Condition**: $p_1 = (1,1)$ and $p_L = (n, m)$
+* **Step Condition**: $\forall l \in \{1, \dots, L-1\},$ $p_{l+1} - p_l \in \{(0,1), (1, 0), (1,1)\}$
 
+The cost associated with a warping path, denoted $C_p$, is the sum of the elements of the cost matrix that belong to the warping path:
+$C_p(X, Y) = \sum_{l=1}^{L}{C_{i_l, j_l}}$
 
+Then the dynamic time warping score is defined as the minimum cost among all the warping paths:
+
+$DTW(X, Y) = \min_{p \in \mathcal{P}} C_p(X, Y)$
+
+Where $\mathcal{P}$ is the set of warping paths.
 
