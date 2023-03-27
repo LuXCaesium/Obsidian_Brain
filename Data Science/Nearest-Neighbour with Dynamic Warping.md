@@ -11,4 +11,10 @@ Nearest-neighbour methods are one of the most intuitive algorithms for supervise
 * It is only defined for two vectors of the same length, where time series of a dataset can vary.
 * it compares values at each point in time independently, whereas time series values are correlated.
 
-Dynamic time warping (DTW) is a metric for time series that address both limitations, and is often co
+Dynamic time warping (DTW) is a metric for time series that address both limitations, and is often considered to be the baseline algorithm for time series classification.
+
+## Dynamic Time Warping
+
+Let $X = (x_1, \dots, x_n) \in \mathbb{R}^n$ and $Y = (y_1, \dots, y_m) \in \mathbb{R}^m$ be two time series of length $n$ & $m$ respectively. The cost matrix, $C$ is an $n \times m$ consisting of the cost between each pair of values in both time series:
+
+
