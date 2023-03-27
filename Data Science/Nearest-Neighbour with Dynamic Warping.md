@@ -17,4 +17,16 @@ Dynamic time warping (DTW) is a metric for time series that address both limitat
 
 Let $X = (x_1, \dots, x_n) \in \mathbb{R}^n$ and $Y = (y_1, \dots, y_m) \in \mathbb{R}^m$ be two time series of length $n$ & $m$ respectively. The cost matrix, $C$ is an $n \times m$ consisting of the cost between each pair of values in both time series:
 
+$\forall i,j \in \{1, \dots, n\} \times \{1, \dots, m\},$ $C_{ij} = f(x_i, y_j)$
+
+where $f$ (local divergence) is a function evaluating the cost between any pair of real numbers; usually the squared difference function:
+$\forall x,y \in \mathbb{R}, f(x, y) = (x-y)^2$
+
+A warping path is a sequence $p = (p_1, \dots, p_L)$ such that:
+
+* **Value Condition**: $\forall l \in \{1, \dots,L\},$ $p_l = (i_l, j_l) \in \{1, \dots, n\} \times \{1, \dots, m \}$
+* **Boundary Condition**: 
+* **Step Condition**: 
+
+
 
