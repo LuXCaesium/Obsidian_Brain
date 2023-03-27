@@ -43,5 +43,5 @@ Where $\mathcal{P}$ is the set of warping paths. We use [[Dynamic Programming]] 
 * DTW allows for very large time warps, which may be undesired.
 * DTW is not differentiable, making it difficult to use with machine learning algorithms relying on minimising an objective function with [[gradient descent]].
 
-There are several variants which aim to mitigate these issues. The set of warping paths is restricted to the set of warping paths such that all their elements belong to the constraint region. This does reduce complexity, but add the complexity of the constraint region. The [[Sakoe-Chiba Band]]
+There are several variants which aim to mitigate these issues. The set of warping paths is restricted to the set of warping paths such that all their elements belong to the constraint region. This does reduce complexity, but add the complexity of the constraint region. The [[Sakoe-Chiba Band]] and [[Itakura Parallelogram]] are two commonly used constraint regions.
 
