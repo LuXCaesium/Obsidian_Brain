@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0e01943140bed09",
+            "id": "98dc402f78c136d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md"
+              }
             }
           }
         ]
@@ -140,19 +148,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "98dc402f78c136d9",
   "lastOpenFiles": [
+    "Data Science/Time Series.md",
     "Reactive Programming.md",
-    "Untitled.md",
-    "Model Evaluation.md",
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Data Science",
+    "Data Science/Model Evaluation.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "assets/Validation_curve.png",
     "assets/Precisionrecall.png",
-    "Data/Git/Fixing Git.md",
+    "Data Engineering/Git/Fixing Git.md",
     "templates/daily notes.md",
     "Untitled.canvas",
-    "Data/Git",
-    "Data",
+    "Data Engineering/Git",
+    "Data Engineering",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd\") %>.md",
     "+Daily Notes.md",
     "Timestamps/2023/02-February/2023-02-20-Monday.md",
