@@ -35,5 +35,13 @@ Then the dynamic time warping score is defined as the minimum cost among all the
 
 $DTW(X, Y) = \min_{p \in \mathcal{P}} C_p(X, Y)$
 
-Where $\mathcal{P}$ is the set of warping paths.
+Where $\mathcal{P}$ is the set of warping paths. We use [[Dynamic Programming]] to speed up this computation.
+
+## Limitations & Variants
+* The algorithmic complexity is $\mathcal{O}(nm)$
+* it is not a distance because it does not satisfy not only the separation property (DTW between two different time series can be zero) or the triangle inequality. so efficient NN search algorithms ([[K-dimensional Tree]] [[Ball Tree]]) cannot be used.
+* DTW allows for very large time warps, which may be undesired.
+* DTW is not differentiable, making it difficult to use with machine learning algorithms relying on minimising an objective function with [[gradient descent]].
+
+There are several variants which aim to mitigate these issues. The set of warping paths is restricted to the set of warping paths such that all their elements belong to the constraint region. This does reduce complexity, but add the complexity of the constraint region. The [[Sakoe-Chiba Band]]
 

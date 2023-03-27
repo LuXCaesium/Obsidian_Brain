@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,7 +149,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98dc402f78c136d9",
+  "active": "78a4ed779dfeacf0",
   "lastOpenFiles": [
     "Data Science/Time Series.md",
     "Reactive Programming.md",
