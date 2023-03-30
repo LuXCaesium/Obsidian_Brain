@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recurrent Neural Networks.md",
+                "file": "LSTM.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recurrent Neural Networks.md",
+                "file": "LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recurrent Neural Networks.md",
+                "file": "LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recurrent Neural Networks.md"
+                "file": "LSTM.md"
               }
             }
           }
@@ -165,10 +164,11 @@
   },
   "active": "c433c6fc4a95f965",
   "lastOpenFiles": [
+    "Recurrent Neural Networks.md",
+    "assets/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf",
     "assets/RNN-unrolled.png",
     "assets/RNN-rolled.png",
     "Data Science/Time Series.md",
-    "Recurrent Neural Networks.md",
     "LSTM.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "Data Science/kernel Methods.md",
