@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c433c6fc4a95f965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recurrent Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "Recurrent Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "Recurrent Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Time Series.md"
+                "file": "Recurrent Neural Networks.md"
               }
             }
           }
@@ -149,15 +163,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bdc44f4346496211",
+  "active": "c433c6fc4a95f965",
   "lastOpenFiles": [
-    "Data Science/kernel Methods.md",
     "Data Science/Time Series.md",
+    "Recurrent Neural Networks.md",
+    "LSTM.md",
+    "Managing machine learning infrastructure as code with Terraform.md",
+    "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Reactive Programming.md",
     "Data Science",
     "Data Science/Model Evaluation.md",
-    "Managing machine learning infrastructure as code with Terraform.md",
     "assets/Validation_curve.png",
     "assets/Precisionrecall.png",
     "Data Engineering/Git/Fixing Git.md",
