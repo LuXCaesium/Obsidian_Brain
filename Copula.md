@@ -11,4 +11,7 @@ A copula is a multivariate cumulative distribution function for which the margin
 
 ## Mathematical Definition
 
-Consider
+Consider a random vector $(X_1, X_2, \dots, X_d)$. Suppose its marginals are continuous (i.e $F_i(x)=Pr[X_i \leq x]$ are continuous functions). Applying the probability integral transform, the random vector
+$(U_1, U_2, \dots, U_d) = (F_1(X_1), F_2(X_2), \dots, F_d(X_d))$
+has marginals that are uniformly distributed on the interval $[0, 1]$.
+
