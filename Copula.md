@@ -11,6 +11,8 @@ A copula is a multivariate cumulative distribution function for which the margin
 
 In essence they *allow us to decompose a joint probability distribution into their marginals (which by definition have no correlation) and a function which couples them together and thus allows us to specify the correlation separately*.
 
+We first transform from any distribution to have the marginals form a uniform distribution using the probability integral transform. Then, once we have these uniform marginals we transform them using the copula function of our choice.
+
 ## Mathematical Definition
 
 Consider a random vector $(X_1, X_2, \dots, X_d)$. Suppose its marginals are continuous (i.e $F_i(x)=Pr[X_i \leq x]$ are continuous functions). Applying the probability integral transform ($Y := F_X(X)$ has standard uniform distribution for RV $X$ of continuous distribution and CDF $F_X$), the random vector
@@ -26,3 +28,7 @@ The reverse of these steps can be used to generate pseudo-random samples from ge
 $(X_1, X_2, \dots, X_d) = (F_1^{-1}(U_1), F_2^{-1}(U_2), \dots, F_d^{-1}(U_d))$
 so we can re-write the copula formula as
 $C(u_1, u_2, \dots, u_d) = Pr[X_1 \leq F_1^{-1}(u_1), X_2 \leq F_2^{-1}(u_2), \dots, X_d \leq F_d^{-1}(u_d)]$
+
+## Resources
+[Python example of copulas](https://twiecki.io/blog/2018/05/03/copulas/)
+
