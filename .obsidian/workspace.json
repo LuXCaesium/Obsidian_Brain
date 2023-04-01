@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a86ecbf6880fa3e",
+        "id": "ddc35a7dd4673dfc",
         "type": "tabs",
         "children": [
           {
-            "id": "1e405e8950b1384b",
+            "id": "a680385084284bfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TimeSeries",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -150,8 +149,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e405e8950b1384b",
+  "active": "a680385084284bfd",
   "lastOpenFiles": [
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Data Science/kernel Methods.md",
     "Data Science/Time Series.md",
     "LSTM.md",
     "Copula.md",
@@ -160,8 +161,6 @@
     "assets/RNN-unrolled.png",
     "assets/RNN-rolled.png",
     "Managing machine learning infrastructure as code with Terraform.md",
-    "Data Science/kernel Methods.md",
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Reactive Programming.md",
     "Data Science",
     "Data Science/Model Evaluation.md",
