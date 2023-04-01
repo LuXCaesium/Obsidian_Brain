@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c95fab12f96cd220",
+        "id": "4a86ecbf6880fa3e",
         "type": "tabs",
         "children": [
           {
-            "id": "bdc44f4346496211",
+            "id": "1e405e8950b1384b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c433c6fc4a95f965",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LSTM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31c063f7d310df81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Copula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Copula.md",
+                "file": "Data Science/Time Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Copula.md",
+                "file": "Data Science/Time Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Copula.md"
+                "file": "Data Science/Time Series.md"
               }
             }
           }
@@ -175,15 +150,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31c063f7d310df81",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
+    "Data Science/Time Series.md",
     "LSTM.md",
     "Copula.md",
     "Recurrent Neural Networks.md",
     "assets/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf",
     "assets/RNN-unrolled.png",
     "assets/RNN-rolled.png",
-    "Data Science/Time Series.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
