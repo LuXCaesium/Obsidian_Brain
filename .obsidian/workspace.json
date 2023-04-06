@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54f29e88cfbe9277",
+        "id": "068bc14038169545",
         "type": "tabs",
         "children": [
           {
-            "id": "6f78297b092c8aeb",
+            "id": "06611ce74b962f5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Copula.md",
+                "file": "Hopfield Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Copula.md",
+                "file": "Hopfield Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Copula.md",
+                "file": "Hopfield Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Copula.md"
+                "file": "Hopfield Networks.md"
               }
             }
           }
@@ -149,19 +149,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6f78297b092c8aeb",
+  "active": "06611ce74b962f5f",
   "lastOpenFiles": [
+    "LSTM.md",
+    "Hopfield Networks.md",
+    "Recurrent Neural Networks.md",
+    "Reactive Programming.md",
+    "Managing machine learning infrastructure as code with Terraform.md",
+    "Copula.md",
     "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Time Series.md",
-    "LSTM.md",
-    "Copula.md",
-    "Recurrent Neural Networks.md",
     "assets/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf",
     "assets/RNN-unrolled.png",
     "assets/RNN-rolled.png",
-    "Managing machine learning infrastructure as code with Terraform.md",
-    "Reactive Programming.md",
     "Data Science",
     "Data Science/Model Evaluation.md",
     "assets/Validation_curve.png",
