@@ -22,3 +22,15 @@ In the diagram above, each line carries and entire vector, from the output of on
 ## The Core Idea Behind LSTMs
 
 They key to the LSTMs are the cell state, this horizontal line running through the top of the diagram. It runs along the whole length of the chain, with only some minor changes along the way allowing for information to flow unchanged. The LSTM has the ability to add or remove information to the cell state, carefully regulated by structures called gates. 
+
+Gates are a way to optionally let information through. They are composed of a sigmoid neural network layer and a pointwise multiplication function. The sigmoid layer, outputting numbers between 0 and 1 describes how much of each component should be let through.
+
+A LSTM has three of these gates, to protect and control the cell state.
+
+## Step-by-Step LSTM Walk Through
+
+* The first step in our LSTM is to decide what information to throw away. This decision is made by a singmoid layer called the *forget gate layer*. It looks at $h_{t-1}$ and $x_t$, and outputs a number between 0 and 1 for each number in the cell state $C_{t-1}$. 
+
+![[LSTM3-focus-f.png|1000]]
+
+* The next step is to decide what information we're going to store in the cell state.
