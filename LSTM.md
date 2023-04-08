@@ -33,4 +33,16 @@ A LSTM has three of these gates, to protect and control the cell state.
 
 ![[LSTM3-focus-f.png|1000]]
 
-* The next step is to decide what information we're going to store in the cell state.
+* The next step is to decide what information we're going to store in the cell state. This has two parts:
+	* First, a sigmoid layer called *input gate layer* which decides which values we'll update.
+	* A tanh layer creates a vector of new candidate values, $\tilde{C_t}$, that could be added to the state.
+
+![[LSTM3-focus-i.png|1000]]
+
+We now need to update the old cell state $C_{t-1}$ into the new cell state $C_t$.
+
+We multiply the old state by $f_t$ forgetting what we decided earlier. Then we add $i_{t} \times \tilde{C_t}$. This is the new candidate values, scaled by how much we decided to update each state value.
+
+![[LSTM3-focus-C.png|1000]]
+
+Finally, we need to decide what we are going to output. This output will be based on our cell state, 
