@@ -45,4 +45,9 @@ We multiply the old state by $f_t$ forgetting what we decided earlier. Then we a
 
 ![[LSTM3-focus-C.png|1000]]
 
-Finally, we need to decide what we are going to output. This output will be based on our cell state, 
+Finally, we need to decide what we are going to output. This output will be based on our cell state, but will be filtered. First we run a sigmoid layer which decides what parts of the cell state we're going to output. Then, we put the cell state through **tanh** (pushing values between -1 and 1) and multiply it by the output of the sigmoid gate. 
+
+![[LSTM3-focus-o.png]]
+
+## Variants of Long Short Term Memory
+
