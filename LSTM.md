@@ -61,4 +61,5 @@ Another is to couple forget and input gates. With the intention of making forget
 ![[LSTM3-var-tied.png|1000]]
 
 A more advanced variation is the *Gated Recurrent Unit* or *GRU*. It combines forget and input gates into a single *update gate*. It also merges the cell state and hidden state, and makes some other changes. The resulting model is simpler than standard LSTM models, and has been increasingly popular.
-![[]]
+![[LSTM3-var-GRU.png|1000]]
+
