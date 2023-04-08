@@ -11,11 +11,11 @@ A special type of [[ Recurrent Neural Networks]] capable of learning long-term d
 
 All RNN have the form of a chain of repeating modules. In standard RNN's, this repeating module will have a very simple structure, such as a single tanh layer.
 
-![[LSTM3-SimpleRNN.png]]
+![[LSTM3-SimpleRNN.png|1000]]
 
 LSTM's also have this chain like structure, but the repeating module has a different structure. Instead of having a single neural network layer, there are four, interacting in a very special way.
 
-![[LSTM3-chain.png]]
+![[LSTM3-chain.png|1000]]
 
 In the diagram above, each line carries and entire vector, from the output of one node to the inputs of another. The pink circles are pointwise operation, whilst yellow boxes are learned neural network layers. Lines merging denote concatenation, whilst divergence denotes copying.
 
@@ -47,7 +47,18 @@ We multiply the old state by $f_t$ forgetting what we decided earlier. Then we a
 
 Finally, we need to decide what we are going to output. This output will be based on our cell state, but will be filtered. First we run a sigmoid layer which decides what parts of the cell state we're going to output. Then, we put the cell state through **tanh** (pushing values between -1 and 1) and multiply it by the output of the sigmoid gate. 
 
-![[LSTM3-focus-o.png]]
+![[LSTM3-focus-o.png|1000]]
 
 ## Variants of Long Short Term Memory
 
+The above is an example of a very standard LSTM, but there are many variants which provide useful alterations given the situation. However on the whole, they all perform similarly in most general situations.
+
+One popular variant is the use of somthing called *peephole connections*. This means that we let the gate layers look at the cell state.
+![[LSTM3-var-peepholes.png|1000]]
+
+Another is to couple forget and input gates. With the intention of making forget and input decisions together rather than in isolation. We essentially only forget when we have new information to replace it.
+
+![[LSTM3-var-tied.png|1000]]
+
+A more advanced variation is the *Gated Recurrent Unit* or *GRU*. It combines forget and input gates into a single *update gate*. It also merges the cell state and hidden state, and makes some other changes. The resulting model is simpler than standard LSTM models, and has been increasingly popular.
+![[]]

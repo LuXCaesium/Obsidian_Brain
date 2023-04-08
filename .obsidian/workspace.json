@@ -151,6 +151,9 @@
   },
   "active": "f682b0b472db54ac",
   "lastOpenFiles": [
+    "assets/LSTM3-var-tied.png",
+    "assets/LSTM3-var-GRU.png",
+    "assets/LSTM3-var-peepholes.png",
     "assets/LSTM3-focus-o.png",
     "assets/LSTM3-focus-C.png",
     "assets/LSTM3-focus-i.png",
@@ -171,8 +174,6 @@
     "assets/RNN-rolled.png",
     "Data Science",
     "Data Science/Model Evaluation.md",
-    "assets/Validation_curve.png",
-    "assets/Precisionrecall.png",
     "Data Engineering/Git/Fixing Git.md",
     "templates/daily notes.md",
     "Untitled.canvas",
