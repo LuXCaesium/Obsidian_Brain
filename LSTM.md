@@ -9,5 +9,11 @@ tags:: #MachineLearning #DataScience
 
 A special type of [[ Recurrent Neural Networks]] capable of learning long-term dependencies, and are specifically designed to avoid the long-term dependency problem.
 
+All RNN have the form of a chain of repeating modules. In standard RNN's, this repeating module will have a very simple structure, such as a single tanh layer.
+
+![[LSTM3-SimpleRNN.png|test]]
+
+
+
 
 

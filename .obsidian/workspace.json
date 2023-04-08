@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e9f88a42d6f344ca",
+        "id": "5f2634fcb04e99a7",
         "type": "tabs",
         "children": [
           {
-            "id": "207dfeb776e630fe",
+            "id": "f682b0b472db54ac",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LSTM.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LSTM.md"
+              }
             }
           }
         ],
@@ -141,11 +149,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "207dfeb776e630fe",
+  "active": "f682b0b472db54ac",
   "lastOpenFiles": [
-    "Hopfield Networks.md",
-    "LSTM.md",
     "Recurrent Neural Networks.md",
+    "LSTM.md",
+    "assets/LSTM3-chain.png",
+    "assets/LSTM3-SimpleRNN.png",
+    "Hopfield Networks.md",
     "Reactive Programming.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "Copula.md",
