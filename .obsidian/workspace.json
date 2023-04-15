@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/kernel Methods.md",
+                "file": "Copula.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/kernel Methods.md",
+                "file": "Copula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/kernel Methods.md",
+                "file": "Copula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/kernel Methods.md"
+                "file": "Copula.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "95aae57e6012bc35",
   "lastOpenFiles": [
+    "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Time Series.md",
     "Reactive Programming.md",
@@ -159,7 +160,6 @@
     "Recurrent Neural Networks.md",
     "Copula.md",
     "Data Science/Model Evaluation.md",
-    "Data Science/kernel Methods.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
