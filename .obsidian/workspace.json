@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d386a1d27034813c",
+        "id": "0b00aa34071c3ae0",
         "type": "tabs",
         "children": [
           {
-            "id": "4dedbc8c9d845e45",
+            "id": "0c0c7fc2a2e829ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2023/04-April/2023-04-17-Monday.md",
+                "file": "templates/weekly notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2023/04-April/2023-04-17-Monday.md",
+                "file": "templates/weekly notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2023/04-April/2023-04-17-Monday.md",
+                "file": "templates/weekly notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2023/04-April/2023-04-17-Monday.md"
+                "file": "templates/weekly notes.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -157,13 +157,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4dedbc8c9d845e45",
+  "active": "0c0c7fc2a2e829ed",
   "lastOpenFiles": [
+    "templates/daily notes.md",
+    "Daily Notes/2023/04-April/2023-04-17-Monday.md",
+    "Daily Notes/2023-W16.md",
+    "templates/weekly notes.md",
     "Daily Notes/2023.md",
     "2023.md",
-    "templates/daily notes.md",
     "2023-04-17 Mon.md",
-    "Daily Notes/2023/04-April/2023-04-17-Monday.md",
     "Daily Notes/2023-04-17 Mon.md",
     "Daily Notes/2023/04-April",
     "Daily Notes/2023",
@@ -200,8 +202,6 @@
     "Timestamps/2023/02-February/2023-02-20-Monday.md",
     "Timestamps/2023/02-February/2023-02-21-Tuesday.md",
     "Timestamps/2023/02-February/2023-02-19-Sunday.md",
-    "Timestamps/2023/02-February/Monday-20-02-2023.md",
-    "2020-02-21-Friday.md",
-    "new post.md"
+    "Timestamps/2023/02-February/Monday-20-02-2023.md"
   ]
 }
