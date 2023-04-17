@@ -11,8 +11,12 @@
             "id": "8ce35de634b9ccc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates/daily notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/daily notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "templates/daily notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "templates/daily notes.md"
+              }
             }
           },
           {
@@ -151,12 +159,13 @@
   },
   "active": "8ce35de634b9ccc1",
   "lastOpenFiles": [
+    "Daily Notes/2023/04-April/2023-04-17-Monday.md",
+    "templates/daily notes.md",
+    "<% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY')%> -W.md",
     "Invalid date.md",
     "Daily Notes/2023/04-April/2023-W16.md",
     "Daily Notes/2023-W16.md",
     "templates/weekly notes.md",
-    "Daily Notes/2023/04-April/2023-04-17-Monday.md",
-    "templates/daily notes.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/gggg-[W]ww\") %>.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY",
@@ -196,7 +205,6 @@
     "assets/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf",
     "assets/RNN-unrolled.png",
     "Data Engineering/Git/Fixing Git.md",
-    "Untitled.canvas",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd\") %>.md"
+    "Untitled.canvas"
   ]
 }

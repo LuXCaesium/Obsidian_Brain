@@ -5,7 +5,7 @@ tags:: #DailyNotes
 
 # <% moment(tp.file.creation_date(),'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
-<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format("[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd") %>|Yesterday]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format("[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd") %>|Tomorrow]] >>
+<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format("[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd") %>|Yesterday]] |[[ <% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY')%>-W]][[<% moment(tp.file.title, 'YYYY-MM-DD-dddd').add(-1, 'd').week() %>]]  |[[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format("[Timestamps]/YYYY/MM-MMMM/YYYY-MM-DD-dddd") %>|Tomorrow]] >>
 
 ---
 ### 📅 Daily Questions
