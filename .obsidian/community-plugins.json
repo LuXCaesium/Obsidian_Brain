@@ -3,5 +3,7 @@
   "templater-obsidian",
   "url-into-selection",
   "cm-editor-syntax-highlight-obsidian",
-  "dataview"
+  "dataview",
+  "calendar",
+  "periodic-notes"
 ]
