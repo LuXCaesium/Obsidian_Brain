@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8e65c3a1a4e12ca7",
+        "id": "9c03a0bb146e3537",
         "type": "tabs",
         "children": [
           {
-            "id": "8ce35de634b9ccc1",
+            "id": "cd8e8da5e3bec1be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/daily notes.md",
+                "file": "templates/weekly notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/daily notes.md",
+                "file": "templates/weekly notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/daily notes.md",
+                "file": "templates/weekly notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/daily notes.md"
+                "file": "templates/weekly notes.md"
               }
             }
           },
@@ -157,15 +157,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8ce35de634b9ccc1",
+  "active": "cd8e8da5e3bec1be",
   "lastOpenFiles": [
-    "Daily Notes/2023/04-April/2023-04-17-Monday.md",
     "templates/daily notes.md",
+    "templates/weekly notes.md",
+    "Notes/2023/04-April/2023-W16.md",
+    "Notes/2023/04-April/2023-04-17-Monday.md",
+    "Notes/2023/04-April/2023-04-16-Sunday.md",
+    "Notes/2023/04-April/2023-W17.md",
+    "Timestamps/2023/04-April/2023-04-16-Sunday.md",
+    "Timestamps/2023/04-April",
+    "Timestamps/2023",
+    "Timestamps",
     "<% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY')%> -W.md",
     "Invalid date.md",
     "Daily Notes/2023/04-April/2023-W16.md",
     "Daily Notes/2023-W16.md",
-    "templates/weekly notes.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/gggg-[W]ww\") %>.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY",
@@ -179,10 +186,8 @@
     "2023.md",
     "2023-04-17 Mon.md",
     "Daily Notes/2023-04-17 Mon.md",
-    "Daily Notes/2023/04-April",
-    "Daily Notes/2023",
+    "Notes/2023/04-April",
     "Untitled.md",
-    "Daily Notes",
     "Hopfield Networks.md",
     "Copula.md",
     "Data Science/kernel Methods.md",
@@ -190,8 +195,6 @@
     "Data Science/Time Series.md",
     "Reactive Programming.md",
     "LSTM.md",
-    "Recurrent Neural Networks.md",
-    "Data Science/Model Evaluation.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
@@ -201,10 +204,7 @@
     "assets/LSTM3-focus-f.png",
     "assets/LSTM3-chain.png",
     "assets/LSTM3-SimpleRNN.png",
-    "Managing machine learning infrastructure as code with Terraform.md",
-    "assets/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf",
     "assets/RNN-unrolled.png",
-    "Data Engineering/Git/Fixing Git.md",
     "Untitled.canvas"
   ]
 }
