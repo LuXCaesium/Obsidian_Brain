@@ -41,4 +41,19 @@ $tfidf(t, d, D) = tf(t, d) . idf(t, D)$
 ### In Machine Learning & Natural Language Processing
 When dealing with textual data or any natural language processing task, the data first needs to be converted into a vector of numerical data which can be processed. This is known as vectorization.
 
-TF-IDF vectorisation involves calculating the TF-IDF score for every word in your corpus relative to that document and passing the output to a vector. 
+TF-IDF vectorisation involves calculating the TF-IDF score for every word in your corpus relative to that document and passing the output to a vector. Each document in the corpus will have a vector, where each term in the document will be given a TF-IDF score.
+
+Then if for example you wanted to see if two documents were similar you could use cosine similarity.
+
+### Information retrieval
+TF-IDF can be used to rank search results based on relevance, with results which are more relevant ot the user having higher TF-IDF scores.
+
+### text summarisation & keyword extraction
+
+## Vectors & Word Embeddings:
+
+### Bag of words
+
+### Word2Vec
+
+### BERT: Bidirectional Encoder Representations from Transformers
