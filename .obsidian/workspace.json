@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md"
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md"
               }
             }
           },
@@ -159,6 +159,8 @@
   },
   "active": "3e15f23c68632474",
   "lastOpenFiles": [
+    "templates/monthly notes.md",
+    "Notes/Weekly/2023/04-April/2023-W16.md",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "templates/daily notes.md",
     "templates/weekly notes.md",
@@ -169,7 +171,6 @@
     "Notes/2023/04-April",
     "Notes/2023",
     "Invalid date.md",
-    "Notes/Weekly/2023/04-April/2023-W16.md",
     "Notes/Monthly/2023/04-April.md",
     "Notes/Weekly/2023/04-April",
     "Notes/Weekly/2023",
@@ -183,7 +184,6 @@
     "Notes/2023/04-April/2023-W16.md",
     "Notes/2023/04-April.md",
     "Notes/2023-04.md",
-    "templates/monthly notes.md",
     "Notes/2023/04-April/2023-04-16-Sunday.md",
     "Notes/2023/04-April/2023-W17.md",
     "Timestamps/2023/04-April/2023-04-16-Sunday.md",
