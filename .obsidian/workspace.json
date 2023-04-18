@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+                "file": "Data Science/kernel Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46c0642c388798fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tf-idf.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+                "file": "tf-idf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+                "file": "tf-idf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md"
+                "file": "tf-idf.md"
               }
             }
           },
@@ -157,11 +170,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e15f23c68632474",
+  "active": "46c0642c388798fd",
   "lastOpenFiles": [
+    "Data Science/kernel Methods.md",
+    "tf-idf.md",
+    "Copula.md",
+    "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "templates/monthly notes.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
-    "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "templates/daily notes.md",
     "templates/weekly notes.md",
     "Notes/Daily/2023/04-April/2023-04-17-Monday.md",
@@ -192,9 +208,6 @@
     "Daily Notes/2023-W16.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/gggg-[W]ww\") %>.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-gggg-[W]ww\") %>.md",
-    "2023Next Week18.md",
-    "Daily Notes/2023.md",
-    "2023.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
