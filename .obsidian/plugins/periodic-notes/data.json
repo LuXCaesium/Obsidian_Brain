@@ -16,7 +16,7 @@
   },
   "monthly": {
     "format": "",
-    "template": "",
+    "template": "templates/monthly notes.md",
     "folder": "Notes",
     "enabled": true
   },
