@@ -5,7 +5,7 @@ tags:: #WeeklyNotes
 
 # <% tp.date.now("YYYY-[W]W", 0, tp.file.title, "YYYY-[W]W") %>
 
-<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').format("[Notes]/YYYY/MM-MMMM/gggg-[W]ww") %> >>
+<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'w').format("[Notes]/YYYY/MM-MMMM/gggg-[W]ww") %>|Yesterday]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').format("[Notes]/YYYY/MM-MMMM/gggg-[W]ww") %> | Week ]] |[[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'w').format("[Notes]/YYYY/MM-MMMM/gggg-[W]ww") %>|Tomorrow]] >>
 
 ---
 ### 📅 Daily Questions
