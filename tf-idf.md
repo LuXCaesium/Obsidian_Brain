@@ -19,4 +19,15 @@ Term frequency works by looking at the frequency of a particular term you are co
 ### IDF (Inverse Document Frequency)
 
 Inverse document frequency looks at how common (or uncommon) a word is amongst the corpus. IDF is calculated as follows
-$idf(f, D)  = \log{ \left( \frac{N}{\textrm{count}(d \in D:t\in d)} \right)}$
+$idf(t, D)  = \log{ \left( \frac{N}{\textrm{count}(d \in D:t\in d)} \right)}$
+
+Where
+- t is the term we are looking to measure the commonness of.
+- N is the number of documents d in the corpus D.
+- Denominator is simply the number of documents in which term t appears in.
+
+We need idf to correct for words like "of", "as" etc since they appear frequently in the English corpus. Thus taking the inverse of document frequency, we can minimise the weighting of frequent terms whilst making infrequent terms have higher impact.
+
+### Summary
+To summarise, the key intuition motivating TF-IDF is the importance of a term is inversely related to its frequency across documents. 
+TF gives us information on how often a term appears in a document.and IDF gives us information about the relative rarity of a term in the collection of documents.
