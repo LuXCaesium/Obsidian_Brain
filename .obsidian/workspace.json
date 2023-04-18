@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b5f9b7ef03986c06",
+        "id": "7ee1e40e7c6bc9eb",
         "type": "tabs",
         "children": [
           {
-            "id": "ad1dc9e1de23adc1",
+            "id": "ac6a65b8752d4caf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md"
+              }
             }
           },
           {
@@ -149,44 +157,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "ac6a65b8752d4caf",
   "lastOpenFiles": [
+    "templates/weekly notes.md",
+    "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+    "Notes/Daily/2023/04-April/2023-04-17-Monday.md",
+    "Notes/Daily/2023/04-April/2023-04-19-Wednesday.md",
+    "Notes/2023/04-April/2023-04-19-Wednesday.md",
+    "Notes/2023/04-April/2023-04-17-Monday.md",
+    "Notes/2023/04-April",
+    "Notes/2023",
+    "templates/daily notes.md",
     "Invalid date.md",
+    "Notes/Weekly/2023/04-April/2023-W16.md",
+    "Notes/Monthly/2023/04-April.md",
+    "Notes/Weekly/2023/04-April",
+    "Notes/Weekly/2023",
+    "Notes/Monthly/2023",
     "2023/04-April/2023-04-18-Tuesday.md",
-    "2023/04-April",
-    "2023",
+    "Notes/Daily/2023/04-April",
+    "Notes/Daily/2023",
+    "Notes/Yearly",
+    "Notes/Monthly",
+    "Notes/Weekly",
     "Notes/2023/04-April/2023-W16.md",
     "Notes/2023/04-April.md",
-    "templates/weekly notes.md",
     "Notes/2023-04.md",
     "templates/monthly notes.md",
-    "templates/daily notes.md",
-    "Notes/2023/04-April/2023-04-17-Monday.md",
     "Notes/2023/04-April/2023-04-16-Sunday.md",
     "Notes/2023/04-April/2023-W17.md",
     "Timestamps/2023/04-April/2023-04-16-Sunday.md",
-    "Timestamps/2023/04-April",
-    "Timestamps/2023",
-    "Timestamps",
     "<% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY')%> -W.md",
     "Daily Notes/2023/04-April/2023-W16.md",
     "Daily Notes/2023-W16.md",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/gggg-[W]ww\") %>.md",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]",
     "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/YYYY-gggg-[W]ww\") %>.md",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format(\"[Timestamps]/YYYY",
     "2023Next Week18.md",
     "Daily Notes/2023.md",
     "2023.md",
-    "2023-04-17 Mon.md",
-    "Daily Notes/2023-04-17 Mon.md",
-    "Untitled.md",
-    "Hopfield Networks.md",
-    "Copula.md",
-    "Data Science/kernel Methods.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",

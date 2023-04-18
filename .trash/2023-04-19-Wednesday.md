@@ -1,0 +1,37 @@
+---
+created: 2023-04-18 18:48
+---
+tags:: #DailyNotes
+
+# Tuesday, April 18, 2023
+
+<< [[Notes/Daily/2023/04-April/2023-04-18-Tuesday|Yesterday]] | [[Notes/Daily/2023/04-April/2023-W16 | Week ]] |[[Notes/Daily/2023/04-April/2023-04-20-Thursday|Tomorrow]] >>
+
+---
+### 📅 Daily Questions
+##### 🌜 Last night, after work, I...
+- 
+
+##### 🙌 One thing I've excited about right now is...
+- 
+
+##### 🚀 One+ thing I plan to accomplish today is...
+- [ ] 
+
+##### 👎 One thing I'm struggling with today is...
+- 
+
+---
+# 📝 Notes
+- 
+
+---
+### Notes created today
+```dataview
+List FROM "" WHERE file.cday = date("2023-04-18") SORT file.ctime asc
+```
+
+### Notes last touched today
+```dataview
+List FROM "" WHERE file.mday = date("2023-04-18") SORT file.mtime asc
+```
