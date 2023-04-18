@@ -49,11 +49,24 @@ Then if for example you wanted to see if two documents were similar you could us
 TF-IDF can be used to rank search results based on relevance, with results which are more relevant ot the user having higher TF-IDF scores.
 
 ### text summarisation & keyword extraction
+Since we weight words based on relevance, we can use the tf-idf techniques to extract keywords from text.
 
 ## Vectors & Word Embeddings:
 
 ### Bag of words
+This is simply a case of counting the frequency of words in the document, and does not incorporate any sort of inverse document frequency like tf-IDF does.
 
 ### Word2Vec
+An algorithm that used shallow 2-layer neural networks to ingest a corpus and produce sets of vectors. The difference is that Word2Vec will produce a vector for a term and then more work may need to be done to convert that set of vectors into a singular vector. Word2Vec does however take into consideration the context of the words in the corpus.
 
 ### BERT: Bidirectional Encoder Representations from Transformers
+Uses a transformer based ML model to convert phrases, words, etc nto vectors. This will take into consideration the meaning and context of words, however deep neural networks add computational complexity.
+
+### Pros:
+- simplicity and easy calculation
+
+### Cons:
+- Ignores word order
+- Can suffer from memory-inefficiency
+- the curse of dimensionality.
+- 
