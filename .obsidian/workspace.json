@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ee1e40e7c6bc9eb",
+        "id": "f41f4c48df7e3b82",
         "type": "tabs",
         "children": [
           {
-            "id": "ac6a65b8752d4caf",
+            "id": "3e15f23c68632474",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,17 +157,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ac6a65b8752d4caf",
+  "active": "3e15f23c68632474",
   "lastOpenFiles": [
-    "templates/weekly notes.md",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+    "templates/daily notes.md",
+    "templates/weekly notes.md",
     "Notes/Daily/2023/04-April/2023-04-17-Monday.md",
     "Notes/Daily/2023/04-April/2023-04-19-Wednesday.md",
     "Notes/2023/04-April/2023-04-19-Wednesday.md",
     "Notes/2023/04-April/2023-04-17-Monday.md",
     "Notes/2023/04-April",
     "Notes/2023",
-    "templates/daily notes.md",
     "Invalid date.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
     "Notes/Monthly/2023/04-April.md",
