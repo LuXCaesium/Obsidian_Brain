@@ -30,4 +30,15 @@ We need idf to correct for words like "of", "as" etc since they appear frequentl
 
 ### Summary
 To summarise, the key intuition motivating TF-IDF is the importance of a term is inversely related to its frequency across documents. 
-TF gives us information on how often a term appears in a document.and IDF gives us information about the relative rarity of a term in the collection of documents.
+TF gives us information on how often a term appears in a document.
+IDF gives us information about the relative rarity of a term in the collection of documents.
+The higher the TF-IDF score the more important or relevant the term is.
+
+$tfidf(t, d, D) = tf(t, d) . idf(t, D)$
+
+## Where to use TF-IDF
+
+### In Machine Learning & Natural Language Processing
+When dealing with textual data or any natural language processing task, the data first needs to be converted into a vector of numerical data which can be processed. This is known as vectorization.
+
+TF-IDF vectorisation involves calculating the TF-IDF score for every word in your corpus relative to that document and passing the output to a vector. 
