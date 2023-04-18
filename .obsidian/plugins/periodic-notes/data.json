@@ -15,7 +15,7 @@
     "enabled": true
   },
   "monthly": {
-    "format": "",
+    "format": "YYYY/MM-MMMM",
     "template": "templates/monthly notes.md",
     "folder": "Notes",
     "enabled": true
