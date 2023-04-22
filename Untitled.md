@@ -13,4 +13,8 @@ Is a measure of the distance between a point $P$ and a distribution $D$. It is a
 - Takes into account the correlations of the dataset.
 
 ## Definition
-Given a pronability distribution $Q$ on $\mathbb{R}^N$, with mean $\overrightarrow{\mu} = (\mu_1, \mu_2, \dots, \mu_N)^\intercal$ and a positive-definite covariance matrix $S$, the Mahalanobis distance of a point $\overrightarrow{x} = (x_1, x_2, \dots, \mu_N)^\intercal$
+Given a pronability distribution $Q$ on $\mathbb{R}^N$, with mean $\overrightarrow{\mu} = (\mu_1, \mu_2, \dots, \mu_N)^\intercal$ and a positive-definite covariance matrix $S$, the Mahalanobis distance of a point $\overrightarrow{x} = (x_1, x_2, \dots, x_N)^\intercal$ from $Q$ is
+
+$d_M(\overrightarrow{x}, Q) = \sqrt{(\overrightarrow{x} - \overrightarrow{\mu})^\intercal S^{-1}(\overrightarrow{x} - \overrightarrow{\mu})}$
+
+Given two points $\overrightarrow{x}$ and $\overrightarrow{y}$ in $\mathbb{R}^N$, the mahalanobis distan
