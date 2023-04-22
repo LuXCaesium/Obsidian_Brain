@@ -69,4 +69,3 @@ Uses a transformer based ML model to convert phrases, words, etc nto vectors. Th
 - Ignores word order
 - Can suffer from memory-inefficiency
 - the curse of dimensionality.
-- 
