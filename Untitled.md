@@ -17,4 +17,10 @@ Given a pronability distribution $Q$ on $\mathbb{R}^N$, with mean $\overrightarr
 
 $d_M(\overrightarrow{x}, Q) = \sqrt{(\overrightarrow{x} - \overrightarrow{\mu})^\intercal S^{-1}(\overrightarrow{x} - \overrightarrow{\mu})}$
 
-Given two points $\overrightarrow{x}$ and $\overrightarrow{y}$ in $\mathbb{R}^N$, the mahalanobis distan
+Given two points $\overrightarrow{x}$ and $\overrightarrow{y}$ in $\mathbb{R}^N$, the mahalanobis distance between them with respect to $Q$ is
+
+$d_M(\overrightarrow{x}, \overrightarrow{y}, Q) = \sqrt{(\overrightarrow{x} - \overrightarrow{y})^\intercal S^{-1}(\overrightarrow{x} - \overrightarrow{y})}$
+Which means $d_M(\overrightarrow{x}, Q) = d_M(\overrightarrow{x}, \overrightarrow{\mu}; Q)$
+
+Since $S$ is positive-definite, so is $S^{-1}$, thus the square roots are always defined.
+
