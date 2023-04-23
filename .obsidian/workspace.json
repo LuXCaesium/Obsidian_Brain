@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0254d27b38bf08c6",
+        "id": "f4c778319e15fb40",
         "type": "tabs",
         "children": [
           {
-            "id": "afa7b7719af7b471",
+            "id": "05330f87083b7cc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6a7d6281dee90797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotelling's T-squared distribution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahalanobis Distance.md",
+                "file": "Hotelling's T-squared distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mahalanobis Distance.md",
+                "file": "Hotelling's T-squared distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mahalanobis Distance.md"
+                "file": "Hotelling's T-squared distribution.md"
               }
             }
           },
@@ -157,13 +170,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "afa7b7719af7b471",
+  "active": "6a7d6281dee90797",
   "lastOpenFiles": [
+    "Mahalanobis Distance.md",
+    "Hotelling's T-squared distribution.md",
     "Data Science/Time Series.md",
     "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Model Evaluation.md",
-    "Mahalanobis Distance.md",
     "mah.md",
     "assets/Mahalanobis.png",
     "tf-idf.md",
@@ -195,7 +209,6 @@
     "Notes/2023-04.md",
     "Notes/2023/04-April/2023-04-16-Sunday.md",
     "Notes/2023/04-April/2023-W17.md",
-    "Timestamps/2023/04-April/2023-04-16-Sunday.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
