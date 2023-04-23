@@ -7,7 +7,7 @@ tags:: #Statistics
 
 # Mahalanobis Distance
 
-Is a measure of the distance between a point $P$ and a distribution $D$. It is a multi-dimensional generalisation of the idea of measuring how many standard deviations away $P$ is from the mean of $D$. the distance is zero for $P$ at the mean of $D$ and grows as $P$ moves away from the mean along each principle component axis. If each of these axes are re-scaled to have unit variance, then the Mahalanobis distance corresponds to standard Euclidean distance in the transformed space. Hence, the Mahalabobis distance is:
+Is a measure of the distance between a point $P$ and a distribution $D$. It is a multi-dimensional generalisation of the idea of measuring how many standard deviations away $P$ is from the mean of $D$. the distance is zero for $P$ at the mean of $D$ and grows as $P$ moves away from the mean along each principle component axis. If each of these axes are re-scaled to have unit variance, then the Mahalanobis distance corresponds to standard Euclidean distance in the transformed space (i.e there is no correlation between variables). Hence, the Mahalabobis distance is:
 - unitless
 - Scale-invariant 
 - Takes into account the correlations of the dataset.
@@ -26,4 +26,8 @@ $d_M(\overrightarrow{x}, \overrightarrow{y}; Q) = \sqrt{(\overrightarrow{x} - \o
 Which means $d_M(\overrightarrow{x}, Q) = d_M(\overrightarrow{x}, \overrightarrow{\mu}; Q)$
 
 Since $S$ is positive-definite, so is $S^{-1}$, thus the square roots are always defined.
+
+## Relationship to [[Principle Component Analysis]]
+
+
 

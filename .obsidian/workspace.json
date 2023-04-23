@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a0fba73aec743f15",
+        "id": "0254d27b38bf08c6",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c535aa07bd9c8b",
+            "id": "afa7b7719af7b471",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -158,13 +157,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7c535aa07bd9c8b",
+  "active": "afa7b7719af7b471",
   "lastOpenFiles": [
-    "mah.md",
+    "Data Science/Time Series.md",
+    "Data Science/kernel Methods.md",
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Data Science/Model Evaluation.md",
     "Mahalanobis Distance.md",
+    "mah.md",
     "assets/Mahalanobis.png",
     "tf-idf.md",
-    "Data Science/kernel Methods.md",
     "Copula.md",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "templates/monthly notes.md",
@@ -194,9 +196,6 @@
     "Notes/2023/04-April/2023-04-16-Sunday.md",
     "Notes/2023/04-April/2023-W17.md",
     "Timestamps/2023/04-April/2023-04-16-Sunday.md",
-    "<% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY')%> -W.md",
-    "Daily Notes/2023/04-April/2023-W16.md",
-    "Daily Notes/2023-W16.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
