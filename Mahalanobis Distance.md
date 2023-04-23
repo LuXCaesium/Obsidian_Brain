@@ -9,7 +9,7 @@ tags:: #Statistics
 
 Is a measure of the distance between a point $P$ and a distribution $D$. It is a multi-dimensional generalisation of the idea of measuring how many standard deviations away $P$ is from the mean of $D$. the distance is zero for $P$ at the mean of $D$ and grows as $P$ moves away from the mean along each principle component axis. If each of these axes are re-scaled to have unit variance, then the Mahalanobis distance corresponds to standard Euclidean distance in the transformed space. Hence, the Mahalabobis distance is:
 - unitless
-- Scale-invariant
+- Scale-invariant 
 - Takes into account the correlations of the dataset.
 
 ![[Mahalanobis.png]]
