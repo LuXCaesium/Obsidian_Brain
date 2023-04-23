@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hotelling's T-squared distribution.md",
+                "file": "Mahalanobis Distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hotelling's T-squared distribution.md",
+                "file": "Mahalanobis Distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hotelling's T-squared distribution.md"
+                "file": "Mahalanobis Distance.md"
               }
             }
           },
@@ -170,10 +169,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6a7d6281dee90797",
+  "active": "05330f87083b7cc5",
   "lastOpenFiles": [
-    "Mahalanobis Distance.md",
     "Hotelling's T-squared distribution.md",
+    "Mahalanobis Distance.md",
     "Data Science/Time Series.md",
     "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
