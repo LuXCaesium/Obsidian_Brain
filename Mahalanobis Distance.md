@@ -38,7 +38,7 @@ Assuming $X \sim \mathcal{N}(\boldsymbol{\mu}, \boldsymbol{\Sigma})$ is a multiv
 However, if we estimate $\Sigma$ from n samples, we denote it as $\textbf{S}$, which follows a Wishart distribution with n degrees of freedom. Then 
 $(\textbf{X} - \boldsymbol{\mu}) \textbf{S}^{-1} (\textbf{X} - \boldsymbol{\mu})$ follows a Hotelling's T-squared distribution with $p$ and $n$ degrees of freedom.
 
-They have different contexts of usage, however they are asymptotically similar.
+They have different contexts of usage, however they are asymptotically similar. So both student t and Hotelling t represent *more uncertain* versions (i.e sampling distributions) of their respective *certain* versions.
 
 
 
