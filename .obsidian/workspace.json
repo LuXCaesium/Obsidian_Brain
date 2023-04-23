@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f41f4c48df7e3b82",
+        "id": "a0fba73aec743f15",
         "type": "tabs",
         "children": [
           {
-            "id": "46c0642c388798fd",
+            "id": "e7c535aa07bd9c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tf-idf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc923bf07591dbc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Mahalanobis Distance.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Mahalanobis Distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Mahalanobis Distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Mahalanobis Distance.md"
               }
             }
           },
@@ -171,10 +157,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fc923bf07591dbc3",
+  "active": "e7c535aa07bd9c8b",
   "lastOpenFiles": [
+    "mah.md",
+    "Mahalanobis Distance.md",
+    "assets/Mahalanobis.png",
     "tf-idf.md",
-    "Untitled.md",
     "Data Science/kernel Methods.md",
     "Copula.md",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
@@ -208,7 +196,6 @@
     "<% moment(tp.file.title, 'YYYY-MM-DD-dddd').format('YYYY')%> -W.md",
     "Daily Notes/2023/04-April/2023-W16.md",
     "Daily Notes/2023-W16.md",
-    "<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format(\"[Timestamps]/YYYY/MM-MMMM/gggg-[W]ww\") %>.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
@@ -218,7 +205,6 @@
     "assets/LSTM3-focus-f.png",
     "assets/LSTM3-chain.png",
     "assets/LSTM3-SimpleRNN.png",
-    "assets/RNN-unrolled.png",
     "Untitled.canvas"
   ]
 }

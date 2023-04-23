@@ -12,6 +12,9 @@ Is a measure of the distance between a point $P$ and a distribution $D$. It is a
 - Scale-invariant
 - Takes into account the correlations of the dataset.
 
+![[Mahalanobis.png]]
+Hence the covariance matrix will fit a distribution better as it indicates how variables variate together.
+
 ## Definition
 Given a pronability distribution $Q$ on $\mathbb{R}^N$, with mean $\overrightarrow{\mu} = (\mu_1, \mu_2, \dots, \mu_N)^\intercal$ and a positive-definite covariance matrix $S$, the Mahalanobis distance of a point $\overrightarrow{x} = (x_1, x_2, \dots, x_N)^\intercal$ from $Q$ is
 
