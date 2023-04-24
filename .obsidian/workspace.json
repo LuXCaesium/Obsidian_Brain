@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f4c778319e15fb40",
+        "id": "8db16e494731de74",
         "type": "tabs",
         "children": [
           {
-            "id": "05330f87083b7cc5",
+            "id": "54f05d58bcd57e62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahalanobis Distance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a7d6281dee90797",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hotelling's T-squared distribution.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hotelling's T-squared distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hotelling's T-squared distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hotelling's T-squared distribution.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,7 +149,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6a7d6281dee90797",
+  "active": "54f05d58bcd57e62",
   "lastOpenFiles": [
     "Mahalanobis Distance.md",
     "Hotelling's T-squared distribution.md",
