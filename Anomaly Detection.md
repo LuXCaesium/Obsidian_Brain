@@ -23,6 +23,18 @@ Drawbacks:
 
 
 ## Forecasting Based Approaches
+A prediction is performed with a forecasting model for the next time period and if forecasting value is out of the confidence interval, the sample is flagged as an anomaly.
+
+Common models: [[LSTM]] [[ARIMA]]
+
+- Can often just apply these forecasting models to a time series without feature engineering.
+- Estimating confidence intervals is not a trivial or easy task.
+- Accuracy of forecasting model has a direct effect on the success of the anomaly detection.
+- You can evaluate the accuracy of the forecasting model as in supervised learning.
+
+[[Prophet]] is a forecasting algorithm designed for time series developed by Facebook.
+
+
 ## Neural Network Based Approaches
 ## Clustering Based Approaches
 ## Proximity Based Approaches
