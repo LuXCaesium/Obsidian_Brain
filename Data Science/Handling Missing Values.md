@@ -32,3 +32,18 @@ df['Backward_Fill'] = df['variable'].bfill()
 ```
 
 ### 3) Rolling Statistical
+
+#### Simple Moving Average
+$P_t = (P_{t-1}+P_{t-2}+ \dots + P_{t-n})/n$
+
+```python
+df['SMA'] = df['variable'].rolling(window=5).mean()
+```
+
+#### Weighted Moving Average
+$P_t = (N*P_{t-1} + (N-1)*P_{t-2} + (N-2)*P_{t-3}* + \dots + 1*P_{t-n})/(N*(N+1)/2)$
+```python
+df['WMA'] = df['variable'].rolling(window=5).apply(lambda x: x[::-1].cumsum().sum() * 2 / n / (n+1))
+```
+
+#### Ex
