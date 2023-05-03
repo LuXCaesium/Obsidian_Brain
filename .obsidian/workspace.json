@@ -4,28 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8db16e494731de74",
+        "id": "cf81a42780b9f3b9",
         "type": "tabs",
         "children": [
           {
-            "id": "54f05d58bcd57e62",
+            "id": "015d8532ae0ab776",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Model Evaluation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "5b26f96b367cb6d1",
+            "id": "f4cee326cf774b2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "Anomaly Detection.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "Anomaly Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "Anomaly Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Time Series.md"
+                "file": "Anomaly Detection.md"
               }
             }
           },
@@ -178,10 +174,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b26f96b367cb6d1",
+  "active": "f4cee326cf774b2c",
   "lastOpenFiles": [
-    "Data Science/Handling Missing Values.md",
+    "Anomaly Detection.md",
+    "Data Science/Model Evaluation.md",
     "Data Science/Time Series.md",
+    "Data Science/Handling Missing Values.md",
     "Mahalanobis Distance.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "Reactive Programming.md",
@@ -190,7 +188,6 @@
     "Hotelling's T-squared distribution.md",
     "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
-    "Data Science/Model Evaluation.md",
     "mah.md",
     "assets/Mahalanobis.png",
     "Copula.md",
@@ -216,7 +213,6 @@
     "Notes/Yearly",
     "Notes/Monthly",
     "Notes/Weekly",
-    "Notes/2023/04-April/2023-W16.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
