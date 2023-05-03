@@ -46,4 +46,19 @@ $P_t = (N*P_{t-1} + (N-1)*P_{t-2} + (N-2)*P_{t-3}* + \dots + 1*P_{t-n})/(N*(N+1)
 df['WMA'] = df['variable'].rolling(window=5).apply(lambda x: x[::-1].cumsum().sum() * 2 / n / (n+1))
 ```
 
-#### Ex
+#### Exponential (weighted) Moving average
+$\hat{Y}_{t+1} = \alpha[Y_t + (1-\alpha)Y_{t-1} + (1-\alpha)^2Y_{t-2} + \dots]$
+
+```python
+df['EWA'] = df['variable'].ewm(halflife=4).mean()
+```
+
+### 3) Interpolation
+These estimate the missing values by assuming a relationship within a range of data points. in rolling statistical techniques where only the previous values were considered, interpolation estimates using past and future known data points.
+
+Methods:
+1) Linear: Assumes linear relationship between a range of data points.
+2) Spline: Estimates values that minimise overall curvature, thus obtaining a smooth surface passing through input points.
+3) time: estimates missing values by focusing more on nearby points than far away.
+
+All the above assume that adjacent points are similar, this is not always t
