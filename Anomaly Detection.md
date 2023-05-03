@@ -42,3 +42,14 @@ Common models: [[LSTM]] [[ARIMA]]
 ## Dimension Reduction Based Approaches
 
 ## General Guidance
+- Before starting ask the following questions:
+	- How much data do we have retroactivly?
+	- Univariate or multivariate data ?
+	- What is the frequency we want to perform anomaly detection?
+
+- Do we have multiple items? i.e different wind turbines etc.
+	- We want to avoid designing seperate models.
+	- Selecting correct features is more functional than focusing on different models.
+	- Determine the patterns of each item, considering properties of the time. Extract deviation from their patterns (like z-scores) and feed the models with these features. a [[multi head neural network]] is an advanced model here.
+
+-
