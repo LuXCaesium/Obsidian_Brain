@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5b26f96b367cb6d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Time Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd119a5262aa97f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Handling Missing Values.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,6 +89,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d9d4f837b493d2ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Model Evaluation.md",
+                "file": "Data Science/Handling Missing Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Model Evaluation.md",
+                "file": "Data Science/Handling Missing Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Model Evaluation.md"
+                "file": "Data Science/Handling Missing Values.md"
               }
             }
           },
@@ -157,17 +190,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "54f05d58bcd57e62",
+  "active": "dd119a5262aa97f9",
   "lastOpenFiles": [
-    "Mahalanobis Distance.md",
-    "Hotelling's T-squared distribution.md",
     "Data Science/Time Series.md",
+    "Data Science/Handling Missing Values.md",
+    "Mahalanobis Distance.md",
+    "Managing machine learning infrastructure as code with Terraform.md",
+    "Reactive Programming.md",
+    "Recurrent Neural Networks.md",
+    "tf-idf.md",
+    "Hotelling's T-squared distribution.md",
     "Data Science/kernel Methods.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Model Evaluation.md",
     "mah.md",
     "assets/Mahalanobis.png",
-    "tf-idf.md",
     "Copula.md",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "templates/monthly notes.md",
@@ -192,10 +229,6 @@
     "Notes/Monthly",
     "Notes/Weekly",
     "Notes/2023/04-April/2023-W16.md",
-    "Notes/2023/04-April.md",
-    "Notes/2023-04.md",
-    "Notes/2023/04-April/2023-04-16-Sunday.md",
-    "Notes/2023/04-April/2023-W17.md",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
