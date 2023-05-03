@@ -48,8 +48,20 @@ Common models: [[LSTM]] [[ARIMA]]
 	- What is the frequency we want to perform anomaly detection?
 
 - Do we have multiple items? i.e different wind turbines etc.
-	- We want to avoid designing seperate models.
+	- We want to avoid designing separate models.
 	- Selecting correct features is more functional than focusing on different models.
 	- Determine the patterns of each item, considering properties of the time. Extract deviation from their patterns (like z-scores) and feed the models with these features. a [[multi head neural network]] is an advanced model here.
 
--
+- Ask client for a few examples of anomalies, this will give insight into what previous anomalies looked like.
+
+- The number of anomalies? 
+	- Most algorithms have a scoring process internally, so we can tune the sensitivity to anomalies.
+		- possibly design a separate false positive elimination module.
+
+- As always visualise the data
+
+- often you will need some level of time series pre-processing and feature extraction.
+
+- *novelty detection* and *anomaly detection* are two different concepts
+	- *novelty detection* you have a dataset completely consisting of normal observations and decide whether new recieved observations fits data to a trainset. A one-class SVM might be a good option here.
+	- *anomaly detection* you have a trainset containing both.
