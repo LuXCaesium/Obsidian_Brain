@@ -61,4 +61,4 @@ Methods:
 2) Spline: Estimates values that minimise overall curvature, thus obtaining a smooth surface passing through input points.
 3) time: estimates missing values by focusing more on nearby points than far away.
 
-All the above assume that adjacent points are similar, this is not always t
+All the above assume that adjacent points are similar, this is not always the case.
