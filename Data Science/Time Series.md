@@ -97,6 +97,19 @@ Given a time series $z_t$, the partial autocorrelation of lag $k$, denoted $\phi
 [[Nearest-Neighbour with Dynamic Warping]]
 [[kernel Methods]]
 
+## Signal Processing
+Signals are time varying quantities that represent physical events. Two fundamental properties of signals are: *amplitude* *frequency*. The amplitude of a signal is its magnitude. and the frequency characterises it oscillation in time.
+
+When going from a continuous signal to a discrete signal information is lost. This often a discrete signal is an approximation of a continuous one. In order for a discrete signal to provide a reasonale approximation, how frequently should the quantity be measured?
+
+- Nyquist Theorem: To reliably capture a continuous signal, the rate at which information is recorded (sampling rate) must be twice the frequency of the signal of interest.
+
+The goal of signal processing is to extract useful information from these signals. Two methods are doing this are:
+- [[The Fourier Transform]]
+- [[The Wavelet Transform]]
+
+
+
 
 ## Limitations of Time Series Analysis
 - Similar to other models, missing values are not supported.
