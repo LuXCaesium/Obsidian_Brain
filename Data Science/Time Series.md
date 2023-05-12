@@ -42,7 +42,25 @@ where $\mu$ is constant and $\gamma_k$ is independent of $t$.
 If we have a time series that is not stationary, there are various transformations we can apply to make them so.
 
 #### Tests for stationarity
-There are several techniques to tets for stationarity. One common test is *Dickey-Fuller*. Essentially its tests the null hypothesis that a unit root is present in an autoregressive (AR) time series model.
+There are several techniques to tets for stationarity. 
+
+- **Augmented Dickey-Fuller**
+	- Essentially its tests the null hypothesis that a unit root is present in an autoregressive (AR) time series model.
+
+- **Kwiatkowski-Phillips-Schmidt-Shin**
+	- Testing a null hypothesis that an observable time series is stationary around a deterministic trend against the alternative of a unit root.
+
+### Converting Non-Stationary into Stationary
+There are three methods available for this conversion:
+
+#### Detrending
+It involves the remo
+
+## Limitations of Time Series Analysis
+- Similar to other models, missing values are not supported.
+- The data points must be linear in their relationship.
+- Data transformations are mandatory
+- Models mostly work on Uni-variate data.
 
 ## Classification
 
