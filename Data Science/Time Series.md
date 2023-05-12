@@ -7,7 +7,11 @@ tags:: #TimeSeries #MachineLearning #DataScience
 
 # Time Series
 
-A time series is simply a series of data points order in time. Time is often an independent variable and the goal is usually to make a forecast for the future.
+A time series is simply a series of data points order in time. Time is often an independent variable and the goal is usually to make a forecast for the future. There are four main components of a time series, and each one will be discussed in terms of analysis.
+- trend
+- seasonality
+- cycles
+- residuals
 
 ## General analysis
 There are many aspects that come into play when dealing with time series.
@@ -54,7 +58,22 @@ There are several techniques to tets for stationarity.
 There are three methods available for this conversion:
 
 #### Detrending
-It involves the remo
+It involves the removal of trend effects from the given dataset and showing only the differences in values from the trend. It always allows cyclical patters to be identified.
+
+#### Differencing
+We do this to remove the series dependence on time and stabilise the mean of the time series, so trend and seasonality are reduced during this transformation.
+$Y_t = Y_t - Y_{t-1}$
+
+- Note that we can difference as many time as we wish.
+
+#### Transformation
+There are three methods for this.
+- Power Transform
+- Square Root
+- Log Transform
+
+The most common is the log transform.
+
 
 ## Limitations of Time Series Analysis
 - Similar to other models, missing values are not supported.
