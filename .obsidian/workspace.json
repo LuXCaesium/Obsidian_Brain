@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d065bb24efe01a9b",
+        "id": "0d1e766d5e4a1801",
         "type": "tabs",
         "children": [
           {
-            "id": "34aa0985ee52b172",
+            "id": "33794488e646819d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/The Wavelet Transform.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/The Wavelet Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/The Wavelet Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science/The Wavelet Transform.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,11 +158,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "34aa0985ee52b172",
+  "active": "33794488e646819d",
   "lastOpenFiles": [
-    "Data Science/Time Series.md",
-    "Data Science/The Wavelet Transform.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Data Science/The Wavelet Transform.md",
+    "Data Science/Time Series.md",
     "Anomaly Detection.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/kernel Methods.md",
