@@ -83,10 +83,10 @@ Given a time series $z_t$, the partial autocorrelation of lag $k$, denoted $\phi
 
 |                     ACF |          PACF           | ML Model to Use       |
 | -----------------------:|:-----------------------:|:--------------------- |
-| Plot declines gradually |  Plot drops instantly   | Auto Regressive Model |
+| Plot declines gradually | Plot drops instantly    | Auto Regressive Model |
 | Plot drops instantly    | Plot declines gradually | Moving Average Model  |
 | Plot declines gradually | Plot declines gradually | ARIMA                 |
-| Plot                         |                         |                       |
+| Plot drops instantly    | Plot drops instantly    | N/A                   |
 
 
 ## Regression
