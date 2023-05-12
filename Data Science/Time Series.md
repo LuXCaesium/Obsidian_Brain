@@ -77,7 +77,17 @@ Informally, autocorrelation is the similarity between observations as a function
 #### Partial autocorrelation
 These play an important role in data analysis aimed at identifying the extent of the lag in an autoregressive (AR) model.
 
-Given a time series $z_t$, the partial autocorrelation of la
+Given a time series $z_t$, the partial autocorrelation of lag $k$, denoted $\phi_{k,k}$ is the autocorrelation between $z_t$ and $z_{t+k}$ with linear dependence of $z_t$ on $Z_{t-1}$ through $z_{t+k-1}$ removed.
+
+#### How to interpret ACF and PACF
+
+|                     ACF |          PACF           | ML Model to Use       |
+| -----------------------:|:-----------------------:|:--------------------- |
+| Plot declines gradually |  Plot drops instantly   | Auto Regressive Model |
+| Plot drops instantly    | Plot declines gradually | Moving Average Model  |
+| Plot declines gradually | Plot declines gradually | ARIMA                 |
+| Plot                         |                         |                       |
+
 
 ## Regression
 
