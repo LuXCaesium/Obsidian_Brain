@@ -30,7 +30,9 @@ Looking at the autocorrelation plot will highlight any seasonality in the data. 
 ### Stationarity
 Is a very important characteristic of time series, with many algorithms being dependent upon it. A time series is stationary if has constant mean and variance, and covariance is independent of time. Formally:
 
-A sequence $\{}$
+A sequence $\{X_t, t \in \mathbb{Z}\}$ is **strongly stationary** or **strictly stationary** if
+$(X_t, \dots, X_{t_k}) \stackrel{\mathcal{D}}{=} (X_{t_1+h}, \dots, x_{t_k+h})$
+$ \all t_1, \dots, t_k$
 
 If we have a time series that is not stationary, there are various transformations we can apply to make them so.
 
