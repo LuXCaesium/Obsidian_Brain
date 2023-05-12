@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Wavelet Transform.md",
+                "file": "Data Science/The Wavelet Transform.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Wavelet Transform.md",
+                "file": "Data Science/The Wavelet Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Wavelet Transform.md",
+                "file": "Data Science/The Wavelet Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Wavelet Transform.md"
+                "file": "Data Science/The Wavelet Transform.md"
               }
             }
           },
@@ -169,7 +169,7 @@
   "active": "34aa0985ee52b172",
   "lastOpenFiles": [
     "Data Science/Time Series.md",
-    "The Wavelet Transform.md",
+    "Data Science/The Wavelet Transform.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Anomaly Detection.md",
     "Data Science/Handling Missing Values.md",
