@@ -19,13 +19,6 @@ There are many aspects that come into play when dealing with time series.
 - Is there **seasonality?**
 - Is the target variable **autocorrelated?**
 
-### Autocorrelation
-Informally, autocorrelation is the similarity between observations as a function of the time lag between them. Formally:
-
-- $cov(X_t, X_{t+k})  =\gamma_k$ where the sequence $\{\gamma_k, k \in \mathbb{Z}\}$ is called the *autocovariance function.*
-
-- $\rho_k = \frac{\gamma_k}{\gamma_0} = corr(X_t, X_{t+k})$ and call $\{\rho_k, k \in \mathbb{z}\}$ the *autocorrelation function* (ACF)
-
 ### Seasonality
 This refers to periodic fluctuations. For example electricity consumption is high during the day and low during the night.
 
@@ -74,16 +67,31 @@ There are three methods for this.
 
 The most common is the log transform.
 
+### Autocorrelation
+Informally, autocorrelation is the similarity between observations as a function of the time lag between them. Formally:
+
+- $cov(X_t, X_{t+k})  =\gamma_k$ where the sequence $\{\gamma_k, k \in \mathbb{Z}\}$ is called the *autocovariance function.*
+
+- $\rho_k = \frac{\gamma_k}{\gamma_0} = corr(X_t, X_{t+k})$ and call $\{\rho_k, k \in \mathbb{z}\}$ the *autocorrelation function* (ACF)
+
+#### Partial autocorrelation
+These play an important role in data analysis aimed at identifying the extent of the lag in an autoregressive (AR) model.
+
+Given a time series $z_t$, the partial autocorrelation of la
+
+## Regression
+
+
+## Classification
+
+[[Nearest-Neighbour with Dynamic Warping]]
+[[kernel Methods]]
+
 
 ## Limitations of Time Series Analysis
 - Similar to other models, missing values are not supported.
 - The data points must be linear in their relationship.
 - Data transformations are mandatory
 - Models mostly work on Uni-variate data.
-
-## Classification
-
-[[Nearest-Neighbour with Dynamic Warping]]
-[[kernel Methods]]
 
 
