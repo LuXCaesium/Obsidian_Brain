@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cf81a42780b9f3b9",
+        "id": "0c7eb81db25228cc",
         "type": "tabs",
         "children": [
           {
-            "id": "015d8532ae0ab776",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f4cee326cf774b2c",
+            "id": "dac16f7c76264c21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anomaly Detection.md",
+                "file": "Data Science/Time Series.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anomaly Detection.md",
+                "file": "Data Science/Time Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anomaly Detection.md",
+                "file": "Data Science/Time Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anomaly Detection.md"
+                "file": "Data Science/Time Series.md"
               }
             }
           },
@@ -174,8 +165,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f4cee326cf774b2c",
+  "active": "dac16f7c76264c21",
   "lastOpenFiles": [
+    "Anomaly Detection.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/kernel Methods.md",
     "Data Science/Model Evaluation.md",
@@ -184,7 +176,6 @@
     "tf-idf.md",
     "Recurrent Neural Networks.md",
     "LSTM.md",
-    "Anomaly Detection.md",
     "Mahalanobis Distance.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "Reactive Programming.md",
