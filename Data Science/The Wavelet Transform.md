@@ -4,3 +4,4 @@ A major disadvantage of the Fourier Transform is it captures *global* frequency 
 
 ## What is a Wavelet
 A Wavelet is a wave-like oscillation that is localised in time. Wavelets have two basic properties: scale and location. *Scale* (or dilation) refers to how stretched or squished a wavelet is. This property is related to frequency as defined for waves. *Location* defines where the wavelet is positioned in time (or space).
+
