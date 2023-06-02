@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "file": "Anomaly Detection.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "file": "Anomaly Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "file": "Anomaly Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md"
+                "file": "Anomaly Detection.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "33794488e646819d",
   "lastOpenFiles": [
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/The Wavelet Transform.md",
     "Data Science/Time Series.md",
     "Anomaly Detection.md",
@@ -177,7 +178,6 @@
     "Managing machine learning infrastructure as code with Terraform.md",
     "Mahalanobis Distance.md",
     "Copula.md",
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Model Evaluation.md",
     "Data Science/kernel Methods.md",
     "Data Science/Handling Missing Values.md",
