@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "file": "Copula.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "file": "Copula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "file": "Copula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md"
+                "file": "Copula.md"
               }
             }
           },
@@ -166,8 +166,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "33794488e646819d",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Model Evaluation.md",
     "Data Science/kernel Methods.md",
     "Data Science/Handling Missing Values.md",
@@ -180,7 +181,6 @@
     "LSTM.md",
     "Hotelling's T-squared distribution.md",
     "Invalid date.md",
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Anomaly Detection.md",
     "Managing machine learning infrastructure as code with Terraform.md",
     "mah.md",
