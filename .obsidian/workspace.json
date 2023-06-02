@@ -11,8 +11,12 @@
             "id": "33794488e646819d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Science/Nearest-Neighbour with Dynamic Warping.md"
+              }
             }
           },
           {
@@ -160,20 +168,21 @@
   },
   "active": "33794488e646819d",
   "lastOpenFiles": [
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
-    "Data Science/The Wavelet Transform.md",
-    "Data Science/Time Series.md",
-    "Anomaly Detection.md",
-    "Data Science/Handling Missing Values.md",
-    "Data Science/kernel Methods.md",
     "Data Science/Model Evaluation.md",
+    "Data Science/kernel Methods.md",
+    "Data Science/Handling Missing Values.md",
+    "Data Science/Time Series.md",
+    "Data Science/The Wavelet Transform.md",
     "tf-idf.md",
     "Recurrent Neural Networks.md",
-    "LSTM.md",
-    "Mahalanobis Distance.md",
-    "Managing machine learning infrastructure as code with Terraform.md",
     "Reactive Programming.md",
+    "Mahalanobis Distance.md",
+    "LSTM.md",
     "Hotelling's T-squared distribution.md",
+    "Invalid date.md",
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Anomaly Detection.md",
+    "Managing machine learning infrastructure as code with Terraform.md",
     "mah.md",
     "assets/Mahalanobis.png",
     "Copula.md",
@@ -188,7 +197,6 @@
     "Notes/2023/04-April/2023-04-17-Monday.md",
     "Notes/2023/04-April",
     "Notes/2023",
-    "Invalid date.md",
     "Notes/Weekly/2023/04-April",
     "Notes/Weekly/2023",
     "Notes/Monthly/2023",
