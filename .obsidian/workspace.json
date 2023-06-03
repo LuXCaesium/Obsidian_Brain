@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anomaly Detection.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anomaly Detection.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anomaly Detection.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anomaly Detection.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -168,10 +168,11 @@
   },
   "active": "33794488e646819d",
   "lastOpenFiles": [
+    "Data Science/Time Series.md",
+    "Untitled.md",
+    "Anomaly Detection.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/The Wavelet Transform.md",
-    "Data Science/Time Series.md",
-    "Anomaly Detection.md",
     "tf-idf.md",
     "Recurrent Neural Networks.md",
     "Reactive Programming.md",
@@ -194,7 +195,6 @@
     "Notes/Daily/2023/04-April/2023-04-17-Monday.md",
     "Notes/Daily/2023/04-April/2023-04-19-Wednesday.md",
     "Notes/2023/04-April/2023-04-19-Wednesday.md",
-    "Notes/2023/04-April/2023-04-17-Monday.md",
     "Notes/2023/04-April",
     "Notes/2023",
     "Notes/Weekly/2023/04-April",
