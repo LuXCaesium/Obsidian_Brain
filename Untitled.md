@@ -22,3 +22,33 @@ df = pd.DataFrame()
 df['t'] = [x for x in range(10)]
 print(df)
 ```
+
+|     | t   |
+| --- | --- |
+| 0   | 0   |
+| 1   | 1   |
+| 2   | 2   |
+| 3   | 3   |
+| 4   | 4   |
+| 5   | 5   |
+| 6   | 6   |
+| 7   | 7   |
+| 8   | 8   |
+| 9   | 9   |
+
+We can shift all the observations down by one time step by inserting one new row at the top.
+```python
+import pandas as pd
+df = pd.DataFrame()
+df['t'] = [x for x in range(10)]
+df['t+1'] = df['t'].shift(-1)
+```
+
+### `series_to_supervised()` Function
+
+This function will take a univariate or multivariate time series and frames it as a supervised learning dataset. The input arguments are as follows:
+- data: Sequence of observations as a list or 2D Numpy array.
+- n_in: number of lag observations as input X.
+- n_out: Number of observations as output y.
+- dropnan: Boolean whether to drop rows with Nan values. Defaults to True.
+
