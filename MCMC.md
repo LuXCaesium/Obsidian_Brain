@@ -39,4 +39,9 @@ Computing this average over a large number of samples will reduce the standard e
 
 ## Markov Chains
 
+Markov Property: *The probability of jumping from one state to the next state depends only on the current state and not on the sequence of previous states that lead to the current.*
+Mathematically speaking, this means
+$\mathbb{P}(X_{n+1}|X_n=k_n, X_{n-1}=k_{n-1}, \dots, X_1=k_1) = \mathbb{P}(X_{n+1}=k|X_n=k_n)$
+
+Hence, if a process exhibits this property it is known as a **Markov Chain**
 
