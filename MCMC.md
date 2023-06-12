@@ -43,5 +43,12 @@ Markov Property: *The probability of jumping from one state to the next state de
 Mathematically speaking, this means
 $\mathbb{P}(X_{n+1}|X_n=k_n, X_{n-1}=k_{n-1}, \dots, X_1=k_1) = \mathbb{P}(X_{n+1}=k|X_n=k_n)$
 
-Hence, if a process exhibits this property it is known as a **Markov Chain**
+Hence, if a process exhibits this property it is known as a **Markov Chain**. A property that makes these chains so desired is the **Stationary Distribution**
 
+### Stationary Distribution
+Suppose we have a process of a few states and we have a fixed transition probability **Q** of jumping between states.
+We start with some random probability distribution over all states $S_i$ at time step $i$ and estimate the probability distribution over all states at the next time step we multiple it by the transition probability $Q$.
+$S_{i+1} = S_iQ$
+
+If we keep doing this, after a while $S$ stops changing, when this state is reached its know as a **stationary distribution**
+$S=SQ$
