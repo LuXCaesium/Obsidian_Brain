@@ -12,5 +12,6 @@ Is a method of statistical inference in which Bayes theorem is used to update th
 ## Posterior Approximation
 Below is a list of method comprising a class of algorithms for sampling from a probability distribution.
 
-![[MC]]
+[[MCMC]]
+
 
