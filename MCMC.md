@@ -55,4 +55,4 @@ $S=SQ$
 
 ## Markov Chain Monte Carlo (MCMC)
 
-MCMC can be used to sample from any probability distribution. Mostly we use it to sample from the intractable posterior distribution for the purpose of inference. It is often difficult to directly simulate independent observations from the posterior density $f(\theta|y)$. The approach we will follow
+MCMC can be used to sample from any probability distribution. Mostly we use it to sample from the intractable posterior distribution for the purpose of inference. It is often difficult to directly simulate independent observations from the posterior density $f(\theta|y)$. The approach we will follow is that of generating observations from an approximate posterior density and then correcting those observations.
