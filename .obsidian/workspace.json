@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "Data Science/Bayesian Inference.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "Data Science/Bayesian Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "Data Science/Bayesian Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian Inference.md"
+                "file": "Data Science/Bayesian Inference.md"
               }
             }
           },
@@ -181,9 +181,11 @@
   },
   "active": "ce67f01fc1bbd2f2",
   "lastOpenFiles": [
+    "Data Science/Handling Missing Values.md",
+    "Data Science/kernel Methods.md",
+    "Data Science/Bayesian Inference.md",
     "Data Science/Time Series.md",
-    "Bayesian Inference.md",
-    "Data Science/Bayesian Inference/MCMC.md",
+    "Data Science/MCMC.md",
     "Data Science/Bayesian Inference",
     "Untitled.md",
     "tf-idf.md",
@@ -196,8 +198,6 @@
     "Mahalanobis Distance.md",
     "Copula.md",
     "Data Science/Model Evaluation.md",
-    "Data Science/kernel Methods.md",
-    "Data Science/Handling Missing Values.md",
     "LSTM.md",
     "Hotelling's T-squared distribution.md",
     "Invalid date.md",
