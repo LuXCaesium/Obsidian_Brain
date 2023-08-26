@@ -15,4 +15,7 @@ Let $Y$ be a real valued random variable with CDF $F_Y(y) = P(Y \leq y)$. The $\
 $$q_Y(\tau) = F^{-1}_Y(\tau) = \inf\{y:F_Y(y) \geq \tau\}$$
 Where $\tau \in (0,1)$.
 
-Given the mean absolute error l
+Given the mean absolute error loss for the conditional median ($F^{-1}_Y(0.5|X=x)$) is $l(y,\hat{y}) = |y-\hat{y}|$ we generalise this for any quantile $\tau$ defining a loss function we call the *Pinball Loss*:
+
+$$l_\tau(y, \hat{y}) = \left{ t$$
+
