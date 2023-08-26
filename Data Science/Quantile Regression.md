@@ -7,4 +7,4 @@ tags:: #QuantileRegression #DataScience #Statistics
 
 # Quantile Regression
 
-There are many types of regression
+Whilst Ordinary Least Squares computers the unique line( or hyperplane) that minimises teh sum of squared differences between the data and the line 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Copula.md",
+                "file": "Data Science/Quantile Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Copula.md",
+                "file": "Data Science/Quantile Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Copula.md",
+                "file": "Data Science/Quantile Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Copula.md"
+                "file": "Data Science/Quantile Regression.md"
               }
             }
           },
@@ -168,16 +169,16 @@
   },
   "active": "078b1c9c9f9cc12f",
   "lastOpenFiles": [
-    "Statistics.md",
+    "Data Science/Time Series.md",
     "Data Science.md",
+    "Data Science/Handling Missing Values.md",
+    "Statistics.md",
+    "Data Science/Copula.md",
     "Reactive Programming.md",
     "Data Science/Bayesian Inference.md",
     "Data engineering.md",
     "Untitled.md",
     "Data Science/tf-idf.md",
-    "Data Science/Copula.md",
-    "Data Science/Time Series.md",
-    "Data Science/Handling Missing Values.md",
     "Data Science/kernel Methods.md",
     "Data Science/MCMC.md",
     "Data Science/Model Evaluation.md",
