@@ -17,5 +17,11 @@ Where $\tau \in (0,1)$.
 
 Given the mean absolute error loss for the conditional median ($F^{-1}_Y(0.5|X=x)$) is $l(y,\hat{y}) = |y-\hat{y}|$ we generalise this for any quantile $\tau$ defining a loss function we call the *Pinball Loss*:
 
-$$l_\tau(y, \hat{y}) = \left{ t$$
+$$l_\tau(y, \hat{y}) = \left\{\begin{matrix}
+\tau(y-\hat{y}), & y-\hat{y} \geq 0
+\\ 
+(1-\tau)(y-\hat{y}), & y-\hat{y} \leq 0
+\end{matrix}\right.$$
 
+This can also be expressed in term of indicator functions:
+$$$$
