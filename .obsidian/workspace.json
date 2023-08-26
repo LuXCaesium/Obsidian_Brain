@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "031531368a4c332b",
+        "id": "9ee0db9883b5d62d",
         "type": "tabs",
         "children": [
           {
-            "id": "457fb79af2e866a3",
+            "id": "078b1c9c9f9cc12f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Copula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8db912110f53066",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
+                "file": "Data Science/Copula.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#BayesianInference",
+                "query": "tag:#DataScience",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Data Science/Copula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Data Science/Copula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Data Science/Copula.md"
               }
             }
           },
@@ -179,11 +166,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f8db912110f53066",
+  "active": "078b1c9c9f9cc12f",
   "lastOpenFiles": [
-    "Copula.md",
-    "Untitled 1.md",
+    "Statistics.md",
+    "Data Science.md",
+    "Reactive Programming.md",
     "Data Science/Bayesian Inference.md",
+    "Data engineering.md",
+    "Untitled.md",
+    "Data Science/tf-idf.md",
+    "Data Science/Copula.md",
+    "Data Science/Time Series.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/kernel Methods.md",
     "Data Science/MCMC.md",
@@ -191,24 +184,18 @@
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Quantile Regression.md",
     "Data Science/The Wavelet Transform.md",
-    "Data Science/Time Series.md",
-    "Anomaly Detection.md",
-    "LSTM.md",
+    "Data Science/Anomaly Detection.md",
+    "Data Science/LSTM.md",
     "Data Science/Bayesian Inference",
-    "Untitled.md",
-    "tf-idf.md",
-    "Recurrent Neural Networks.md",
-    "Reactive Programming.md",
-    "Managing machine learning infrastructure as code with Terraform.md",
-    "Mahalanobis Distance.md",
-    "Hotelling's T-squared distribution.md",
+    "Data Science/Recurrent Neural Networks.md",
+    "Data Science/Managing machine learning infrastructure as code with Terraform.md",
+    "Data Science/Mahalanobis Distance.md",
+    "Data Science/Hotelling's T-squared distribution.md",
     "Invalid date.md",
     "mah.md",
     "assets/Mahalanobis.png",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "templates/monthly notes.md",
-    "Notes/Weekly/2023/04-April/2023-W16.md",
-    "templates/daily notes.md",
     "Notes/2023/04-April",
     "Notes/2023",
     "Notes/Weekly/2023/04-April",
