@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "21362233afb835b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/LSTM.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/LSTM.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/LSTM.md"
+                "file": "README.md"
               }
             }
           },
@@ -166,10 +179,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6de3d10acb4f8316",
+  "active": "21362233afb835b9",
   "lastOpenFiles": [
-    "Data Science/Mahalanobis Distance.md",
     "Data Science/LSTM.md",
+    "README.md",
+    "Data Science/Mahalanobis Distance.md",
     "Data Science/kernel Methods.md",
     "Data Science/Hotelling's T-squared distribution.md",
     "Data Science/Hopfield Networks.md",
@@ -195,7 +209,6 @@
     "Invalid date.md",
     "mah.md",
     "assets/Mahalanobis.png",
-    "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "Notes/2023/04-April",
     "Notes/2023",
     "Notes/Weekly/2023/04-April",
