@@ -11,6 +11,7 @@ This page highlights the main topics and structure of the Statistics field. Here
 
 ## Probability
 [[Copula]]
+[[Directed Graphs and Conditional Independence]]
 ## Classical Statistics
 ## Bayesian Probability
 [[Bayesian Inference]]
