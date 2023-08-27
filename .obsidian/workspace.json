@@ -11,8 +11,12 @@
             "id": "6de3d10acb4f8316",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/LSTM.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Science/LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Science/LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Science/LSTM.md"
+              }
             }
           },
           {
@@ -161,34 +168,34 @@
   },
   "active": "6de3d10acb4f8316",
   "lastOpenFiles": [
-    "Data Science/Quantile Regression.md",
-    "Data Science/Time Series.md",
-    "Data Science.md",
-    "Data Science/Handling Missing Values.md",
-    "Statistics.md",
-    "Data Science/Copula.md",
-    "Reactive Programming.md",
-    "Data Science/Bayesian Inference.md",
-    "Data engineering.md",
-    "Untitled.md",
-    "Data Science/tf-idf.md",
-    "Data Science/kernel Methods.md",
-    "Data Science/MCMC.md",
-    "Data Science/Model Evaluation.md",
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
-    "Data Science/The Wavelet Transform.md",
-    "Data Science/Anomaly Detection.md",
-    "Data Science/LSTM.md",
-    "Data Science/Bayesian Inference",
-    "Data Science/Recurrent Neural Networks.md",
-    "Data Science/Managing machine learning infrastructure as code with Terraform.md",
     "Data Science/Mahalanobis Distance.md",
+    "Data Science/LSTM.md",
+    "Data Science/kernel Methods.md",
     "Data Science/Hotelling's T-squared distribution.md",
+    "Data Science/Hopfield Networks.md",
+    "Data Science/Handling Missing Values.md",
+    "Data Science/Copula.md",
+    "Data Science/Bayesian Inference.md",
+    "Data Science/Anomaly Detection.md",
+    "Data Science/Time Series.md",
+    "Data Science/The Wavelet Transform.md",
+    "Data Science/tf-idf.md",
+    "Data Science/Recurrent Neural Networks.md",
+    "Data Science/Quantile Regression.md",
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Data Science/Model Evaluation.md",
+    "Data Science/MCMC.md",
+    "Data Science/Managing machine learning infrastructure as code with Terraform.md",
+    "Untitled.md",
+    "Statistics.md",
+    "Data Science.md",
+    "Data engineering.md",
+    "Reactive Programming.md",
+    "Data Science/Bayesian Inference",
     "Invalid date.md",
     "mah.md",
     "assets/Mahalanobis.png",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
-    "templates/monthly notes.md",
     "Notes/2023/04-April",
     "Notes/2023",
     "Notes/Weekly/2023/04-April",
