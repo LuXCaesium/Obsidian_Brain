@@ -24,4 +24,6 @@ $$l_\tau(y, \hat{y}) = \left\{\begin{matrix}
 \end{matrix}\right.$$
 
 This can also be expressed in term of indicator functions:
-$$$$
+$$p_{\tau}(m) = m(\tau - \mathbb{I}_{m<0})$$
+
+So, we take a different penalty for over or under estimation. If $\alpha = 0.5$ then we have an equal loss, but as we increase $\alpha$ we penalise more for over estimation then under. 
