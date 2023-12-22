@@ -11,8 +11,12 @@
             "id": "fc6ab578bc1d8f74",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Determine Number of Clusters in a Dataset.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Statistics/Determine Number of Clusters in a Dataset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Statistics/Determine Number of Clusters in a Dataset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Statistics/Determine Number of Clusters in a Dataset.md"
+              }
             }
           },
           {
@@ -158,15 +166,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fc6ab578bc1d8f74",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
+    "Statistics/Copula.md",
+    "Statistics/Determine Number of Clusters in a Dataset.md",
+    "Statistics/Directed Graphs and Conditional Independence.md",
     "Untitled.md",
     "Statistics.md",
     "Data Science/MCMC.md",
     "Data Science/Bayesian Inference.md",
     "Statistics/Quantile Regression.md",
     "Statistics",
-    "Statistics/Directed Graphs and Conditional Independence.md",
     "Data Science/LSTM.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "README.md",
@@ -174,7 +184,6 @@
     "Data Science/kernel Methods.md",
     "Data Science/Hopfield Networks.md",
     "Data Science/Handling Missing Values.md",
-    "Statistics/Copula.md",
     "Data Science/Anomaly Detection.md",
     "Data Science/Time Series.md",
     "Data Science/The Wavelet Transform.md",
