@@ -27,4 +27,22 @@ Almost all databases strive to guarantee what are called `ACID` transactions nam
 
 ## Storage Engine
 
+Th engine provides an abstraction over reading & writing data to persistent storage, with the goal of *high throughput* & *low latency*. The design usually consists of:
+
+- The underlying data structure to store items on disk.
+- ACID transactions
+- Cache:
+	- to not have to read from disk every time. Buffered I/O
+- API Layer - SQL/ document/ graph
+
+We will focus on two common categories of data structures. Mutable & Immutable.
+
+### Mutable B-Trees
+### Immutable LSM Tree
+
+#### Bloom Filters
+
+## Write Ahead log
+
+## Isolation
 
