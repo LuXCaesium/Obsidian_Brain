@@ -42,7 +42,9 @@ To achieve good performance as the amount of data scales, we should aim to searc
 
 A BST (binary search tree) provides a data structure where the search time is $\mathcal{O}(\log(n))$. the problem however is the *spatial locality*, whereby nodes are place randomly apart, so its likely the next node is far away on the disk. B-Trees aim to solve this by allowing for nodes with more than two children.
 
+On each page read from disk, we iterate over multiple nodes sequentially from memory which reduces the amount of data we need to read from disk.
 
+A B+ Tree takes B-Trees a step further, where the final leaf nodes hold the values and other nodes just the keys. Hence when fetching data from disk, we have many more keys to compare.
 
 ### Immutable LSM Tree
 
