@@ -25,5 +25,6 @@ Almost all databases strive to guarantee what are called `ACID` transactions nam
 **Durability**:
 > Once a transaction has been committed, the database state must be persisted to disk and able to survive power outages, system failures & crashes.
 
+## Storage Engine
 
 
