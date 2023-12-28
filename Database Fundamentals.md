@@ -4,10 +4,9 @@ tags:
   - Statistics
 ---
 
-
 # Database Internals
 
-This page aims to summarise the `Databse Internals` and `Designing Data-intensive Applications` highlighting the fundamentals underlying modern databases.
+This page aims to summarize the `Databse Internals` and `Designing Data-intensive Applications` highlighting the fundamentals underlying modern databases.
 
 ## Transaction Processing & recovery
 
@@ -62,8 +61,6 @@ If you only append data to a file, the disk needle doesn't need to move as much 
 The append only data structure LSM *Log Structured Merge tree* is used by many modern database engines such as: *RocksDB*, *Cassandra*, *ScyllaDB*.
 
 The general idea is to buffer writes to a data structure in memory, one that is easy to iterate (*AVL tree*, *Red Black tree*, *Skip List*) and once it reaches some capacity, flush it to a file called SSTable (*Sorted String Table*).  This table stores sorted data, letting us use binary search and sparse indexes to lower disk I/O.
-
-
 
 #### Bloom Filters
 
