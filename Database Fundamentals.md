@@ -46,6 +46,15 @@ On each page read from disk, we iterate over multiple nodes sequentially from me
 
 A B+ Tree takes B-Trees a step further, where the final leaf nodes hold the values and other nodes just the keys. Hence when fetching data from disk, we have many more keys to compare.
 
+B-trees, to be spaced optimised, sometimes need to reclaim space due to data framgmentation:
+- Big value updates - might overwrite data of the next node, so the tree re-locates the item.
+- Small value updates - leaves a hole at the end
+- Deletes - leaves a hole
+
+the process that takes care of space reclamation and page rewrites is called a *vacuum*, *compaction*, *page defragmentation* and *maintenance*.
+
+B-Trees are most commonly used as the underlying data structure of an index (*postgreSQL* does this), or all data (as in *DynamoDB*)
+
 ### Immutable LSM Tree
 
 #### Bloom Filters
