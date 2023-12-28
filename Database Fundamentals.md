@@ -41,6 +41,8 @@ To achieve good performance as the amount of data scales, we should aim to searc
 
 A BST (binary search tree) provides a data structure where the search time is $\mathcal{O}(\log(n))$. the problem however is the *spatial locality*, whereby nodes are place randomly apart, so its likely the next node is far away on the disk. B-Trees aim to solve this by allowing for nodes with more than two children.
 
+![[BST.png]]
+
 On each page read from disk, we iterate over multiple nodes sequentially from memory which reduces the amount of data we need to read from disk.
 
 A B+ Tree takes B-Trees a step further, where the final leaf nodes hold the values and other nodes just the keys. Hence when fetching data from disk, we have many more keys to compare.
@@ -61,6 +63,8 @@ If you only append data to a file, the disk needle doesn't need to move as much 
 The append only data structure LSM *Log Structured Merge tree* is used by many modern database engines such as: *RocksDB*, *Cassandra*, *ScyllaDB*.
 
 The general idea is to buffer writes to a data structure in memory, one that is easy to iterate (*AVL tree*, *Red Black tree*, *Skip List*) and once it reaches some capacity, flush it to a file called SSTable (*Sorted String Table*).  This table stores sorted data, letting us use binary search and sparse indexes to lower disk I/O.
+
+To maintain durability, the action writing data to memory is stored in a WAL *Write-Ahead Log* so that the program can reset the state if there is a shutdown or crash.  
 
 #### Bloom Filters
 

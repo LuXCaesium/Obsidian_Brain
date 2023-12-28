@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -169,8 +168,14 @@
   },
   "active": "0d27e47d9a9b2823",
   "lastOpenFiles": [
-    "Statistics.md",
+    "Data Science/LSTM.md",
+    "Data Science/Hopfield Networks.md",
+    "Data Science/Handling Missing Values.md",
+    "Data Science/Bayesian Inference.md",
+    "Data Science/Anomaly Detection.md",
     "Database Fundamentals.md",
+    "assets/BST.png",
+    "Statistics.md",
     "Data Science.md",
     "README.md",
     "Data engineering.md",
@@ -182,22 +187,16 @@
     "Statistics/Copula.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
     "Data Science/MCMC.md",
-    "Data Science/Bayesian Inference.md",
     "Statistics/Quantile Regression.md",
     "Statistics",
-    "Data Science/LSTM.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Mahalanobis Distance.md",
     "Data Science/kernel Methods.md",
-    "Data Science/Hopfield Networks.md",
-    "Data Science/Handling Missing Values.md",
-    "Data Science/Anomaly Detection.md",
     "Data Science/Time Series.md",
     "Data Science/The Wavelet Transform.md",
     "Data Science/tf-idf.md",
     "Data Science/Recurrent Neural Networks.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
-    "Data Science/Model Evaluation.md",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
     "Notes/2023/04-April",
@@ -214,7 +213,6 @@
     "assets/LSTM3-focus-i.png",
     "assets/LSTM3-focus-f.png",
     "assets/LSTM3-chain.png",
-    "assets/LSTM3-SimpleRNN.png",
     "Untitled.canvas"
   ]
 }
