@@ -19,5 +19,11 @@ Almost all databases strive to guarantee what are called `ACID` transactions nam
 **Consistency**:
 > Application-specific guarantee; a transaction should only take the database from one valid state to another valid state. This is a weakly defined property, and is controlled by the user.
 
+**Isolation**:
+> Defines when the changes to the database state may become visible. Essentially multiple concurrently executing transactions should be able to run without interference and with the same outcome as running them sequentially. 
+
+**Durability**:
+> Once a transaction has been committed, the database state must be persisted to disk and able to survive power outages, system failures & crashes.
+
 
 
