@@ -38,11 +38,22 @@ Th engine provides an abstraction over reading & writing data to persistent stor
 We will focus on two common categories of data structures. Mutable & Immutable.
 
 ### Mutable B-Trees
+To achieve good performance as the amount of data scales, we should aim to search for an item in at most logarithmic time.
+
+A BST (binary search tree) provides a data structure where the search time is $\mathcal{O}(\log(n))$. the problem however is the *spatial locality*, whereby nodes are 
 ### Immutable LSM Tree
 
 #### Bloom Filters
 
-## Write Ahead log
+### Write Ahead log
 
-## Isolation
+### Isolation
+
+## Distributed Systems
+
+### Consistent Hashing
+
+### Leaderless Replication
+
+### Anti Entropy
 
