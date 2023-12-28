@@ -40,7 +40,10 @@ We will focus on two common categories of data structures. Mutable & Immutable.
 ### Mutable B-Trees
 To achieve good performance as the amount of data scales, we should aim to search for an item in at most logarithmic time.
 
-A BST (binary search tree) provides a data structure where the search time is $\mathcal{O}(\log(n))$. the problem however is the *spatial locality*, whereby nodes are 
+A BST (binary search tree) provides a data structure where the search time is $\mathcal{O}(\log(n))$. the problem however is the *spatial locality*, whereby nodes are place randomly apart, so its likely the next node is far away on the disk. BST's (B-Trees) aim to solve this by allowing for nodes with more than two children.
+
+
+
 ### Immutable LSM Tree
 
 #### Bloom Filters
