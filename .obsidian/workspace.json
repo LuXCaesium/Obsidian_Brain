@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -166,7 +167,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "0d27e47d9a9b2823",
   "lastOpenFiles": [
     "Statistics.md",
     "Database Fundamentals.md",
