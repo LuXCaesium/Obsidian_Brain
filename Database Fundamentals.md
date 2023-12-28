@@ -53,9 +53,15 @@ B-trees, to be spaced optimised, sometimes need to reclaim space due to data fra
 
 the process that takes care of space reclamation and page rewrites is called a *vacuum*, *compaction*, *page defragmentation* and *maintenance*.
 
-B-Trees are most commonly used as the underlying data structure of an index (*postgreSQL* does this), or all data (as in *DynamoDB*)
+B-Trees are most commonly used as the underlying data structure of an index (*postgreSQL* does this), or all data (as in *DynamoDB*).
 
 ### Immutable LSM Tree
+
+If you only append data to a file, the disk needle doesn't need to move as much to the next position where data will be written. On heavy workload this can be beneficial, and LSM's take advantage of this.
+
+The append only data structure LSM *Log Structured Merge tree* is used by many modern database engines such as: *RocksDB*, *Cassandra*, *ScyllaDB*.
+
+
 
 #### Bloom Filters
 
