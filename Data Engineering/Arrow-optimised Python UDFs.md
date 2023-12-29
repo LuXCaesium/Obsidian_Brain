@@ -9,6 +9,8 @@ Source: [Arrow-optimized Python UDFs in Apache Spark™ 3.5](https://www.databri
 
 # Arrow-Optimised Python UDFs in Apache Spark
 
+Python User-Defined Functions (UDF's) enables users to run arbitrary code against PySpark columns. It uses cloudpickle for de-serialisation and executes row by row.
+
 In Apache Spark, Python User-Defined Functions (UDFs) are one of the most popular features, and allow users to craft custom functions for their own data processing needs. However currently they rely on cloudpickle for serialisation & deserialisation, which present performance bottlenecks when dealing with large data inputs/outputs.
 
 Arrow-Optimised Python UDFs significantly improve performance, and at its core lies **Apache Arrow**, a standardised cross-language columnar in-memory data representation. The UDFs under arrow bypass the serialisation steps leading to higher performance. You can implement this by doing the following:
