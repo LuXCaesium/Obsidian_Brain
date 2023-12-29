@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
+                "file": "templates/daily notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
+                "file": "templates/daily notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
+                "file": "templates/daily notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Weekly/2023/04-April/2023-W16.md"
+                "file": "templates/daily notes.md"
               }
             }
           },
@@ -168,17 +168,18 @@
   },
   "active": "cffbf1b8fab197a1",
   "lastOpenFiles": [
+    "templates/General Note.md",
+    "templates/daily notes.md",
+    "templates/monthly notes.md",
+    "templates/weekly notes.md",
     "Arrow-optimised Python UDFs.md",
+    "Notes/Weekly/2023/04-April/2023-W16.md",
     "Data engineering.md",
     "Data Science.md",
     "Database Fundamentals.md",
     "README.md",
     "Statistics.md",
     "Data Science/Time Series to Supervised Learning.md",
-    "templates/General Note.md",
-    "templates/monthly notes.md",
-    "templates/weekly notes.md",
-    "templates/daily notes.md",
     "Data Engineering/Database Internals/Database Internals.md",
     "Data Engineering/Database Internals",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
@@ -198,7 +199,6 @@
     "Statistics/Quantile Regression.md",
     "Statistics",
     "Statistics/Hotelling's T-squared distribution.md",
-    "Statistics/Mahalanobis Distance.md",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
     "Notes/2023/04-April",

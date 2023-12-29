@@ -1,7 +1,7 @@
 ---
 created: <% tp.file.creation_date() %>
 ---
-tags:: #WeeklyNotes
+ags:: #WeeklyNotes
 
 # <% tp.date.now("YYYY-[W]W", 0, tp.file.title, "YYYY-[W]W") %>
 
