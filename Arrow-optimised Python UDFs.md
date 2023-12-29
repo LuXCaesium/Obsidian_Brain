@@ -32,3 +32,27 @@ def arrow_slen(s):
 ## Faster (De)serialisation
 
 Apache Arrow is a columnar in-memory data format that provides efficient data interchange. Unlike Pickle, which serialises the entire row as an object, Arrow stores data in a column-oriented format allowing for better compression & memory locality, which is suitable to analytical workloads.
+
+## Standardised Type Coercion
+
+Udf type coercion poses challenges when the python values returned by the UDF do not align with the user specified return type. Pickled Python UDF's type coercion relies on None as a fallback for type mismatches, leading to data loss. Arrow has a well defined set of rules for coercion relieving these issues:
+
+```python 
+>>> df = spark.createDataFrame(['1', '2'], schema='string')
+>>> df.select(udf(lambda x: x, 'int', useArrow=True)('value').alias('str_to_int')).show()
++----------+                                                                    
+|str_to_int|
++----------+
+|         1|
+|         2|
++----------+
+>>> df.select(udf(lambda x: x, 'int', useArrow=False)('value').alias('str_to_int')).show()
++----------+
+|str_to_int|
++----------+
+|      NULL|
+|      NULL|
++----------+
+```
+
+Above we see that Arrow will successfully coerce integers stored as a string back to integers as specified.
