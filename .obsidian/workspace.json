@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "402a94b50edf9e67",
+        "id": "66cb4e7aa384648f",
         "type": "tabs",
         "children": [
           {
-            "id": "44546bdba96e4433",
+            "id": "cffbf1b8fab197a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/Database Internals/Database Internals.md",
+                "file": "Arrow-optimised Python UDFs.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Engineering/Database Internals/Database Internals.md",
+                "file": "Arrow-optimised Python UDFs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Engineering/Database Internals/Database Internals.md",
+                "file": "Arrow-optimised Python UDFs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Engineering/Database Internals/Database Internals.md"
+                "file": "Arrow-optimised Python UDFs.md"
               }
             }
           },
@@ -166,24 +166,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "44546bdba96e4433",
+  "active": "cffbf1b8fab197a1",
   "lastOpenFiles": [
     "Data engineering.md",
+    "Data Science.md",
+    "Database Fundamentals.md",
+    "README.md",
+    "Statistics.md",
+    "Data Science/Time Series to Supervised Learning.md",
+    "Arrow-optimised Python UDFs.md",
+    "templates/General Note.md",
+    "templates/monthly notes.md",
+    "templates/weekly notes.md",
+    "templates/daily notes.md",
     "Data Engineering/Database Internals/Database Internals.md",
     "Data Engineering/Database Internals",
-    "Database Fundamentals.md",
-    "Statistics.md",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
-    "README.md",
     "Data Science/LSTM.md",
     "Data Science/Hopfield Networks.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/Bayesian Inference.md",
     "Data Science/Anomaly Detection.md",
     "assets/BST.png",
-    "Data Science.md",
     "MLE",
-    "Data Science/Untitled.md",
     "Software Development/Reactive Programming.md",
     "Software Development",
     "Statistics/Determine Number of Clusters in a Dataset.md",
@@ -194,10 +199,6 @@
     "Statistics",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Mahalanobis Distance.md",
-    "Data Science/kernel Methods.md",
-    "Data Science/Time Series.md",
-    "Data Science/The Wavelet Transform.md",
-    "Data Science/tf-idf.md",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
     "Notes/2023/04-April",
