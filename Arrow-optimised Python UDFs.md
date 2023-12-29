@@ -11,7 +11,7 @@ Source: [Arrow-optimized Python UDFs in Apache Spark™ 3.5](https://www.databri
 
 In Apache Spark, Python User-Defined Functions (UDFs) are one of the most popular features, and allow users to craft custom functions for their own data processing needs. However currently they rely on cloudpickle for serialisation & deserialisation, which present performance bottlenecks when dealing with large data inputs/outputs.
 
-Arrow-Optimised Python UDFs significantly improve performance, and at its core lies **Apache Arrow**, a standardised cross-language columnr in-memroy data representation. The UDFs under arrow bypass the serialisation steps leading to higher performance. You can impliment this by doing the following:
+Arrow-Optimised Python UDFs significantly improve performance, and at its core lies **Apache Arrow**, a standardised cross-language columnar in-memory data representation. The UDFs under arrow bypass the serialisation steps leading to higher performance. You can implement this by doing the following:
 
 ```python
 @udf(returnType='int', useArrow=True) #An Arrow Python UDF
@@ -35,7 +35,7 @@ Apache Arrow is a columnar in-memory data format that provides efficient data in
 
 ## Standardised Type Coercion
 
-Udf type coercion poses challenges when the python values returned by the UDF do not align with the user specified return type. Pickled Python UDF's type coercion relies on None as a fallback for type mismatches, leading to data loss. Arrow has a well defined set of rules for coercion relieving these issues:
+UDF type coercion poses challenges when the python values returned by the UDF do not align with the user specified return type. Pickled Python UDF's type coercion relies on None as a fallback for type mismatches, leading to data loss. Arrow has a well defined set of rules for coercion relieving these issues:
 
 ```python 
 >>> df = spark.createDataFrame(['1', '2'], schema='string')

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arrow-optimised Python UDFs.md",
+                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arrow-optimised Python UDFs.md",
+                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arrow-optimised Python UDFs.md",
+                "file": "Notes/Weekly/2023/04-April/2023-W16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arrow-optimised Python UDFs.md"
+                "file": "Notes/Weekly/2023/04-April/2023-W16.md"
               }
             }
           },
@@ -168,13 +168,13 @@
   },
   "active": "cffbf1b8fab197a1",
   "lastOpenFiles": [
+    "Arrow-optimised Python UDFs.md",
     "Data engineering.md",
     "Data Science.md",
     "Database Fundamentals.md",
     "README.md",
     "Statistics.md",
     "Data Science/Time Series to Supervised Learning.md",
-    "Arrow-optimised Python UDFs.md",
     "templates/General Note.md",
     "templates/monthly notes.md",
     "templates/weekly notes.md",
