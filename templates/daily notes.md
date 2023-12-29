@@ -1,14 +1,22 @@
 ---
 created: <% tp.file.creation_date() %>
+tags:
+  - FleetingNotes
 ---
-tags:: #DailyNotes
-
 # <% moment(tp.file.creation_date(),'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
-<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format("[Notes]/[Daily]/YYYY/MM-MMMM/YYYY-MM-DD-dddd") %>|Yesterday]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').format("[Notes]/[Daily]/YYYY/MM-MMMM/gggg-[W]ww") %> | Week ]] |[[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format("[Notes]/[Daily]/YYYY/MM-MMMM/YYYY-MM-DD-dddd") %>|Tomorrow]] >>
+---
+# 📝 Idea
 
 ---
-# 📝 Notes
-- <% tp.file.cursor() %>
+# 📝 Definition:
+
+---
+# 📝 Source:
+
+West: Similar
+East: Opposite
+North: theme/question
+South: What does this lead to
 
 ---
