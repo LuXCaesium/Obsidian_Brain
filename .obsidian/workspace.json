@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4ac7e52293c1bf81",
+        "id": "402a94b50edf9e67",
         "type": "tabs",
         "children": [
           {
-            "id": "0d27e47d9a9b2823",
+            "id": "44546bdba96e4433",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Database Fundamentals.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,19 +158,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0d27e47d9a9b2823",
+  "active": "44546bdba96e4433",
   "lastOpenFiles": [
+    "Data engineering.md",
+    "Data Engineering/Database Internals/Database Internals.md",
+    "Data Engineering/Database Internals",
+    "Database Fundamentals.md",
+    "Statistics.md",
+    "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
+    "README.md",
     "Data Science/LSTM.md",
     "Data Science/Hopfield Networks.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/Bayesian Inference.md",
     "Data Science/Anomaly Detection.md",
-    "Database Fundamentals.md",
     "assets/BST.png",
-    "Statistics.md",
     "Data Science.md",
-    "README.md",
-    "Data engineering.md",
     "MLE",
     "Data Science/Untitled.md",
     "Software Development/Reactive Programming.md",
@@ -195,8 +190,6 @@
     "Data Science/Time Series.md",
     "Data Science/The Wavelet Transform.md",
     "Data Science/tf-idf.md",
-    "Data Science/Recurrent Neural Networks.md",
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
     "Notes/2023/04-April",
@@ -204,7 +197,6 @@
     "Notes/Weekly/2023/04-April",
     "Notes/Weekly/2023",
     "Notes/Monthly/2023",
-    "Notes/Daily/2023/04-April",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
