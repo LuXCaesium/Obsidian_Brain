@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/Arrow-optimised Python UDFs.md",
+                "file": "Data engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Engineering/Arrow-optimised Python UDFs.md",
+                "file": "Data engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Engineering/Arrow-optimised Python UDFs.md",
+                "file": "Data engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Engineering/Arrow-optimised Python UDFs.md"
+                "file": "Data engineering.md"
               }
             }
           },
@@ -177,18 +177,18 @@
   },
   "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
+    "Data Science.md",
+    "Database Fundamentals.md",
+    "README.md",
+    "Statistics.md",
+    "Data engineering.md",
+    "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
     "templates/Fleeting Note.md",
     "templates/General Note.md",
     "templates/monthly notes.md",
     "templates/weekly notes.md",
-    "Data Engineering/Arrow-optimised Python UDFs.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
-    "Data engineering.md",
-    "Data Science.md",
-    "Database Fundamentals.md",
-    "README.md",
-    "Statistics.md",
     "Data Science/Time Series to Supervised Learning.md",
     "Data Engineering/Database Internals/Database Internals.md",
     "Data Engineering/Database Internals",
