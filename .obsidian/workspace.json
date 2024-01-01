@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science.md",
+                "file": "MLOps Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science.md",
+                "file": "MLOps Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science.md"
+                "file": "MLOps Roadmap.md"
               }
             }
           },
@@ -187,13 +187,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "32ff9cafaa0bcb2b",
   "lastOpenFiles": [
+    "Data Science.md",
     "Statistics.md",
     "MLOps Roadmap.md",
     "README.md",
     "Database Fundamentals.md",
-    "Data Science.md",
     "Data engineering.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
