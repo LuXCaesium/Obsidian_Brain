@@ -17,7 +17,7 @@ Let $\phi: \mathbb{R}^d \rightarrow \{0, 1\}$ be a property that we want to veri
 
 We want to test whether the hypothesis that $G$ outputs data that satisfies the property with sufficiently high probability. For this, we formulate the (null) hypothesis $H_0 = \{p \geq p_0\}$, where $p = P_{\boldsymbol{x} \sim G}[\phi(\boldsymbol{x}) = 1]$ is the probability that $G's$ output satisfies the property, and $p_0$ is the lower bound that we want to achieve. We want to then show that $H_0$ holds with sufficiently high probability and can derive the following using [[Hoeffding's inequality]]:
 
-Let $x_1, \dots, x_n$ be $n$ i.i.d samples from $G$ and put $y_i = \phi(x_i)$. Further consider the proportion $\bar{S_n} = \frac{(y_1+\dots+y_n}{n}$. If $\bar{S_n} \geq p_0$, then the null hypothesis $H_0 = \{p \geq p_0\}$ hold with confidence of at least $1-\delta$ where $\delta = \exp(-2n(\bar{S_n} - p_0)^2)$
+Let $x_1, \dots, x_n$ be $n$ i.i.d samples from $G$ and put $y_i = \phi(x_i)$. Further consider the proportion $\bar{S_n} = \frac{y_1+\dots+y_n}{n}$. If $\bar{S_n} \geq p_0$, then the null hypothesis $H_0 = \{p \geq p_0\}$ hold with confidence of at least $1-\delta$ where $\delta = \exp(-2n(\bar{S_n} - p_0)^2)$
 
 Given that we sometimes have prompts, our goal is to test the conditional probability $p_G(.|\boldsymbol{c})$ where prompts $\boldsymbol{c}$ comply with $\phi$, we can use the proposition above for this.
 
