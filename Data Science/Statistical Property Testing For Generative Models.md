@@ -15,5 +15,5 @@ Let $G$ be a generative model that outputs data points $\boldsymbol{x} \in \math
 
 Let $\phi: \mathbb{R}^d \rightarrow \{0, 1\}$ be a property that we want to verify. Imagine this to be a function whereby, upon an input $\boldsymbol{x}$, returns the output 1 (if the property is satisfied) or ) if not. In practice, $\phi$ can be implemented by human inspection or a model that classifies whether its input $\boldsymbol{x}$ satisfies the property or not.
 
-We want to test whether the hypothesis that $G$ outputs data that satisfies the property with sufficiently high probability. For this, we formulate the (null) hypothesis $H_0 = \{p \geq p_0\}$, where $p = P_{\boldsymbol{x} \sim G}[\phi(\boldsymbol{x}) = 1]$
+We want to test whether the hypothesis that $G$ outputs data that satisfies the property with sufficiently high probability. For this, we formulate the (null) hypothesis $H_0 = \{p \geq p_0\}$, where $p = P_{\boldsymbol{x} \sim G}[\phi(\boldsymbol{x}) = 1]$ is the probability that $G's$ output satisfies the property, and $p_0$ is the lower bound that we want to achieve. We want to then show that $H_0$ holds with sufficiently high probability and can derive the following using [[Hoeffding's inequality]]
 
