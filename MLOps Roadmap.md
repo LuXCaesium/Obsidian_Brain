@@ -1,7 +1,6 @@
 ---
 created: 2023-12-31 00:23
-tags:
-  - MachineLearning
+tags: []
 ---
 ---
 created: 2023-12-31 00:23
@@ -12,8 +11,6 @@ source: [MLOps roadmap 2024](https://medium.com/marvelous-mlops/mlops-roadmap-20
 
 ## 1. Programming
 Programming skills are essential for an MLOps engineer. Python is the most common language used for machine learning. Since MLOps engineers collaborate with machine learning engineers and data scientists, learning Python is important.
-
-[[Docker]]
 
 ### 1.1 Python & IDEs
 We suggest starting learning Python by reading a proper Python book and practising the concepts.

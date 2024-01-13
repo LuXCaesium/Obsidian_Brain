@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f609673e243ca44c",
+        "id": "8179b07d60d113a5",
         "type": "tabs",
         "children": [
           {
-            "id": "a696a044c8e4e15b",
+            "id": "2dcf9721c3392fd0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MLOps Roadmap.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Unsupervised",
+                "query": "tag:#Docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MLOps Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MLOps Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MLOps Roadmap.md"
+              }
             }
           },
           {
@@ -165,11 +174,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a696a044c8e4e15b",
+  "active": "2dcf9721c3392fd0",
   "lastOpenFiles": [
     "MLOps Roadmap.md",
-    "Data Science/Anomaly Detection.md",
     "Docker.md",
+    "Data Science/Anomaly Detection.md",
     "Untitled.canvas",
     "Data Science.md",
     "Data Engineering/Database Internals/Database Internals.md",
