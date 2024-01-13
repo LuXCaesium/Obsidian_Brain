@@ -1,6 +1,7 @@
 ---
 created: 2023-12-31 00:23
 tags:
+  - MachineLearning
 ---
 ---
 created: 2023-12-31 00:23
@@ -26,14 +27,14 @@ You will need to understand bash basics to add steps to your CI/CD pipelines, to
 Containers are isolated software environments that help to streamline software development and deployment, regardless of the underlying infrastructure. It is an essential piece of modern software engineering best practices.
 
 ### 2.1 Docker
-Docker is one of the most popular open-source containerisation platforms, also widely used in MLOps for multiple purposes: code development, model training, and endpoint deployment.
+Docker is one of the most popular open-source containerisation platforms, also widely used in MLOps for multiple purposes: code development, model training, and endpoint deployment. [[Docker]]
 
 - **Docker roadmap:** [Docker Roadmap](https://roadmap.sh/docker)
 - **Tutorial suggestion:** [Full docker tutorial by Techworld by Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
 
 ### 2.2 Kubernetes
 Kubernetes is a must to learn for an MLOps engineer. It is widely used for machine learning model training, model endpoint deployment, and serving dashboards.
-
+[[Kubernetes]]
 - **Kubernetes roadmap:** [Kubernetes Roadmap](https://roadmap.sh/kubernetes)
 - **Tutorial suggestion:** [Kubernetes course by freecodecamp.com](https://www.youtube.com/watch?v=d6WC5n9G_sM)
 - **Course suggestion:** [Kubernetes mastery](https://www.udemy.com/course/kubernetesmastery/)

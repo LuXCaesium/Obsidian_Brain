@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "95cc47f7c28fe2d8",
+        "id": "f609673e243ca44c",
         "type": "tabs",
         "children": [
           {
-            "id": "4065da44bba21f3e",
+            "id": "a696a044c8e4e15b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32ff9cafaa0bcb2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MLOps Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MLOps Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MLOps Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MLOps Roadmap.md"
-              }
+              "state": {}
             }
           },
           {
@@ -187,14 +166,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "32ff9cafaa0bcb2b",
+  "active": "a696a044c8e4e15b",
   "lastOpenFiles": [
-    "Data Science.md",
-    "Statistics.md",
+    "Docker.md",
     "MLOps Roadmap.md",
-    "README.md",
+    "Untitled.canvas",
+    "Data Science.md",
+    "Data Engineering/Database Internals/Database Internals.md",
     "Database Fundamentals.md",
     "Data engineering.md",
+    "Statistics.md",
+    "README.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
     "templates/Fleeting Note.md",
@@ -203,7 +185,6 @@
     "templates/weekly notes.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
     "Data Science/Time Series to Supervised Learning.md",
-    "Data Engineering/Database Internals/Database Internals.md",
     "Data Engineering/Database Internals",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "Data Science/LSTM.md",
@@ -218,7 +199,6 @@
     "Statistics/Determine Number of Clusters in a Dataset.md",
     "Statistics/Copula.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
-    "Data Science/MCMC.md",
     "Statistics",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
@@ -234,7 +214,6 @@
     "assets/LSTM3-focus-C.png",
     "assets/LSTM3-focus-i.png",
     "assets/LSTM3-focus-f.png",
-    "assets/LSTM3-chain.png",
-    "Untitled.canvas"
+    "assets/LSTM3-chain.png"
   ]
 }
