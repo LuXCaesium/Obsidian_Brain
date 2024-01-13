@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": false,
@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "tag:#MLOps",
+      "color": {
+        "a": 1,
+        "rgb": 2324689
+      }
     }
   ],
   "collapse-display": true,
@@ -40,5 +47,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.45050811767578125,
-  "close": false
+  "close": true
 }

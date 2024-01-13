@@ -20,3 +20,11 @@ We want to test whether the hypothesis that $G$ outputs data that satisfies the 
 Let $x_1, \dots, x_n$ be $n$ i.i.d samples from $G$ and put $y_i = \phi(x_i)$. Further consider the proportion $\bar{S_n} = \frac{(y_1+\dots+y_n}{n}$. If $\bar{S_n} \geq p_0$, then the null hypothesis $H_0 = \{p \geq p_0\}$ hold with confidence of at least $1-\delta$ where $\delta = \exp(-2n(\bar{S_n} - p_0)^2)$
 
 Given that we sometimes have prompts, our goal is to test the conditional probability $p_G(.|\boldsymbol{c})$ where prompts $\boldsymbol{c}$ comply with $\phi$, we can use the proposition above for this.
+
+## Example Experiment
+
+In the paper, the first experiment was to generate artificial traffic sign images using a GAN that intend to look similar to the GTSRB dataset. The aim is to generate these artificial images and test whether they are indeed stop signs. For this, $\phi$ was a custom [[Convolutional Neural Network]] (CNN) that achieves $\geq 95\%$ accuracy on the GTSRB test set.
+
+## Further Areas of Research
+
+It is unclear which properties synthetic data should satisfy if it is to be used for model training. Another avenue is how one can train generative models in order to satisfy a given set of properties with high confidence. 
