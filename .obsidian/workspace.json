@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8179b07d60d113a5",
+        "id": "c32499399afa0e5e",
         "type": "tabs",
         "children": [
           {
-            "id": "2dcf9721c3392fd0",
+            "id": "6dacf66747bba6dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MLOps Roadmap.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MLOps Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MLOps Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MLOps Roadmap.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,9 +165,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2dcf9721c3392fd0",
+  "active": "6dacf66747bba6dd",
   "lastOpenFiles": [
+    "TESTING.md",
     "MLOps Roadmap.md",
+    "templates/Fleeting Note.md",
+    "templates/General Note.md",
     "Docker.md",
     "Data Science/Anomaly Detection.md",
     "Untitled.canvas",
@@ -188,8 +182,6 @@
     "README.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
-    "templates/Fleeting Note.md",
-    "templates/General Note.md",
     "templates/monthly notes.md",
     "templates/weekly notes.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
@@ -206,7 +198,6 @@
     "Software Development",
     "Statistics/Determine Number of Clusters in a Dataset.md",
     "Statistics/Copula.md",
-    "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
