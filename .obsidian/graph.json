@@ -27,20 +27,6 @@
         "a": 1,
         "rgb": 11657298
       }
-    },
-    {
-      "query": "tag:#DailyNotes",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "[\"created\":]",
-      "color": {
-        "a": 1,
-        "rgb": 6084269
-      }
     }
   ],
   "collapse-display": true,
