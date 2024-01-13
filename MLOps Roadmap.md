@@ -13,6 +13,8 @@ source: [MLOps roadmap 2024](https://medium.com/marvelous-mlops/mlops-roadmap-20
 ## 1. Programming
 Programming skills are essential for an MLOps engineer. Python is the most common language used for machine learning. Since MLOps engineers collaborate with machine learning engineers and data scientists, learning Python is important.
 
+[[Docker]]
+
 ### 1.1 Python & IDEs
 We suggest starting learning Python by reading a proper Python book and practising the concepts.
 
@@ -27,14 +29,13 @@ You will need to understand bash basics to add steps to your CI/CD pipelines, to
 Containers are isolated software environments that help to streamline software development and deployment, regardless of the underlying infrastructure. It is an essential piece of modern software engineering best practices.
 
 ### 2.1 Docker
-Docker is one of the most popular open-source containerisation platforms, also widely used in MLOps for multiple purposes: code development, model training, and endpoint deployment. [[Docker]]
+Docker is one of the most popular open-source containerisation platforms, also widely used in MLOps for multiple purposes: code development, model training, and endpoint deployment.
 
 - **Docker roadmap:** [Docker Roadmap](https://roadmap.sh/docker)
 - **Tutorial suggestion:** [Full docker tutorial by Techworld by Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
 
 ### 2.2 Kubernetes
 Kubernetes is a must to learn for an MLOps engineer. It is widely used for machine learning model training, model endpoint deployment, and serving dashboards.
-[[Kubernetes]]
 - **Kubernetes roadmap:** [Kubernetes Roadmap](https://roadmap.sh/kubernetes)
 - **Tutorial suggestion:** [Kubernetes course by freecodecamp.com](https://www.youtube.com/watch?v=d6WC5n9G_sM)
 - **Course suggestion:** [Kubernetes mastery](https://www.udemy.com/course/kubernetesmastery/)

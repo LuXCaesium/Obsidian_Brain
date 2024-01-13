@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DataScience",
+                "query": "tag:#Unsupervised",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,18 +122,18 @@
             }
           },
           {
-            "id": "78a4ed779dfeacf0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
             "id": "3ce085e62ef1f8f7",
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "78a4ed779dfeacf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
               "state": {}
             }
           },
@@ -146,12 +146,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +167,9 @@
   },
   "active": "a696a044c8e4e15b",
   "lastOpenFiles": [
-    "Docker.md",
     "MLOps Roadmap.md",
+    "Data Science/Anomaly Detection.md",
+    "Docker.md",
     "Untitled.canvas",
     "Data Science.md",
     "Data Engineering/Database Internals/Database Internals.md",
@@ -191,7 +191,6 @@
     "Data Science/Hopfield Networks.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/Bayesian Inference.md",
-    "Data Science/Anomaly Detection.md",
     "assets/BST.png",
     "MLE",
     "Software Development/Reactive Programming.md",

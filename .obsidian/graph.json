@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "[\"created\":]",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
     }
   ],
   "collapse-display": true,
@@ -47,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.4355248290278031,
-  "close": true
+  "close": false
 }
