@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Hotelling's T-squared distribution.md",
+                "file": "Statistics/Copula.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Hotelling's T-squared distribution.md",
+                "file": "Statistics/Copula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Hotelling's T-squared distribution.md",
+                "file": "Statistics/Copula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Hotelling's T-squared distribution.md"
+                "file": "Statistics/Copula.md"
               }
             }
           },
@@ -176,9 +176,10 @@
   },
   "active": "b3a5eb397220bc9c",
   "lastOpenFiles": [
+    "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
-    "Statistics/Quantile Regression.md",
+    "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
     "Statistics/Copula.md",
     "Data engineering.md",
@@ -202,7 +203,6 @@
     "templates/monthly notes.md",
     "templates/weekly notes.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
-    "Data Science/Time Series to Supervised Learning.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
