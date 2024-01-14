@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
+                "file": "Statistics/Hotelling's T-squared distribution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
+                "file": "Statistics/Hotelling's T-squared distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
+                "file": "Statistics/Hotelling's T-squared distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md"
+                "file": "Statistics/Hotelling's T-squared distribution.md"
               }
             }
           },
@@ -174,10 +174,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "b3a5eb397220bc9c",
   "lastOpenFiles": [
-    "MLOps Roadmap.md",
+    "Statistics/Mahalanobis Distance.md",
+    "Statistics/Hotelling's T-squared distribution.md",
+    "Statistics/Quantile Regression.md",
+    "Statistics/Determine Number of Clusters in a Dataset.md",
+    "Statistics/Copula.md",
+    "Data engineering.md",
     "Data Science.md",
+    "MLOps Roadmap.md",
+    "README.md",
+    "Statistics.md",
+    "Database Fundamentals.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
     "TESTING.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
@@ -188,10 +197,6 @@
     "Docker.md",
     "Data Science/Anomaly Detection.md",
     "Data Engineering/Database Internals/Database Internals.md",
-    "Database Fundamentals.md",
-    "Data engineering.md",
-    "Statistics.md",
-    "README.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
     "templates/monthly notes.md",
@@ -199,11 +204,6 @@
     "Notes/Weekly/2023/04-April/2023-W16.md",
     "Data Science/Time Series to Supervised Learning.md",
     "Data Engineering/Database Internals",
-    "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
-    "Data Science/LSTM.md",
-    "Data Science/Hopfield Networks.md",
-    "Data Science/Handling Missing Values.md",
-    "Data Science/Bayesian Inference.md",
     "assets/BST.png",
     "MLE",
     "Software Development",
