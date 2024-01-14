@@ -1,6 +1,6 @@
 # Data Science Study
 
-This repository highlights my journey into the study of data science and statistical topics.
+This repository highlights my journey into the study of data. That might be data science, engineering, mlops or just plain old statistics.
 
 ## How its structured
 

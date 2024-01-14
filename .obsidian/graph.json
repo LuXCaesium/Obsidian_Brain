@@ -1,10 +1,10 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -29,10 +29,10 @@
       }
     },
     {
-      "query": "tag:#DailyNotes",
+      "query": "tag:#MLOps",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 2324689
       }
     }
   ],
@@ -46,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.29034988601853556,
+  "scale": 0.45050811767578125,
   "close": true
 }

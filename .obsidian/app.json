@@ -3,9 +3,10 @@
   "readableLineLength": false,
   "foldHeading": true,
   "trashOption": "local",
-  "attachmentFolderPath": "./assets",
+  "attachmentFolderPath": "assets",
   "showInlineTitle": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": false
 }

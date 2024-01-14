@@ -1,11 +1,11 @@
 ---
-
 created: <% tp.file.creation_date() %>
-
+tags:
+  - TimeSeries
+  - MachineLearning
+  - DataScience
+  - UnsupervisedLearning
 ---
-tags:: #TimeSeries #MachineLearning #DataScience #Unsupervised
-
-
 # Unsupervised Anomaly Detection on Time Series
 
 ## Probability Based Approaches
