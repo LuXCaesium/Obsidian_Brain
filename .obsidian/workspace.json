@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MLOps Roadmap.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "511e60afa9d7acb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineering.md",
+                "file": "Data Science/Naive Bayes classifier.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -122,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Engineering.md",
+                "file": "Data Science/Naive Bayes classifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Engineering.md",
+                "file": "Data Science/Naive Bayes classifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Engineering.md"
+                "file": "Data Science/Naive Bayes classifier.md"
               }
             }
           },
@@ -203,18 +189,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "511e60afa9d7acb4",
+  "active": "32ff9cafaa0bcb2b",
   "lastOpenFiles": [
-    "Data Engineering/Database Fundamentals.md",
-    "Data Science.md",
-    "MLOps Roadmap.md",
-    "Data Engineering.md",
+    "Data Science/tf-idf.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
+    "Statistics/Determine Number of Clusters in a Dataset.md",
+    "Statistics/Directed Graphs and Conditional Independence.md",
+    "Statistics/Hotelling's T-squared distribution.md",
+    "Statistics/Quantile Regression.md",
+    "Statistics/Mahalanobis Distance.md",
+    "MLOps Roadmap.md",
+    "Data Engineering/Arrow-optimised Python UDFs.md",
+    "Data Engineering/Database Fundamentals.md",
+    "Statistics.md",
+    "Data Engineering.md",
+    "Data Science.md",
     "conflict-files-obsidian-git.md",
     "Data Science/Naive Bayes classifier.md",
-    "Statistics.md",
     "README.md",
-    "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
     "templates/Fleeting Note.md",
     "templates/General Note.md",
@@ -226,15 +218,9 @@
     "Data Engineering/Database Internals",
     "Notes/Daily/2023/04-April/2023-04-18-Tuesday.md",
     "Data Science/LSTM.md",
-    "Data Science/Hopfield Networks.md",
-    "Data Science/Handling Missing Values.md",
-    "Data Science/Bayesian Inference.md",
-    "Data Science/Anomaly Detection.md",
     "assets/BST.png",
     "MLE",
-    "Software Development/Reactive Programming.md",
     "Software Development",
-    "Statistics/Determine Number of Clusters in a Dataset.md",
     "Statistics",
     "Data Science/Bayesian Inference",
     "assets/Mahalanobis.png",
