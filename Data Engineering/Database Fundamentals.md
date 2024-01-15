@@ -7,7 +7,7 @@ tags:
 
 # Database Internals
 
-This page aims to summarize the `Databse Internals` and `Designing Data-intensive Applications` highlighting the fundamentals underlying modern databases.
+This page aims to summarise the `Databse Internals` and `Designing Data-intensive Applications` highlighting the fundamentals underlying modern databases.
 
 ## Transaction Processing & recovery
 

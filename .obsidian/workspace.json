@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
+                "file": "Data Engineering.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
+                "file": "Data Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
+                "file": "Data Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md"
+                "file": "Data Engineering.md"
               }
             }
           },
@@ -204,15 +205,15 @@
   },
   "active": "511e60afa9d7acb4",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "MLOps Roadmap.md",
-    "Data Science/Statistical Property Testing For Generative Models.md",
-    "Data Science/Naive Bayes classifier.md",
+    "Data Engineering/Database Fundamentals.md",
     "Data Science.md",
+    "MLOps Roadmap.md",
+    "Data Engineering.md",
+    "Data Science/Statistical Property Testing For Generative Models.md",
+    "conflict-files-obsidian-git.md",
+    "Data Science/Naive Bayes classifier.md",
     "Statistics.md",
     "README.md",
-    "Database Fundamentals.md",
-    "Data engineering.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Fleeting Notes/Untitled.md",
     "templates/Fleeting Note.md",
