@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cae88d8d2c787948",
+        "id": "05684dd4c1f6dcae",
         "type": "tabs",
         "children": [
           {
-            "id": "647438bc5c77919b",
+            "id": "15c0cb3db82ad38d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,34 +175,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "647438bc5c77919b",
+  "active": "15c0cb3db82ad38d",
   "lastOpenFiles": [
-    "templates/General Note.md",
+    "Statistics.md",
+    "MLOps Roadmap.md",
+    "MLOps.md",
+    "Data Engineering.md",
+    "Data Science.md",
     "Untitled.md",
+    "Data Science/LSTM.md",
+    "Data Science/kernel Methods.md",
+    "Data Science/Hopfield Networks.md",
+    "Data Science/Handling Missing Values.md",
+    "Data Science/Bayesian Inference.md",
+    "Data Science/Anomaly Detection.md",
+    "Software Development/Reactive Programming.md",
+    "assets/Kubernetes_Cluster.svg",
+    "templates/General Note.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
-    "MLOps Roadmap.md",
-    "MLOps.md",
     "Statistics/Copula.md",
-    "Data Science.md",
     "Data Science/Naive Bayes classifier.md",
     "Data Science/tf-idf.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Data Engineering/Database Fundamentals.md",
-    "Statistics.md",
-    "Data Engineering.md",
     "conflict-files-obsidian-git.md",
-    "README.md",
-    "Fleeting Notes/Untitled.md",
-    "templates/Fleeting Note.md",
-    "templates/monthly notes.md",
-    "templates/weekly notes.md",
-    "Notes/Weekly/2023/04-April/2023-W16.md",
-    "Data Science/Time Series to Supervised Learning.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
@@ -222,7 +223,6 @@
     "assets/LSTM3-focus-C.png",
     "assets/LSTM3-focus-i.png",
     "assets/LSTM3-focus-f.png",
-    "assets/LSTM3-chain.png",
     "Untitled.canvas"
   ]
 }

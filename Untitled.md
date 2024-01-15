@@ -13,4 +13,12 @@ Kubernetes will coordinate highly available clusters which are connected to work
 
 A cluster will consist of two types of resource:
 - The **Control Plane** which coordinates the cluster
-- **Nodes** are teh workers that run applications
+- **Nodes** are the workers that run applications. 
+
+![[Kubernetes_Cluster.svg]]
+The **Control Plane** is responsible for managing the cluster such as:
+scheduling applications, maintaining applications state, scaling and rolling out new updates.
+
+A **Node** is a VM or a physical computer that serves as a worker machine. Each node has a **Kubelet** which is an agent to communicate with the control plane. The node also has tools for handling container operations, such as [[containerd]] or [[CRI-O]].
+
+As a rule, a production setup should have at least 3 nodes.
