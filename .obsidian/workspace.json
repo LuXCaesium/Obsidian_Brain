@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Kubernetes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Kubernetes.md"
               }
             }
           },
@@ -175,14 +175,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "15c0cb3db82ad38d",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
     "Statistics.md",
     "MLOps Roadmap.md",
     "MLOps.md",
     "Data Engineering.md",
     "Data Science.md",
-    "Untitled.md",
+    "Kubernetes.md",
     "Data Science/LSTM.md",
     "Data Science/kernel Methods.md",
     "Data Science/Hopfield Networks.md",

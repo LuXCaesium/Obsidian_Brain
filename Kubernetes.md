@@ -22,3 +22,5 @@ scheduling applications, maintaining applications state, scaling and rolling out
 A **Node** is a VM or a physical computer that serves as a worker machine. Each node has a **Kubelet** which is an agent to communicate with the control plane. The node also has tools for handling container operations, such as [[containerd]] or [[CRI-O]].
 
 As a rule, a production setup should have at least 3 nodes.
+
+When deploying an application, you tell the control plane to start it which will then be scheduled on the nodes. Minikube is an example of a single node kubernetes implementation.
