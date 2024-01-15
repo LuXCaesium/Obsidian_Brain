@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6e87d8b12f4dbc7c",
+        "id": "cae88d8d2c787948",
         "type": "tabs",
         "children": [
           {
-            "id": "367e3afe6fe67bc4",
+            "id": "647438bc5c77919b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MLOps Roadmap.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MLOps Roadmap.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MLOps Roadmap.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MLOps Roadmap.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -175,20 +175,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "367e3afe6fe67bc4",
+  "active": "647438bc5c77919b",
   "lastOpenFiles": [
-    "MLOps.md",
-    "MLOps Roadmap.md",
-    "Statistics/Copula.md",
+    "templates/General Note.md",
+    "Untitled.md",
+    "Statistics/Quantile Regression.md",
+    "Statistics/Mahalanobis Distance.md",
+    "Statistics/Hotelling's T-squared distribution.md",
+    "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
+    "MLOps Roadmap.md",
+    "MLOps.md",
+    "Statistics/Copula.md",
     "Data Science.md",
     "Data Science/Naive Bayes classifier.md",
     "Data Science/tf-idf.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
-    "Statistics/Directed Graphs and Conditional Independence.md",
-    "Statistics/Hotelling's T-squared distribution.md",
-    "Statistics/Quantile Regression.md",
-    "Statistics/Mahalanobis Distance.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Data Engineering/Database Fundamentals.md",
     "Statistics.md",
@@ -197,12 +199,10 @@
     "README.md",
     "Fleeting Notes/Untitled.md",
     "templates/Fleeting Note.md",
-    "templates/General Note.md",
     "templates/monthly notes.md",
     "templates/weekly notes.md",
     "Notes/Weekly/2023/04-April/2023-W16.md",
     "Data Science/Time Series to Supervised Learning.md",
-    "Data Engineering/Database Internals/Database Internals.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
