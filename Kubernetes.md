@@ -24,3 +24,11 @@ A **Node** is a VM or a physical computer that serves as a worker machine. Each 
 As a rule, a production setup should have at least 3 nodes.
 
 When deploying an application, you tell the control plane to start it which will then be scheduled on the nodes. Minikube is an example of a single node kubernetes implementation.
+
+### Kubernetes Deployments
+
+A kubernetes **Deployment** instructs kubernetes how to create and update instances of the app. The control plane schedules the app instances included in the deployment to run on individual nodes in the cluster
+
+Kubernetes Deployment controller continuously monitors the app instance, so if a node goes down a new instance is created on a new node.
+
+![[Kubernetes_Deployment.svg]]

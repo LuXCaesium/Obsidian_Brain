@@ -175,8 +175,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "15c0cb3db82ad38d",
   "lastOpenFiles": [
+    "assets/Kubernetes_Deployment.svg",
     "Statistics.md",
     "MLOps Roadmap.md",
     "MLOps.md",
@@ -203,7 +204,6 @@
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Engineering/Arrow-optimised Python UDFs.md",
     "Data Engineering/Database Fundamentals.md",
-    "conflict-files-obsidian-git.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
