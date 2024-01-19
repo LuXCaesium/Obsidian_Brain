@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes.md"
+                "file": "Data Science/Statistical Property Testing For Generative Models.md"
               }
             }
           },
@@ -177,13 +177,13 @@
   },
   "active": "15c0cb3db82ad38d",
   "lastOpenFiles": [
+    "Kubernetes.md",
     "assets/Kubernetes_Deployment.svg",
     "Statistics.md",
     "MLOps Roadmap.md",
     "MLOps.md",
     "Data Engineering.md",
     "Data Science.md",
-    "Kubernetes.md",
     "Data Science/LSTM.md",
     "Data Science/kernel Methods.md",
     "Data Science/Hopfield Networks.md",
@@ -222,7 +222,6 @@
     "assets/LSTM3-focus-o.png",
     "assets/LSTM3-focus-C.png",
     "assets/LSTM3-focus-i.png",
-    "assets/LSTM3-focus-f.png",
     "Untitled.canvas"
   ]
 }
