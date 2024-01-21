@@ -29,4 +29,12 @@ Where $\hat{y}_{R_j}$ is the mean response for the training observations within 
 We take a *top-down*, *greedy* approach as its infeasible to consider every possible partition of the features space into $J$ boxes. *top-down* as we start at the top of the tree successively splitting the space, and *greedy* as we choose the best split at each step, not looking ahead for the best split in consideration of future steps.
 
 1. Select the predictor $X_j$ and the cutpoint $s$ such that splitting the predictor space into regions $\{X | X_j < s\}$ and $\{X | X_j \geq s\}$ leads to greatest reduction in RSS.
-2. 
+2. Repeat the above, but instead split one of the two previously defined regions.
+3. We continue this process until we reach a defined stopping criterion. Say until no region contains more than 5 observations.
+
+### Pruning a Tree
+The above process is likely to cause [[Overfitting]]. A smaller tree, with fewer splits might leaf to lower variance and better interpretation at the cost of a little bias.
+
+An alternative is to grow the tree so long as the decrease in the RSS due to each split exceeds some *high* threshold. This results in smaller trees, but is too *short-sighted*: a worthless early slit might be followed by a very good split. This is a problem with the *greedy* aspect.
+
+To improve we grow a large tree $T_0$, and then *prune* it back in order to obtain a *subtree*. We use *Cost complexity pruning*, or *weakest link pruning* to do this.
