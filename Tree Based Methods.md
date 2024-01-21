@@ -38,3 +38,13 @@ The above process is likely to cause [[Overfitting]]. A smaller tree, with fewer
 An alternative is to grow the tree so long as the decrease in the RSS due to each split exceeds some *high* threshold. This results in smaller trees, but is too *short-sighted*: a worthless early slit might be followed by a very good split. This is a problem with the *greedy* aspect.
 
 To improve we grow a large tree $T_0$, and then *prune* it back in order to obtain a *subtree*. We use *Cost complexity pruning*, or *weakest link pruning* to do this.
+
+Consider a sequence of trees indexed by tuning parameter $\alpha > 0$. For each $\alpha$ there corresponds a subtree $T \subset T_0$ such that:
+
+$$\sum_{m=1}^{|T|} \sum_{x_i \in R_m} (y_i - \hat{y}_{R_m})^2 + \alpha|T|$$
+
+is as small as possible. $|T|$ indicates the number of terminal node of the tree $T$, $R_m$ is the rectangle of the mth terminal node, and $\hat{y}_{R_m}$ is the mean of the training observations in $R_m$.
+
+Over all the terminal nodes in tree T, we take the RSS of the region $R_m$ of the terminal node $m$.
+The tuning parameter $\alpha$ controls a trade-off between the subtree's complexity and its fit to the training data.
+Select the optimal $\hat{\alpha}$ using cross-validation.
