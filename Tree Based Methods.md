@@ -23,4 +23,10 @@ Decision trees can be applied to both regression and classification problems, he
 - In theory, the regions could have any shape. But here we choose boxes for ease of interpretation.
 
  - The goal is to find boxes $R_1, \dots, R_J$ that minimise the RSS (Residual Sum of Squares), given by:
-		$$ \sum^{J}_{j=1} \sum_{i \in R_j}(y_i - \hat{y_{R_j}})$$
+		$$ \sum^{J}_{j=1} \sum_{i \in R_j}(y_i - \hat{y}_{R_j})^2$$
+Where $\hat{y}_{R_j}$ is the mean response for the training observations within the $j^{th}$ box.
+
+We take a *top-down*, *greedy* approach as its infeasible to consider every possible partition of the features space into $J$ boxes. *top-down* as we start at the top of the tree successively splitting the space, and *greedy* as we choose the best split at each step, not looking ahead for the best split in consideration of future steps.
+
+1. Select the predictor $X_j$ and the cutpoint $s$ such that splitting the predictor space into regions $\{X | X_j < s\}$ and $\{X | X_j \geq s\}$ leads to greatest reduction in RSS.
+2. 
