@@ -48,3 +48,14 @@ is as small as possible. $|T|$ indicates the number of terminal node of the tree
 Over all the terminal nodes in tree T, we take the RSS of the region $R_m$ of the terminal node $m$.
 The tuning parameter $\alpha$ controls a trade-off between the subtree's complexity and its fit to the training data.
 Select the optimal $\hat{\alpha}$ using cross-validation.
+
+### Summary: Tree Algorithm
+In culmination of the previous discussion we end up with the following algorithm to build the most optimal tree.
+
+1. Use recursive binary splitting to grow a large tree on training data, stopping when each terminal node has fewer than some minimum number of observations.
+2. Apply cost complexity pruning to obtain a sequence of best subtrees, as a function of $\alpha$.
+3. Use K-fold cross-validation to choose $\alpha$. For each $k=1, \dots, K$:
+	1. Repeat steps 1, 2 on the $\frac{K-1}{K}$ th fraction of the training data, excluding $kth$ fold
+	2. Evaluate mean squared prediction error on the data in the kth fold, as a function of $\alpha$
+	3. Average the results, and pick $\alpha$ to minimise average error.
+4. Return subtree from step 2 that corresponds to the chosen value of $\alpha$.
