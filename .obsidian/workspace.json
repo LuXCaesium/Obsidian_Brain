@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "05684dd4c1f6dcae",
+        "id": "37ac173b6135c178",
         "type": "tabs",
         "children": [
           {
-            "id": "15c0cb3db82ad38d",
+            "id": "a88db25cff9a36be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "786116c9210080c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tree Based Methods.md",
+                "file": "Optimisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tree Based Methods.md",
+                "file": "Optimisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tree Based Methods.md",
+                "file": "Optimisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tree Based Methods.md"
+                "file": "Optimisation.md"
               }
             }
           },
@@ -190,11 +175,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "786116c9210080c0",
+  "active": "a88db25cff9a36be",
   "lastOpenFiles": [
-    "Statistics.md",
-    "Tree Based Methods.md",
+    "README.md",
+    "Optimisation.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
+    "Tree Based Methods.md",
+    "Statistics.md",
     "Kubernetes.md",
     "assets/Kubernetes_Deployment.svg",
     "MLOps Roadmap.md",
@@ -218,8 +205,6 @@
     "Statistics/Copula.md",
     "Data Science/Naive Bayes classifier.md",
     "Data Science/tf-idf.md",
-    "Data Engineering/Arrow-optimised Python UDFs.md",
-    "Data Engineering/Database Fundamentals.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
