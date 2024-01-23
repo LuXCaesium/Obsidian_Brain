@@ -28,7 +28,7 @@ Examples:
 [[Bisection Method]]
 #### Local Descent Algorithms
 
-
+- Intended for multi variable problems, and a single global optima.
 #### First-Order Algorithms
 
 #### Second-Order Algorithms
