@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99815049cadad775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Crafting Tech Specs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Copula.md",
+                "file": "Crafting Tech Specs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Copula.md",
+                "file": "Crafting Tech Specs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Copula.md"
+                "file": "Crafting Tech Specs.md"
               }
             }
           },
@@ -174,15 +188,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b3a5eb397220bc9c",
+  "active": "99815049cadad775",
   "lastOpenFiles": [
+    "Data engineering.md",
+    "Crafting Tech Specs.md",
+    "Statistics/Copula.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
-    "Statistics/Copula.md",
-    "Data engineering.md",
     "Data Science.md",
     "MLOps Roadmap.md",
     "README.md",
@@ -202,7 +217,6 @@
     "Fleeting Notes/Untitled.md",
     "templates/monthly notes.md",
     "templates/weekly notes.md",
-    "Notes/Weekly/2023/04-April/2023-W16.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
