@@ -1,5 +1,5 @@
 ---
-created: <% tp.file.creation_date() %>
+created: 2024-01-14 23:38
 tags:
   - Statistics
   - MachineLearning

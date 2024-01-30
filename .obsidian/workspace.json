@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3a5eb397220bc9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Copula.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99815049cadad775",
+            "id": "3b0ba222707d0312",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crafting Tech Specs.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crafting Tech Specs.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Crafting Tech Specs.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -188,19 +174,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "99815049cadad775",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
-    "Data engineering.md",
     "Crafting Tech Specs.md",
+    "conflict-files-obsidian-git.md",
+    "MLOps Roadmap.md",
+    "README.md",
+    "MLOps.md",
+    "Data Engineering.md",
+    "Data Science.md",
     "Statistics/Copula.md",
+    "assets/Kubernetes_Deployment.svg",
+    "assets/Kubernetes_Cluster.svg",
+    "Tree Based Methods.md",
+    "Optimisation.md",
+    "Kubernetes.md",
+    "Data Science/Naive Bayes classifier.md",
+    "Data Engineering/Database Fundamentals.md",
+    "Data engineering.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
-    "Data Science.md",
-    "MLOps Roadmap.md",
-    "README.md",
     "Statistics.md",
     "Database Fundamentals.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
@@ -209,14 +205,6 @@
     "LINK 1.md",
     "Untitled.canvas",
     "templates/Fleeting Note.md",
-    "templates/General Note.md",
-    "Docker.md",
-    "Data Science/Anomaly Detection.md",
-    "Data Engineering/Database Internals/Database Internals.md",
-    "Data Engineering/Arrow-optimised Python UDFs.md",
-    "Fleeting Notes/Untitled.md",
-    "templates/monthly notes.md",
-    "templates/weekly notes.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
@@ -234,8 +222,6 @@
     "assets/LSTM3-var-peepholes.png",
     "assets/LSTM3-focus-o.png",
     "assets/LSTM3-focus-C.png",
-    "assets/LSTM3-focus-i.png",
-    "assets/LSTM3-focus-f.png",
-    "assets/LSTM3-chain.png"
+    "assets/LSTM3-focus-i.png"
   ]
 }
