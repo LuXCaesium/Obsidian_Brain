@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Crafting Tech Specs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Crafting Tech Specs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Crafting Tech Specs.md"
               }
             }
           },
@@ -174,14 +174,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "3b0ba222707d0312",
   "lastOpenFiles": [
+    "Data Engineering.md",
     "Crafting Tech Specs.md",
     "conflict-files-obsidian-git.md",
     "MLOps Roadmap.md",
     "README.md",
     "MLOps.md",
-    "Data Engineering.md",
     "Data Science.md",
     "Statistics/Copula.md",
     "assets/Kubernetes_Deployment.svg",

@@ -24,7 +24,7 @@ This includes:
 ### Process
 There are three main phases for crafting tech specs:
 
-- **Collect**: all requirements are collected into a *Requirements Document*. Take a design-first approach and initial designs/wireframes should be included.
+- **Collect**: all requirements are collected into a *Requirements Document*. Take a design-first approach and initial designs wire-frames should be included.
 - **Assess**: engineering team & stakeholders review requirements for clarity & alignment with potential technical solutions. A live Tech Specs draft is created to document findings & proposed solutions.
 - **Agree**: following the output of the previous phase, when the full doc is ready, its time to agree and start the implementation 
 
