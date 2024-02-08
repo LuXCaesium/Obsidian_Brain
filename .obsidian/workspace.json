@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "37ac173b6135c178",
+        "id": "0cdbeaf390fdc595",
         "type": "tabs",
         "children": [
           {
-            "id": "a88db25cff9a36be",
+            "id": "3b0ba222707d0312",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Crafting Tech Specs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DataScience",
+                "query": "tag:#MLOps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Crafting Tech Specs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Crafting Tech Specs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,21 +129,21 @@
             }
           },
           {
-            "id": "78a4ed779dfeacf0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Optimisation.md"
-              }
-            }
-          },
-          {
             "id": "3ce085e62ef1f8f7",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "78a4ed779dfeacf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Crafting Tech Specs.md"
+              }
             }
           },
           {
@@ -155,12 +155,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,36 +174,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a88db25cff9a36be",
+  "active": "3b0ba222707d0312",
   "lastOpenFiles": [
-    "README.md",
-    "Optimisation.md",
-    "Data Science/Statistical Property Testing For Generative Models.md",
-    "Tree Based Methods.md",
-    "Statistics.md",
-    "Kubernetes.md",
-    "assets/Kubernetes_Deployment.svg",
-    "MLOps Roadmap.md",
-    "MLOps.md",
     "Data Engineering.md",
+    "Crafting Tech Specs.md",
+    "conflict-files-obsidian-git.md",
+    "MLOps Roadmap.md",
+    "README.md",
+    "MLOps.md",
     "Data Science.md",
-    "Data Science/LSTM.md",
-    "Data Science/kernel Methods.md",
-    "Data Science/Hopfield Networks.md",
-    "Data Science/Handling Missing Values.md",
-    "Data Science/Bayesian Inference.md",
-    "Data Science/Anomaly Detection.md",
-    "Software Development/Reactive Programming.md",
+    "Statistics/Copula.md",
+    "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
-    "templates/General Note.md",
+    "Tree Based Methods.md",
+    "Optimisation.md",
+    "Kubernetes.md",
+    "Data Science/Naive Bayes classifier.md",
+    "Data Engineering/Database Fundamentals.md",
+    "Data engineering.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
-    "Statistics/Copula.md",
-    "Data Science/Naive Bayes classifier.md",
-    "Data Science/tf-idf.md",
+    "Statistics.md",
+    "Database Fundamentals.md",
+    "Data Science/Statistical Property Testing For Generative Models.md",
+    "TESTING.md",
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "LINK 1.md",
+    "Untitled.canvas",
+    "templates/Fleeting Note.md",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
@@ -222,7 +222,6 @@
     "assets/LSTM3-var-peepholes.png",
     "assets/LSTM3-focus-o.png",
     "assets/LSTM3-focus-C.png",
-    "assets/LSTM3-focus-i.png",
-    "Untitled.canvas"
+    "assets/LSTM3-focus-i.png"
   ]
 }
