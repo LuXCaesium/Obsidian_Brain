@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0cdbeaf390fdc595",
+        "id": "a79544228733bc1c",
         "type": "tabs",
         "children": [
           {
-            "id": "3b0ba222707d0312",
+            "id": "e287b0a76e3622fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Crafting Tech Specs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MLOps",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crafting Tech Specs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crafting Tech Specs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,21 +122,19 @@
             }
           },
           {
+            "id": "78a4ed779dfeacf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
             "id": "3ce085e62ef1f8f7",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
-            }
-          },
-          {
-            "id": "78a4ed779dfeacf0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Crafting Tech Specs.md"
-              }
             }
           },
           {
@@ -155,11 +146,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,37 +166,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3b0ba222707d0312",
+  "active": "e287b0a76e3622fc",
   "lastOpenFiles": [
+    "Data Science/Time Series.md",
+    "Data Science/Time Series to Supervised Learning.md",
+    "Data Science/Bayesian Inference.md",
+    "Data Science/Handling Missing Values.md",
+    "Data Science/Hopfield Networks.md",
+    "Data Science/kernel Methods.md",
+    "Data Science/LSTM.md",
+    "Data Science/Managing machine learning infrastructure as code with Terraform.md",
+    "Data Science/Naive Bayes classifier.md",
+    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
+    "Data Science/Recurrent Neural Networks.md",
+    "Data Science/Statistical Property Testing For Generative Models.md",
+    "Data Science/Model Evaluation.md",
+    "Statistics.md",
+    "Tree Based Methods.md",
+    "MLOps Roadmap.md",
+    "MLOps.md",
+    "Kubernetes.md",
+    "Data Science.md",
     "Data Engineering.md",
     "Crafting Tech Specs.md",
-    "conflict-files-obsidian-git.md",
-    "MLOps Roadmap.md",
-    "README.md",
-    "MLOps.md",
-    "Data Science.md",
-    "Statistics/Copula.md",
-    "assets/Kubernetes_Deployment.svg",
-    "assets/Kubernetes_Cluster.svg",
-    "Tree Based Methods.md",
-    "Optimisation.md",
-    "Kubernetes.md",
-    "Data Science/Naive Bayes classifier.md",
-    "Data Engineering/Database Fundamentals.md",
-    "Data engineering.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
-    "Statistics.md",
-    "Database Fundamentals.md",
-    "Data Science/Statistical Property Testing For Generative Models.md",
-    "TESTING.md",
-    "Data Science/Nearest-Neighbour with Dynamic Warping.md",
-    "LINK 1.md",
-    "Untitled.canvas",
-    "templates/Fleeting Note.md",
+    "assets/Kubernetes_Deployment.svg",
+    "assets/Kubernetes_Cluster.svg",
     "Data Engineering/Database Internals",
     "assets/BST.png",
     "MLE",
@@ -222,6 +213,7 @@
     "assets/LSTM3-var-peepholes.png",
     "assets/LSTM3-focus-o.png",
     "assets/LSTM3-focus-C.png",
-    "assets/LSTM3-focus-i.png"
+    "assets/LSTM3-focus-i.png",
+    "Untitled.canvas"
   ]
 }
