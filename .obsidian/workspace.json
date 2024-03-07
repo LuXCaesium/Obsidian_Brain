@@ -11,8 +11,13 @@
             "id": "e287b0a76e3622fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Crafting Tech Specs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Crafting Tech Specs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Crafting Tech Specs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Crafting Tech Specs.md"
+              }
             }
           },
           {
@@ -162,12 +171,13 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "e287b0a76e3622fc",
   "lastOpenFiles": [
+    "Data Engineering.md",
     "Data Science/Time Series.md",
     "Data Science/Time Series to Supervised Learning.md",
     "Data Science/Bayesian Inference.md",
@@ -187,7 +197,6 @@
     "MLOps.md",
     "Kubernetes.md",
     "Data Science.md",
-    "Data Engineering.md",
     "Crafting Tech Specs.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
