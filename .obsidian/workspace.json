@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Multivariate Analysis.md",
+                "file": "Optimisation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Multivariate Analysis.md",
+                "file": "Optimisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Multivariate Analysis.md",
+                "file": "Optimisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Multivariate Analysis.md"
+                "file": "Optimisation.md"
               }
             }
           },
@@ -191,9 +191,11 @@
   },
   "active": "87d6fbc6162180df",
   "lastOpenFiles": [
-    "MLOps.md",
-    "Statistics/Multivariate Analysis.md",
     "MLOps Roadmap.md",
+    "MLOps.md",
+    "Statistics/Mahalanobis Distance.md",
+    "Statistics/Hotelling's T-squared distribution.md",
+    "Statistics/Multivariate Analysis.md",
     "Kubernetes.md",
     "Optimisation.md",
     "Data Science.md",
@@ -215,8 +217,6 @@
     "Data Science/Model Evaluation.md",
     "Statistics.md",
     "Statistics/Quantile Regression.md",
-    "Statistics/Mahalanobis Distance.md",
-    "Statistics/Hotelling's T-squared distribution.md",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
     "Data Engineering/Database Internals",
