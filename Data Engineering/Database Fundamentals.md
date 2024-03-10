@@ -69,7 +69,13 @@ To maintain durability, the action of writing data to memory is stored in a WAL 
 
 Deletions are also appended in the same way a write would be, but it simply holds a tombstone instead of a value. Tombstones are then deleted in the compaction process. 
 
-Reading data is where we introduce some unwanted latency. For a given key, if not found in the in memory data structure we must search through all the SSTables
+Reading data is where we introduce some unwanted latency. For a given key, if not found in the in memory data structure we must search through all the SSTables with lookup time complexity:
+
+$$\log( \text{num files} * \text{table size}) < \text{num files} * \log(\text{table size})$$
+
+And so compaction, combining small SSTables into a big one, whilst removing all tombstones significantly speeds up this lookup process. This process can be implimented with binary heap/priority queues. 
+
+Optimising this further, we want to consider when and on which SSTables to compact. *RocksDB* implements a Levelled Compaction, where newly flushed SSTables enter level0, and once a configured N number of files are create in that level, they are compacted and the new files in promoted to the next level. 
 
 #### Bloom Filters
 
