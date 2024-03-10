@@ -81,6 +81,8 @@ Optimising this further, we want to consider when and on which SSTables to compa
 
 A probabilistic set data structure that lets you efficiently check whether an item doesn't exist in a set. A bloom filter set has space complexity $\mathcal{O}(\log(n))$
 
+We run multiple hash functions of a given key, then take the results and store 1 in the corresponding bit $\text{result} \% \text{number of bits}$. This will give the bloom filter set. Then to check a key, we run the previous process then check whether there is a 0 or a 1 in the bloom filter set. If there is a 0 it definitely does not exist, but if there is a 1 its possible it exists. 
+
 ### Write Ahead log
 
 ### Isolation
