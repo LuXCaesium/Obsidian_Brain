@@ -79,6 +79,8 @@ Optimising this further, we want to consider when and on which SSTables to compa
 
 #### Bloom Filters
 
+A probabilistic set data structure that lets you efficiently check whether an item doesn't exist in a set. A bloom filter set has space complexity $\mathcal{O}(\log(n))$
+
 ### Write Ahead log
 
 ### Isolation
