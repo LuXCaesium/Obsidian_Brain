@@ -65,11 +65,11 @@ The append only data structure LSM *Log Structured Merge tree* is used by many m
 
 The general idea is to buffer writes to a data structure in memory, one that is easy to iterate (*AVL tree*, *Red Black tree*, *Skip List*) and once it reaches some capacity, flush it to a file called SSTable (*Sorted String Table*).  This table stores sorted data, letting us use binary search and sparse indexes to lower disk I/O.
 
-To maintain durability, the action writing data to memory is stored in a WAL *Write-Ahead Log* so that the program can reset the state if there is a shutdown or crash. 
+To maintain durability, the action of writing data to memory is stored in a WAL *Write-Ahead Log* so that the program can reset the state if there is a shutdown or crash. 
 
 Deletions are also appended in the same way a write would be, but it simply holds a tombstone instead of a value. Tombstones are then deleted in the compaction process. 
 
-
+Reading data is where we introduce some unwanted latency. For a given key, if not found in the in memory data structure we must search through all the SSTables
 
 #### Bloom Filters
 

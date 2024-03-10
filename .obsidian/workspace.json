@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Data Engineering/Database Fundamentals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Data Engineering/Database Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Data Engineering/Database Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimisation.md"
+                "file": "Data Engineering/Database Fundamentals.md"
               }
             }
           },
@@ -189,18 +190,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "87d6fbc6162180df",
+  "active": "2750e0cbb15aa7b2",
   "lastOpenFiles": [
+    "Data Engineering.md",
+    "Optimisation.md",
     "MLOps Roadmap.md",
     "MLOps.md",
     "Statistics/Mahalanobis Distance.md",
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Multivariate Analysis.md",
     "Kubernetes.md",
-    "Optimisation.md",
     "Data Science.md",
     "Data Science/Tree Based Methods.md",
-    "Data Engineering.md",
     "Crafting Tech Specs.md",
     "Data Science/Time Series.md",
     "Data Science/Time Series to Supervised Learning.md",
