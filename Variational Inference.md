@@ -80,5 +80,6 @@ $KL(q||p)$ which is called *information projection* is infinite if $p(x)=0$ and 
 On the other hand, $KL(p||q)$ called *moment projection* is infinite if $q(x)=0$ and $p(x)>0$. So if $p(x)>0$ we must have $q(x)>0$. We say $KL(p||q)$ is zero-avoiding for $q$ and it will typically over-estimate the support of $p$.
 
 ![](assets/kldiv.png)
+*Fitting a unimodal approximating distribution q (red) to a multimodal p (blue). Using KL(p||q) leads to a q that tries to cover both modes (a). However, using KL(q||p) forces q to choose one of the two modes of p (b, c).*
 
 Due to the properties that we just described, we often call $KL(p||q)$ the _inclusive_ KL divergence, while $KL(q||p)$ is the _exclusive_ KL divergence.
