@@ -70,3 +70,5 @@ $$\log Z(\theta) \geq \mathbb{E}_{q(x)}[\log \tilde{p}(x) - \log q(x)]$$
 So the difference between $\log Z(\theta)$ and $-J(q)$ is precisely $KL(q||p)$. So maximising the evidence lower bound we are minimising $KL(q||p)$ by squeezing it between $-J(q)$ and $\log z(\theta)$
 
 ## On the choice of KL divergence
+
+Why choose $KL(q||p)$ over $KL(p||q)$ ? well firstly $KL(p||q)$ requires that for optimisaition we must calculate a
