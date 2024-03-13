@@ -11,13 +11,8 @@
             "id": "060de55c9f503cdd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Variational Inference.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variational Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variational Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Variational Inference.md"
-              }
+              "state": {}
             }
           },
           {
@@ -177,8 +169,8 @@
   },
   "active": "060de55c9f503cdd",
   "lastOpenFiles": [
-    "Data Science.md",
     "Variational Inference.md",
+    "Data Science.md",
     "Data Engineering.md",
     "Optimisation.md",
     "MLOps Roadmap.md",

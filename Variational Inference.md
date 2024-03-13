@@ -8,3 +8,5 @@ tags:
 ---
 
 # Variational Inference
+
+As apposed to [[sampling methods]] 
