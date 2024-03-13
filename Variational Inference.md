@@ -50,3 +50,21 @@ Optimising $KL(q||p)$ directly is not possible due to $Z(\theta)$ so instead we 
 $\tilde{p}(x) = \prod_{k}\phi_k(x_k;\theta)$
 
 $$J(q) = \sum_{x}{q(x) \log{\frac{q(x)}{\tilde{p}(x)}}}$$
+this has the following important property:
+$$
+J(q) = \sum_{x}{q(x) \log{\frac{q(x)}{\tilde{p}(x)}}}\\
+= 1
+$$
+
+$$
+\begin{eqnarray}
+J(q) &=& \sum_{x}{q(x) \log{\frac{q(x)}{\tilde{p}(x)}}}\\
+&=& \sum_{x}{q(x) \log{\frac{q(x)}{p(x)}}} - \log Z(\theta)\\
+&=& KL(q||p) - \log Z(\theta)
+\end{eqnarray}
+$$
+
+Since $KL(q||p) \geq 0$ we get:
+$$\log Z(\theta) = KL(q||p) - J(q) \geq -J(q)$$
+
+Hence $-J(q)$ is a *lower bound* on the log partition function $\log Z(\theta)$.
