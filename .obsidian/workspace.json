@@ -178,6 +178,7 @@
   },
   "active": "39a2ed989ec0f3c4",
   "lastOpenFiles": [
+    "Data Science/Anomaly Detection.md",
     "Variational Inference.md",
     "Data Science.md",
     "Data Engineering.md",
@@ -203,7 +204,6 @@
     "Data Science/Recurrent Neural Networks.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Science/Model Evaluation.md",
-    "Statistics.md",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
     "Data Engineering/Database Internals",

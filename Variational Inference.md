@@ -26,4 +26,12 @@ Main differences between sampling & variational techniques:
 - We will always know if they have converged, and even have bounds on the accuracy.
 - Variational methods can often scale better in practice.
 
-## Ku
+## The Kullback-Leibler Divergence
+
+To formulate inference as an optimisation problem, we need to choose an approximating family $\mathcal{Q}$ and an optimisation objective $J(q)$. This objective needs to capture the similarity between $q$ and $p$ and the [[Kullback Leibler Divergence]] is a tool for this.
+
+Formally the KL divergence between two distributions $q$ and $p$ with discrete support is:
+
+$$KL(q||p) = \sum_{x}{q(x)\log{\frac{q(x)}{p(x)}}}$$
+- $KL(q||p) \geq 0 \quad \forall q,p$
+- $KL(q||p) = 0 \quad iff q=p$
