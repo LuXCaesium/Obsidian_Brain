@@ -44,4 +44,9 @@ Now how do we perform variational inference with KL divergence. We firstly fix a
 
 $$p(x_1, \dots, x_n; \theta) = \frac{\tilde{p}(x_1, \dots, x_n; \theta)}{Z(\theta)} = \frac{1}{Z(\theta)}\prod_k \phi_k(x_k;\theta)$$
 
-Where $\phi_k$ are the factors and $Z(\theta)$
+Where $\phi_k$ are the factors and $Z(\theta)$ the normalising constant. The formalisation captures all the distributions such as marginal distributions of directed models $p(x|e)=\frac{p(x,e)}{p(e)}$ with evidence $e$.
+
+Optimising $KL(q||p)$ directly is not possible due to $Z(\theta)$ so instead we work with the following:
+$\tilde{p}(x) = \prod_{k}\phi_k(x_k;\theta)$
+
+$$J(q) = \sum_{x}{q(x) \log{\frac{q(x)}{\tilde{p}(x)}}}$$
