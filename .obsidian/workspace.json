@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "14ed0ea91de6d846",
+        "id": "7836ab4b5d241c17",
         "type": "tabs",
         "children": [
           {
-            "id": "060de55c9f503cdd",
+            "id": "39a2ed989ec0f3c4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Variational Inference.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Variational Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Variational Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Variational Inference.md"
+              }
             }
           },
           {
@@ -167,7 +176,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "060de55c9f503cdd",
+  "active": "39a2ed989ec0f3c4",
   "lastOpenFiles": [
     "Variational Inference.md",
     "Data Science.md",
