@@ -67,4 +67,8 @@ $$
 Since $KL(q||p) \geq 0$ we get:
 $$\log Z(\theta) = KL(q||p) - J(q) \geq -J(q)$$
 
-Hence $-J(q)$ is a *lower bound* on the log partition function $\log Z(\theta)$.
+Hence $-J(q)$ is the *variational lower bound* or *evidence lower bound* on the log partition function $\log Z(\theta)$. Often written in the form:
+
+$$\log Z(\theta) \geq \mathbb{E}_{q(x)}[\log \tilde{p}(x) - \log q(x)]$$
+
+So the difference between $\log Z(\theta)$ and $-J(q)$ is precisely
