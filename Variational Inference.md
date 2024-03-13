@@ -71,4 +71,14 @@ So the difference between $\log Z(\theta)$ and $-J(q)$ is precisely $KL(q||p)$. 
 
 ## On the choice of KL divergence
 
-Why choose $KL(q||p)$ over $KL(p||q)$ ? well firstly $KL(p||q)$ requires that for optimisaition we must calculate a
+Why choose $KL(q||p)$ over $KL(p||q)$ ? well firstly $KL(p||q)$ requires that for optimisation we must calculate an expectation with respect to $p$ which his intractable computationally.
+
+However, choosing this particular divergence affects the returned solution when the approximating family $\mathcal{Q}$ does not contain the true $p$.
+
+$KL(q||p)$ which is called *information projection* is infinite if $p(x)=0$ and $q(x)>0$. So if $p(x)=0$ we must have $q(x)=0$. We say that $KL(q||p)$ os zero-forcing for $q$ and it will typically under-estimate the support of $p$.
+
+On the other hand, $KL(p||q)$ called *moment projection* is infinite if $q(x)=0$ and $p(x)>0$. So if $p(x)>0$ we must have $q(x)>0$. We say $KL(p||q)$ is zero-avoiding for $q$ and it will typically over-estimate the support of $p$.
+
+![](assets/kldiv.png)
+
+Due to the properties that we just described, we often call $KL(p||q)$ the _inclusive_ KL divergence, while $KL(q||p)$ is the _exclusive_ KL divergence.
