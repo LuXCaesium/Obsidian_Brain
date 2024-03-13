@@ -34,4 +34,14 @@ Formally the KL divergence between two distributions $q$ and $p$ with discrete s
 
 $$KL(q||p) = \sum_{x}{q(x)\log{\frac{q(x)}{p(x)}}}$$
 - $KL(q||p) \geq 0 \quad \forall q,p$
-- $KL(q||p) = 0 \quad iff q=p$
+- $KL(q||p) = 0 \quad \Leftrightarrow q=p$
+
+NB: $KL(q||p) \neq KL(p||q)$
+
+## The Variational Lower Bound
+
+Now how do we perform variational inference with KL divergence. We firstly fix a form for p. We'll assume that p is a general (discrete) undirected model of the form:
+
+$$p(x_1, \dots, x_n; \theta) = \frac{\tilde{p}(x_1, \dots, x_n; \theta)}{Z(\theta)} = \frac{1}{Z(\theta)}\prod_k \phi_k(x_k;\theta)$$
+
+Where $\phi_k$ are the factors and $Z(\theta)$
