@@ -92,6 +92,11 @@ One of the most popular choices when optimising the variational bound is simply 
 
 $$\min_{q_1,\dots,q_n}J(q)$$
 
-[[Coordinate Descent]] is the standard way of performing this optimisation. We iterate over $j=1,2,\dots,n$ and for each $j$ we optimise $KL(q||p)$ over $q_j$ while keeping the other "coordinates" fixed. For an single coordinate, the optimisation problem has a simple closed for solution:
+[[Coordinate Descent]] is the standard way of performing this optimisation. We iterate over $j=1,2,\dots,n$ and for each $j$ we optimise $KL(q||p)$ over $q_j$ while keeping the other "coordinates" $q_{-j}=\prod_{i\neq j}{q_j}$ fixed. For an single coordinate, the optimisation problem has a simple closed for solution:
 
-$$\log{q_j(x_j)} \leftarrow \mathbb{E}[\log{\tilde{p}(x)}] + \text{const}$$
+$$\log{q_j(x_j)} \leftarrow \mathbb{E}_{q_{-j}}[\log{\tilde{p}(x)}] + \text{const}$$
+
+Both side of the equation contain univariate functions of $x_j$, with the constant term being the normalisation constant for the new distribution. Also notice that on the RHS we are taking an expectation of a sum of factors: 
+$$\log\tilde{p}(x) = \sum_{k}{\log\phi(x_k)}$$
+
+Only factors belonging to the Markov Blanked of $x_j$ are a function of $x_j$ the rest are constant leaving us with an expectation over a much smaller number of factors.
