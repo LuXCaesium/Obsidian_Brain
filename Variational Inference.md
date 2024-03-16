@@ -83,3 +83,13 @@ On the other hand, $KL(p||q)$ called *moment projection* is infinite if $q(x)=0$
 *Fitting a unimodal approximating distribution q (red) to a multimodal p (blue). Using KL(p||q) leads to a q that tries to cover both modes (a). However, using KL(q||p) forces q to choose one of the two modes of p (b, c).*
 
 Due to the properties that we just described, we often call $KL(p||q)$ the _inclusive_ KL divergence, while $KL(q||p)$ is the _exclusive_ KL divergence.
+
+## Mean-Field Inference
+
+This next step of variational inference concerns the choice of approximating family $\mathcal{Q}$. There are many ways to parameterise this class of distributions: exponential families, neural networks, Guassian processes, latent variable models etc etc.
+
+One of the most popular choices when optimising the variational bound is simply the set of filly-factored $q(x) = q_1(x_1)q_2(x_2)\dots q_n(x_n)$; where each $q_i(x_i)$ is a categorical distribution over a one-dimensional discrete variable. This is easy to optimise over and involves solving the following optimisation problem:
+
+$$min_{q_1,\dots,q_n}J(q)$$
+
+
