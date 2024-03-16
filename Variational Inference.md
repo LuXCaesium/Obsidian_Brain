@@ -90,6 +90,8 @@ This next step of variational inference concerns the choice of approximating fam
 
 One of the most popular choices when optimising the variational bound is simply the set of filly-factored $q(x) = q_1(x_1)q_2(x_2)\dots q_n(x_n)$; where each $q_i(x_i)$ is a categorical distribution over a one-dimensional discrete variable. This is easy to optimise over and involves solving the following optimisation problem:
 
-$$min_{q_1,\dots,q_n}J(q)$$
+$$\min_{q_1,\dots,q_n}J(q)$$
 
+[[Coordinate Descent]] is the standard way of performing this optimisation. We iterate over $j=1,2,\dots,n$ and for each $j$ we optimise $KL(q||p)$ over $q_j$ while keeping the other "coordinates" fixed. For an single coordinate, the optimisation problem has a simple closed for solution:
 
+$$\log{q_j(x_j)} \leftarrow \mathbb{E}[\log{\tilde{p}(x)}] + \text{const}$$
