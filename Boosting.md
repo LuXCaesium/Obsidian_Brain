@@ -31,4 +31,6 @@ Here $\alpha_1, \dots, \alpha_M$ are computed by the boosting algorithm. The eff
 3. Output $G(x) = \text{sign}[\sum_{m=1}^{M}\alpha_m G_m(x)]$
 
 
+## XGBoost
 
+For boosting *XGBoost* is a very common python implementation of stochastic gradient boosting. 
