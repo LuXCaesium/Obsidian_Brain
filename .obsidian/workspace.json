@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -179,8 +178,8 @@
   "active": "f3657aaf3c302a75",
   "lastOpenFiles": [
     "Data Science/Tree Based Methods.md",
-    "Boosting.md",
     "Data Science.md",
+    "Boosting.md",
     "Variational Inference.md",
     "assets/kldiv.png",
     "Data Science/Anomaly Detection.md",
