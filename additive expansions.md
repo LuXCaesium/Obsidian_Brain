@@ -12,3 +12,9 @@ In reality it is unlikely that the true function $f(X)$ is actually linear in $X
 - it is the first-order Taylor approximation of $f(X)$.
 - With $N$ small and/or $p$ large, a linear model may not be able to fit the data without overfitting.
 - In classification problems, a linear, Bayes-optimal decision boundary implies that some monotone transformation of $Pr(Y=1 | X)$ is linear in $X$.
+
+Denote $h_m(X): \mathbb{R}^p \mapsto \mathbb{R}$ the $m$th transformation of $X$. We then model
+
+$$f(X) = \sum_{m=1}^{M} \beta_m h_m(X)$$
+
+a *linear basis expansion* in $X$. 
