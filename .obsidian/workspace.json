@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7836ab4b5d241c17",
+        "id": "9aa7e6ffab4ac5b0",
         "type": "tabs",
         "children": [
           {
-            "id": "39a2ed989ec0f3c4",
+            "id": "f3657aaf3c302a75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Variational Inference.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variational Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variational Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Variational Inference.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,11 +167,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2750e0cbb15aa7b2",
+  "active": "f3657aaf3c302a75",
   "lastOpenFiles": [
+    "Variational Inference.md",
     "assets/kldiv.png",
     "Data Science/Anomaly Detection.md",
-    "Variational Inference.md",
     "Data Science.md",
     "Data Engineering.md",
     "Optimisation.md",
@@ -223,7 +214,6 @@
     "assets/LSTM3-var-peepholes.png",
     "assets/LSTM3-focus-o.png",
     "assets/LSTM3-focus-C.png",
-    "assets/LSTM3-focus-i.png",
     "Untitled.canvas"
   ]
 }
