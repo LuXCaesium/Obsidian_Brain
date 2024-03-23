@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boosting.md",
+                "file": "additive expansions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boosting.md",
+                "file": "additive expansions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boosting.md",
+                "file": "additive expansions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boosting.md"
+                "file": "additive expansions.md"
               }
             }
           },
@@ -177,9 +177,10 @@
   },
   "active": "f3657aaf3c302a75",
   "lastOpenFiles": [
+    "Boosting.md",
+    "additive expansions.md",
     "Data Science/Tree Based Methods.md",
     "Data Science.md",
-    "Boosting.md",
     "Variational Inference.md",
     "assets/kldiv.png",
     "Data Science/Anomaly Detection.md",
@@ -203,7 +204,6 @@
     "Data Science/Naive Bayes classifier.md",
     "Data Science/Nearest-Neighbour with Dynamic Warping.md",
     "Data Science/Recurrent Neural Networks.md",
-    "Data Science/Statistical Property Testing For Generative Models.md",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
     "Data Engineering/Database Internals",

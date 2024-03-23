@@ -9,8 +9,11 @@ tags:
 
 Boosting is a general technique to create an ensemble of models. Several variants of the algorithm are most commonly used: *Adaboost*, *gradient boosting* and *stochastic gradient boosting*. The latter being the most general and most widely used. With the right choice of parameters the algorithm can emulate a random forest.
 
-Essentially boosting is a way of fitting an [[additive expansions]] in. set of elementary *basis* functions 
+Essentially boosting is a way of fitting an [[additive expansions]] in a set of elementary *basis* functions. Here the basis functions are the individual classifiers $G_m(x) \in \{-1, 1\}$. More generally, basis function expressions take the form:
 
+$$f(x) = \sum_{m=1}^{M}\beta_mb(x;\gamma_m)$$
+
+where $\beta_m$ are the expansion coefficients, and $b(x;\gamma)$ are simple functions of the multivariate argument $x$, characterised by a set of parameters $\gamma$.
 
 ## Adaboost
 
