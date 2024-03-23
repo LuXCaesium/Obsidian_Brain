@@ -11,8 +11,13 @@
             "id": "f3657aaf3c302a75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Boosting.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Boosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Boosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Boosting.md"
+              }
             }
           },
           {
@@ -169,10 +178,12 @@
   },
   "active": "f3657aaf3c302a75",
   "lastOpenFiles": [
+    "Data Science/Tree Based Methods.md",
+    "Boosting.md",
+    "Data Science.md",
     "Variational Inference.md",
     "assets/kldiv.png",
     "Data Science/Anomaly Detection.md",
-    "Data Science.md",
     "Data Engineering.md",
     "Optimisation.md",
     "MLOps Roadmap.md",
@@ -181,7 +192,6 @@
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Multivariate Analysis.md",
     "Kubernetes.md",
-    "Data Science/Tree Based Methods.md",
     "Crafting Tech Specs.md",
     "Data Science/Time Series.md",
     "Data Science/Time Series to Supervised Learning.md",
