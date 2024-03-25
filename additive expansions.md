@@ -17,4 +17,4 @@ Denote $h_m(X): \mathbb{R}^p \mapsto \mathbb{R}$ the $m$th transformation of $X$
 
 $$f(X) = \sum_{m=1}^{M} \beta_m h_m(X)$$
 
-a *linear basis expansion* in $X$. 
+a *linear basis expansion* in $X$. Once the basis functions $h_m$ have been determined, the models are linear in these new variables
