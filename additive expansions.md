@@ -22,4 +22,17 @@ a *linear basis expansion* in $X$. Once the basis functions $h_m$ have been dete
 - $h_m(X) = X_m$ recovers the original linear model.
 - $h_m(X) = X^2_{j}$ or $h_m(X) = X_{j}X_{k}$ augments the inputs with polynomial terms, note $\mathcal{O}(p^d)$ terms are required for. degree-p polynomial
 - $h_m(X) = \log{X_j}, \sqrt{X_j}, \dots$ permits non-linear transformations of singular inputs.
-- $h_m(X) = I(L_m \leq)$
+- $h_m(X) = I(L_m \leq X_k < U_m)$ allows for piecewise constant contribution for $X_k$.
+
+Given that polynomials are limited by their global nature (having a functional form in one area does not mean its functional in another.), we use more useful families of *piecewise-polynomials* and *splines* that allow for local polynomial representations. *wavelet* bases can be useful for modelling signals and images.
+
+These methods produce a dictionary $\mathcal{D}$ of a large number of basis functions, of which we required a method for controlling the complexity of our model, using the basis functions from the dictionary:
+
+
+- Restrictions methods: we decide before-hand to limit the class of functions. *Additivity* is an example of assuming the model has the form: $$ \begin{equation}f(X) &= \sum_{j=1}^{p}f_j(X_j) \\ \end{equation}$$
+
+
+
+
+
+
