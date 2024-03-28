@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crafting Tech Specs.md",
+                "file": "additive expansions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crafting Tech Specs.md",
+                "file": "additive expansions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crafting Tech Specs.md",
+                "file": "additive expansions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Crafting Tech Specs.md"
+                "file": "additive expansions.md"
               }
             }
           },
@@ -177,8 +177,9 @@
   },
   "active": "f3657aaf3c302a75",
   "lastOpenFiles": [
-    "additive expansions.md",
     "Boosting.md",
+    "Crafting Tech Specs.md",
+    "additive expansions.md",
     "Data Science/Tree Based Methods.md",
     "Data Science.md",
     "Variational Inference.md",
@@ -192,7 +193,6 @@
     "Statistics/Hotelling's T-squared distribution.md",
     "Statistics/Multivariate Analysis.md",
     "Kubernetes.md",
-    "Crafting Tech Specs.md",
     "Data Science/Time Series.md",
     "Data Science/Time Series to Supervised Learning.md",
     "Data Science/Bayesian Inference.md",
