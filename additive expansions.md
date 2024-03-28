@@ -29,7 +29,16 @@ Given that polynomials are limited by their global nature (having a functional f
 These methods produce a dictionary $\mathcal{D}$ of a large number of basis functions, of which we required a method for controlling the complexity of our model, using the basis functions from the dictionary:
 
 
-- Restrictions methods: we decide before-hand to limit the class of functions. *Additivity* is an example of assuming the model has the form: $$ \begin{equation}f(X) &= \sum_{j=1}^{p}f_j(X_j) \\ \end{equation}$$
+- **Restrictions methods**: we decide before-hand to limit the class of functions. *Additivity* is an example of assuming the model has the form: $$\begin{equation}
+	  \begin{split}
+		f(X) &= \sum_{j=1}^{p}f_j(X_j) \\
+		&= \sum_{j=1}^{p}\sum_{m=1}^{M_j}\beta_{jm}h_{jm}(X_j)
+	 \end{split}
+	 \end{equation}
+   $$ so the size of the model is limited by the number of basis functions $M_j$.
+
+- **Selection methods**: scan the dictionary and include only $h_m$ that contribute significantly to the fit of the model. CART and MARS and boosting fall into this category.
+- **Regularisation**: use the entire dictionary but restrict the coefficients. Ridge regression is an example. Lasso is both a regularisation &b selection method.
 
 
 
