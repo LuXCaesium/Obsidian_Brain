@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "additive expansions.md",
+                "file": "Crafting Tech Specs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "fa97dde8cb86fba5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "additive expansions.md",
+                "file": "Crafting Tech Specs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "additive expansions.md",
+                "file": "Crafting Tech Specs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "additive expansions.md"
+                "file": "Crafting Tech Specs.md"
               }
             }
           },
@@ -186,10 +175,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fa97dde8cb86fba5",
+  "active": "f3657aaf3c302a75",
   "lastOpenFiles": [
-    "Boosting.md",
     "additive expansions.md",
+    "Boosting.md",
     "Data Science/Tree Based Methods.md",
     "Data Science.md",
     "Variational Inference.md",
