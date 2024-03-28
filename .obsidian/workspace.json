@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa97dde8cb86fba5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +186,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3657aaf3c302a75",
+  "active": "fa97dde8cb86fba5",
   "lastOpenFiles": [
     "Boosting.md",
     "additive expansions.md",
