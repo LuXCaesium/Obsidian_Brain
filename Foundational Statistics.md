@@ -29,6 +29,8 @@ Random variables represent numerical measurements of the experiment. Mathematica
 
 **Random Variable:** $X$ is a function from $\Omega$ to $\mathbb{R}$ such that sets of the form $\{a < X \leq b\} = \{\omega \in \Omega: a < X(\omega) \leq b\}$ are events (and thus can be assigned a probability). In other words the probability that $X$ takes on a value in a measurable set $S \subseteq E$ is written: $$P(X \in S) = P(\{\omega \in \Omega | X(\omega) \in S\})$$
 
+All probabilities can be computed from a random variables CDF:
+**Cumulative Distribution Function:** $F(X) = \mathbb{P}[X \leq x] \text{ for } x \in \mathbb{R}$
 
 
 
