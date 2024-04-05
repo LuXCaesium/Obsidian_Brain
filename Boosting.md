@@ -4,7 +4,6 @@ tags:
   - DataScience
   - SupervisedLearning
 ---
-
 # Boosting
 
 Boosting is a general technique to create an ensemble of models. Several variants of the algorithm are most commonly used: *Adaboost*, *gradient boosting* and *stochastic gradient boosting*. The latter being the most general and most widely used. With the right choice of parameters the algorithm can emulate a random forest.

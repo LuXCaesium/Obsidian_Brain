@@ -4,7 +4,7 @@ This repository highlights my journey into the study of data. That might be data
 
 ## How its structured
 
-### Statistics
+### Probability & Statistics
 
 ### Data Science
 

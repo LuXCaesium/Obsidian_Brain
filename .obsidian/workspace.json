@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "903834a5608e13e1",
+        "id": "ad3c4db5d1a4410e",
         "type": "tabs",
         "children": [
           {
-            "id": "6abb2a63160e5dac",
+            "id": "accdc96b62b5e22e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -187,11 +195,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6abb2a63160e5dac",
+  "active": "accdc96b62b5e22e",
   "lastOpenFiles": [
+    "Boosting.md",
+    "Data Science/Bayesian Inference.md",
     "Statistics.md",
     "additive expansions.md",
-    "Boosting.md",
     "Tasks.md",
     "Variational Inference.md",
     "Data Science/Tree Based Methods.md",
@@ -210,7 +219,6 @@
     "Statistics/Multivariate Analysis.md",
     "Data Science/Time Series.md",
     "Data Science/Time Series to Supervised Learning.md",
-    "Data Science/Bayesian Inference.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/Hopfield Networks.md",
     "Data Science/kernel Methods.md",
