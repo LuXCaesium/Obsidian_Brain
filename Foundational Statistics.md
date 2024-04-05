@@ -20,6 +20,10 @@ Any probability measure must satisfy the **Kolmogorov Axioms:**
 
 If events are allowed to overlap, then the above is called the *Union Bound*.
 
+When the sample space is *countable* then its easy to specify a probability measure. $$\mathbb{P}[A] = \sum_{i:a_i \in A}{p_i} \text{ for all } A \subseteq \Omega$$
+Here the collection of events $\mathcal{H}$ can be taken equal to the collection of all subsets of $\Omega$. This is a **discrete probability space**.
+
+## Random Variables & Probability
 
 
 
