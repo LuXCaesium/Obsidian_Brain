@@ -18,13 +18,6 @@ not done
 due before date(today)
 ```
 
-##### Due Today
-```tasks
-not done
-no due date
-```
-
-
 #### Other Tasks
 ```dataviewjs
 dv.taskList(dv.pages('-"Templates"').file.tasks
