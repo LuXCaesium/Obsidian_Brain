@@ -23,7 +23,14 @@ If events are allowed to overlap, then the above is called the *Union Bound*.
 When the sample space is *countable* then its easy to specify a probability measure. $$\mathbb{P}[A] = \sum_{i:a_i \in A}{p_i} \text{ for all } A \subseteq \Omega$$
 Here the collection of events $\mathcal{H}$ can be taken equal to the collection of all subsets of $\Omega$. This is a **discrete probability space**.
 
-## Random Variables & Probability
+## Random Variables & Probability Distributions
+
+Random variables represent numerical measurements of the experiment. Mathematically this is defined as:
+
+**Random Variable:** $X$ is a function from $\Omega$ to $\mathbb{R}$ such that sets of the form $\{a < X \leq b\} = \{\omega \in \Omega: a < X(\omega) \leq b\}$ are events (and thus can be assigned a probability). In other words the probability that $X$ takes on a value in a measurable set $S \subseteq E$ is written: $$P(X \in S) = P(\{\omega \in \Omega | X(\omega) \in S\})$$
+
+
+
 
 
 
