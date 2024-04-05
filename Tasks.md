@@ -35,4 +35,3 @@ dv.taskList(dv.pages('-"Templates"').file.tasks
 
 
 
-- [ ] 📅 2024-04-05  #task This is a task
