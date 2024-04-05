@@ -10,7 +10,7 @@ tags:
 
 These experiments are modelled as triplets $(\Omega, \mathcal{H}, \mathbb{P})$ where:
 - **Sample Space:** $\Omega$ is the set of all possible outcomes of the experiment.
-- **Event Space:** $\mathcal{H}$ is the collection of all subsets of $\Omega$ to which a probability can be assigned.
+- **Event Space:** $\mathcal{H}$ is the collection of all subsets of $\Omega$ to which a probability can be assigned. i.e all events
 - **Probability Measure:**  $\mathbb{P}$ is a function assigning to each event $A \in \mathcal{A}$ a number $\mathbb{P}[A]$ between 0 and 1, indicating the degree of belief that the event will occur.
 
 Any probability measure must satisfy the **Kolmogorov Axioms:**
