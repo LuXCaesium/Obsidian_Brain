@@ -61,5 +61,13 @@
       ],
       "key": "Y"
     }
+  ],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }
