@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Axioms of Probability.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Axioms of Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Axioms of Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Axioms of Probability.md"
               }
             }
           },
@@ -197,9 +197,10 @@
   },
   "active": "cd6f85dcbdb7c471",
   "lastOpenFiles": [
+    "README.md",
+    "Axioms of Probability.md",
     "Tasks.md",
     "MLOps.md",
-    "README.md",
     "Statistics.md",
     "Variational Inference.md",
     "Foundational Statistics.md",
@@ -223,7 +224,6 @@
     "Data Science/Handling Missing Values.md",
     "Data Science/Hopfield Networks.md",
     "Data Science/kernel Methods.md",
-    "Data Science/LSTM.md",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
     "Data Engineering/Database Internals",

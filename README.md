@@ -3,13 +3,16 @@
 This repository highlights my journey into the study of data. That might be data science, engineering, mlops or just plain old statistics.
 
 ## To Do
-- [ ] Complete Notes on foundational probability
+- [ ] Complete Notes on foundational probability (DSML & Possibly cambridge notes)
 
 
 
 ## How its structured
 
 ### Probability & Statistics
+#### 1. [[Axioms of Probability]]
+
+
 
 ### Data Science
 
