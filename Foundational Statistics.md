@@ -32,6 +32,7 @@ Random variables represent numerical measurements of the experiment. Mathematica
 All probabilities can be computed from a random variables CDF:
 **Cumulative Distribution Function:** $F(X) = \mathbb{P}[X \leq x] \text{ for } x \in \mathbb{R}$
 
+For 
 
 
 
