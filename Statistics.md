@@ -13,3 +13,11 @@ This page highlights the main topics and structure of the Statistics field. Here
 ## Classical Statistics
 ## Bayesian Probability
 [[Bayesian Inference]]
+
+```dataview
+list from [[]] and !outgoing([[]])
+```
+
+Here is a cool guide on statistics: [[Axioms of Probability]]
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Statistics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimisation.md",
+                "file": "Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimisation.md"
+                "file": "Statistics.md"
               }
             }
           },
@@ -196,21 +196,21 @@
   },
   "active": "e096ce1d9480ad84",
   "lastOpenFiles": [
+    "Tasks.md",
+    "Statistics.md",
+    "Variational Inference.md",
+    "Optimisation.md",
     "MLOps Roadmap.md",
     "MLOps.md",
     "Kubernetes.md",
     "README.md",
     "Statistics/Axioms of Probability.md",
-    "Tasks.md",
-    "Statistics.md",
-    "Variational Inference.md",
     "Statistics/Foundational Statistics.md",
     "Boosting.md",
     "Data Science/Bayesian Inference.md",
     "additive expansions.md",
     "Data Science/Tree Based Methods.md",
     "Data Science.md",
-    "Optimisation.md",
     "Data Engineering.md",
     "Crafting Tech Specs.md",
     "assets/kldiv.png",
