@@ -196,9 +196,9 @@
   },
   "active": "e096ce1d9480ad84",
   "lastOpenFiles": [
-    "Tasks.md",
-    "Statistics.md",
     "Variational Inference.md",
+    "Statistics.md",
+    "Tasks.md",
     "Optimisation.md",
     "MLOps Roadmap.md",
     "MLOps.md",

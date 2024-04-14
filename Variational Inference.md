@@ -104,3 +104,5 @@ Only factors belonging to the Markov Blanked of $x_j$ are a function of $x_j$ th
 The result of this is a procedure that iteratively fits a fully-factored $q(x)=q_1(x_1)q_2(x_2)\dots q_n(x_n)$ that approximates $p$ in terms of $KL(q||p)$. After each step of coordinate descent, we increase the variational lower bound, tightening it around $\log Z(\theta)$.
 
 In the end, the factors $q_j(x_j)$ will not quite equal the true marginal distributions $p(x_j)$, but they will often be good enough for many practical purposes, such as determining $\max_{x_j} p(x_j)$.
+
+[[Statistics]]
