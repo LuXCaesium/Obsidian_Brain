@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f44d89f7f78b36f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -194,10 +208,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e096ce1d9480ad84",
+  "active": "1f44d89f7f78b36f",
   "lastOpenFiles": [
-    "Variational Inference.md",
+    "templates/Meeting.md",
+    "Untitled.md",
     "Statistics.md",
+    "Variational Inference.md",
     "Tasks.md",
     "Optimisation.md",
     "MLOps Roadmap.md",
@@ -221,8 +237,6 @@
     "Data Science/Time Series.md",
     "Data Science/Time Series to Supervised Learning.md",
     "Data Science/Handling Missing Values.md",
-    "Data Science/Hopfield Networks.md",
-    "Data Science/kernel Methods.md",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
     "Data Engineering/Database Internals",
