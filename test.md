@@ -1,8 +1,11 @@
 ---
-aliases: ["Topic: {{title}}", "Project:"]
-created: ["{{date}} {{time}}"]
+aliases:
+  - "Topic: {{title}}"
+  - "Project:"
+created:
+  - 2024-04-15 16:50
 tags:
-- Meeting/
+  - Meeting/
 ---
 
 # 🚀 Meeting -> 

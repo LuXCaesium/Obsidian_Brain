@@ -2,8 +2,7 @@
 aliases:
   - "Topic: {{title}}"
   - "Project:"
-created:
-  - <% tp.file.creation_date() %>
+created: "{{date}} {{time}}"
 tags:
   - Meeting/
 ---
