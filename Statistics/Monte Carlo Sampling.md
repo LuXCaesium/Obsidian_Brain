@@ -37,3 +37,5 @@ so the algorithm follows as:
 2. $X \leftarrow F^{-1}(U)$
 
 ### Acceptance-Rejection Method
+
+This is used when trying to sample from *difficult* pdfs $f(x)$ by generating instead an *easy* pdf $g(x)$ satisfying $f(x) \leq Cg(x)$
