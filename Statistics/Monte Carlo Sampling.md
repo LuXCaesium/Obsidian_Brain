@@ -29,8 +29,11 @@ Two of the most useful general procedures for generating random variables are *i
 
 ### Inverse-Transform Method
 Let $X$ be a random variable with cdf $F$. Let $F^{-1}$ denote the inverse of $F$ and $U \sim \mathcal{U}(0,1)$ then,
-$$\mathbb{P}[F^{-1}(U) \leq x] = \mathcal{U \leq F(x)}$$
-
-
+$$\mathbb{P}[F^{-1}(U) \leq x] = \mathbb{P}[\mathcal{U} \leq F(x)]=F(x)$$
+so the algorithm follows as:
+**Input**: Cumulative distribution function $F$
+**Output**: Random variable $X$ distributed according to $F$
+1. Generate $U$ from $\mathcal{U}(0,1)$
+2. $X \leftarrow F^{-1}(U)$
 
 ### Acceptance-Rejection Method
