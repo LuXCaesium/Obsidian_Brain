@@ -14,3 +14,5 @@ tags:
 - **Sampling**: gather information about a random object by observing many realisations. i.e you can use [[MCMC]] to sample from a posterior distribution.
 - **Estimation**: You can estimate certain numerical properties related to a simulation model. i.e with multidimensional integrals can be written as the expectation of a random variable, which is approximated by the sample mean. The [[Law of Large Numbers]] says the approximation will converge when the sample is large enough.
 - **Optimisation**: Monte Carlo can be used to optimise complicated objective functions. 
+
+[[Monte Carlo Sampling]]
