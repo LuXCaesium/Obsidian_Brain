@@ -39,5 +39,7 @@ so the algorithm follows as:
 ### Acceptance-Rejection Method
 
 This is used when trying to sample from *difficult* pdfs $f(x)$ by generating instead an *easy* pdf $g(x)$ satisfying $f(x) \leq Cg(x)$
-for some constant $C \geq 1$, then accepting or rejecting the sample with a certain probability. Idea is to generate uniformly a point $(X, Y) under the graph of $Cg$, by first drawing $X \sim g$ and then $Y \sim \mathcal{U}(0, Cg(x))$. If $X$ lies under the graph of $f$, then we accept it. The efficiency is usually $1/C$ (i.e the probability of acceptance).
+for some constant $C \geq 1$, then accepting or rejecting the sample with a certain probability. 
+
+Idea is to generate uniformly a point $(X, Y)$ under the graph of $Cg$, by first drawing $X \sim g$ and then $Y \sim \mathcal{U}(0, Cg(x))$. If $X$ lies under the graph of $f$, then we accept it. The efficiency is usually $1/C$ (i.e the probability of acceptance).
 
