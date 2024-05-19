@@ -52,5 +52,6 @@ while not found do:
     $Y \leftarrow UCg(X)$
     if $Y \leq f(X)$ then found $\leftarrow$ true
 
+## Resampling
 
 
