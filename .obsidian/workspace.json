@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md",
+                "file": "Data Science/MCMC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md",
+                "file": "Data Science/MCMC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md",
+                "file": "Data Science/MCMC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md"
+                "file": "Data Science/MCMC.md"
               }
             }
           },
@@ -210,8 +210,8 @@
   },
   "active": "93ca5176e2259533",
   "lastOpenFiles": [
-    "Statistics/Monte Carlo Methods.md",
     "Statistics/Monte Carlo Sampling.md",
+    "Statistics/Monte Carlo Methods.md",
     "Data Science/MCMC.md",
     "Data Science/Bayesian Inference.md",
     "Data Science/Handling Missing Values.md",
