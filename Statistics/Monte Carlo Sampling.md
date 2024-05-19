@@ -67,5 +67,8 @@ $I$ is drawn uniformly at random from the set $\{1, \dots, n\}$
 
 ## Markov Chain Monte Carlo
 
-This is a Monte Carlo sampling technique for (approximately) generating samples from an arbitrary (target) distribution. You run the Markov chain long enough such that the limiting distribution is close to the target, the initial rvs may have a distribution far fro mthe target, so rvs in the *burn-in* period are often discarded. 
+This is a Monte Carlo sampling technique for (approximately) generating samples from an arbitrary (target) distribution. You run the Markov chain long enough such that the limiting distribution is close to the target, the initial rvs may have a distribution far fro mthe target, so rvs in the *burn-in* period are often discarded. The accpeted random variables for an *approximate* and *dependent* sample from the target distribution.
 
+The two most popular MCMC samplers: **Metropolis Hastings**, **Gibbs**
+
+### Metropolis-Hastings Sampler
