@@ -72,3 +72,6 @@ This is a Monte Carlo sampling technique for (approximately) generating samples 
 The two most popular MCMC samplers: **Metropolis Hastings**, **Gibbs**
 
 ### Metropolis-Hastings Sampler
+Similar to the [[Monte Carlo Sampling#Acceptance-Rejection Method|Acceptance-Rejection Method]] we simulate a trial state, which is then accepted or rejected according to some random mechanism.
+
+Suppose we want to sample from a target pdf $f(\textbf{x})$. The aim is to construct a Markov Chain $\{\textbf{X}_t, t=0,1, \dots\}$ in such a way that its limiting pdf is $f$.
