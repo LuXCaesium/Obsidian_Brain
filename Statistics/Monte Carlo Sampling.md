@@ -54,7 +54,7 @@ while not found do:
 
 ## Resampling
 
-An iid sample $\tau := {x_1, \dots, x_n}$ from some unknown cdf $F$ represents our best knowledge of $F$ if we make no further a *priori* assumptions. The best way to repeat the experiment is to resample from the original data by drawing from the empirical cdf $F_n$.
+An iid sample $\tau := {x_1, \dots, x_n}$ from some **unknown** cdf $F$ represents our best knowledge of $F$ if we make no further a *priori* assumptions. The best way to repeat the experiment is to resample from the original data by drawing from the empirical cdf $F_n$.
 
 **Input**: Original iid sample $x_1, \dots, x_n$ 
 **Output**: iid sample $X_1^*, \dots, X_n^*$ from the empirical cdf
@@ -64,3 +64,8 @@ for t=1 to N do
     Set $X_t^* \leftarrow x_I$
 
 $I$ is drawn uniformly at random from the set $\{1, \dots, n\}$
+
+## Markov Chain Monte Carlo
+
+This is a Monte Carlo sampling technique for (approximately) generating samples from an arbitrary (target) distribution. You run the Markov chain long enough such that the limiting distribution is close to the target, the initial rvs may have a distribution far fro mthe target, so rvs in the *burn-in* period are often discarded. 
+
