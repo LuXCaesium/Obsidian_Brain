@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md",
+                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md",
+                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md",
+                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Monte Carlo Sampling.md"
+                "file": "Data Science/Statistical Property Testing For Generative Models.md"
               }
             }
           },
@@ -196,9 +196,10 @@
   },
   "active": "70911cc6cfac4cfd",
   "lastOpenFiles": [
+    "Data Science/Naive Bayes classifier.md",
+    "Statistics/Monte Carlo Sampling.md",
     "Statistics/Monte Carlo Methods.md",
     "Data Science/MCMC.md",
-    "Statistics/Monte Carlo Sampling.md",
     "Data Science/Bayesian Inference.md",
     "Data Science/Handling Missing Values.md",
     "Statistics/Quantile Regression.md",
@@ -221,7 +222,6 @@
     "MLOps.md",
     "Kubernetes.md",
     "README.md",
-    "Boosting.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
