@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "55aa4e8aa0022868",
+        "id": "be3e6c2f2b81b3ec",
         "type": "tabs",
         "children": [
           {
-            "id": "70911cc6cfac4cfd",
+            "id": "56ba4e932691673a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science/Statistical Property Testing For Generative Models.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,34 +185,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "70911cc6cfac4cfd",
+  "active": "56ba4e932691673a",
   "lastOpenFiles": [
-    "Data Science/Naive Bayes classifier.md",
+    "Statistics/Copula.md",
+    "Statistics/Determine Number of Clusters in a Dataset.md",
+    "Statistics/Directed Graphs and Conditional Independence.md",
+    "Statistics/Axioms of Probability.md",
+    "Statistics/Foundational Statistics.md",
+    "Statistics/Hotelling's T-squared distribution.md",
+    "Statistics/Multivariate Analysis.md",
     "Statistics/Monte Carlo Sampling.md",
     "Statistics/Monte Carlo Methods.md",
+    "Statistics.md",
+    "Statistics/Variational Inference.md",
+    "Data Science/Statistical Property Testing For Generative Models.md",
+    "Data Science/Naive Bayes classifier.md",
     "Data Science/MCMC.md",
     "Data Science/Bayesian Inference.md",
     "Data Science/Handling Missing Values.md",
     "Statistics/Quantile Regression.md",
-    "Statistics/Multivariate Analysis.md",
     "Statistics/Mahalanobis Distance.md",
-    "Statistics/Hotelling's T-squared distribution.md",
-    "Statistics/Foundational Statistics.md",
-    "Statistics/Directed Graphs and Conditional Independence.md",
-    "Statistics/Determine Number of Clusters in a Dataset.md",
-    "Statistics/Copula.md",
-    "Statistics/Axioms of Probability.md",
     "templates/Meeting.md",
     "Tasks.md",
-    "Statistics.md",
     "test.md",
     "templates/General Note.md",
-    "Variational Inference.md",
     "Optimisation.md",
     "MLOps Roadmap.md",
     "MLOps.md",
     "Kubernetes.md",
-    "README.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
