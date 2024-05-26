@@ -11,8 +11,13 @@
             "id": "56ba4e932691673a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/MCMC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Science/MCMC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Science/MCMC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Science/MCMC.md"
+              }
             }
           },
           {
@@ -187,6 +196,13 @@
   },
   "active": "56ba4e932691673a",
   "lastOpenFiles": [
+    "Data Science/Managing machine learning infrastructure as code with Terraform.md",
+    "Data Science/LSTM.md",
+    "Data Science/kernel Methods.md",
+    "Data Science/Hopfield Networks.md",
+    "Data Science/Handling Missing Values.md",
+    "Data Science/Anomaly Detection.md",
+    "Data Science/Bayesian Inference.md",
     "Statistics/Copula.md",
     "Statistics/Determine Number of Clusters in a Dataset.md",
     "Statistics/Directed Graphs and Conditional Independence.md",
@@ -201,18 +217,11 @@
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Science/Naive Bayes classifier.md",
     "Data Science/MCMC.md",
-    "Data Science/Bayesian Inference.md",
-    "Data Science/Handling Missing Values.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "templates/Meeting.md",
     "Tasks.md",
     "test.md",
-    "templates/General Note.md",
-    "Optimisation.md",
-    "MLOps Roadmap.md",
-    "MLOps.md",
-    "Kubernetes.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
