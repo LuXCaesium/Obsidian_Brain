@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "be3e6c2f2b81b3ec",
+        "id": "b3e68098b3d5cca1",
         "type": "tabs",
         "children": [
           {
-            "id": "56ba4e932691673a",
+            "id": "27907a6a6866dbbc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/MCMC.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MCMC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MCMC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science/MCMC.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,8 +185,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "56ba4e932691673a",
+  "active": "27907a6a6866dbbc",
   "lastOpenFiles": [
+    "Statistics/Variational Inference.md",
+    "Statistics.md",
+    "Data Science/MCMC.md",
     "Data Science/Managing machine learning infrastructure as code with Terraform.md",
     "Data Science/LSTM.md",
     "Data Science/kernel Methods.md",
@@ -212,11 +206,8 @@
     "Statistics/Multivariate Analysis.md",
     "Statistics/Monte Carlo Sampling.md",
     "Statistics/Monte Carlo Methods.md",
-    "Statistics.md",
-    "Statistics/Variational Inference.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Science/Naive Bayes classifier.md",
-    "Data Science/MCMC.md",
     "Statistics/Quantile Regression.md",
     "Statistics/Mahalanobis Distance.md",
     "templates/Meeting.md",
