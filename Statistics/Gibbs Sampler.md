@@ -8,7 +8,7 @@ tags:
 
 # Gibbs Sampler
 
-In essence the **Gibbs Sampler** is a special case of the [[Metropolis-Hastings Sampler]] and is useful for generating n-dimensional random vectors. One at a time we update each component of the random vector, by sampling them from conditional pdfs. Which has the advantage the conditional pdfs can be easier to sample from than marginalising by integrating over the joint distributions.
+In essence the **Gibbs Sampler** uses a somewhat different methodology than the [[Metropolis-Hastings Sampler]] and is useful for generating n-dimensional random vectors. One at a time we update each component of the random vector, by sampling them from conditional pdfs. Which has the advantage the conditional pdfs can be easier to sample from than marginalising by integrating over the joint distributions.
 
 Suppose we wish to sample a random vector $\mathbf{X} = [X_1, X_2, \dots, X_n]^{\top}$ according to target pdf $f(\boldsymbol{x})$. Let $f(x_i | x_1, \dots, x_{i-1}, x_{i+1}, \dots, x_n)$ represent the condition pdf of the i-th component $X_i$.
 
