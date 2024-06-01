@@ -8,6 +8,8 @@ tags:
 
 # Monte Carlo Sampling
 
+The idea behind *Monte Carlo Sampling* is to explore and gather information about a random object by observing many realisations.
+
 ## Generating Random Numbers
 
 At the heart of Monte Carlo is a *random number generator*: producing a stream of uniform random numbers such as:
@@ -69,14 +71,8 @@ $I$ is drawn uniformly at random from the set $\{1, \dots, n\}$
 
 This is a Monte Carlo sampling technique for (approximately) generating samples from an arbitrary (target) distribution. You run the Markov chain long enough such that the limiting distribution is close to the target, the initial rvs may have a distribution far from the target, so rvs in the *burn-in* period are often discarded. The accepted random variables for an *approximate* and *dependent* sample from the target distribution.
 
-The two most popular MCMC samplers: **Metropolis Hastings**, **Gibbs**
+The two most popular MCMC samplers: 
 
-### Metropolis-Hastings Sampler
-Similar to the [[Monte Carlo Sampling#Acceptance-Rejection Method|Acceptance-Rejection Method]] we simulate a trial state, which is then accepted or rejected according to some random mechanism.
+- [[Metropolis-Hastings Sampler]]
+- [[Gibbs Sampler]]
 
-Suppose we want to sample from a target pdf $f(\textbf{x})$. The aim is to construct a Markov Chain $\{\textbf{X}_t, t=0,1, \dots\}$ in such a way that its limiting pdf is $f$. Suppose the chain is in state $\textbf{x}$ at time t. A transition of the Markov Chain from state $\textbf{x}$ is carried out in two phases:
-
-1. Propose state $\textbf{Y}$ drawn from transition density $q(.|\textbf{x})$
-2. This state is accepted as a new state with acceptance probability $$\alpha(\textbf{x}, \textbf{y}) = \min\left\{\frac{f(\textbf{y})q(\textbf{x}|\textbf{y})}{f(\textbf{x})q(\textbf{y}|\textbf{x})}, 1 \right\}$$
-
-### Gibbs Sampler

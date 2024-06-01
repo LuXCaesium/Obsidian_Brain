@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd9e9263fa26f850",
+        "id": "67def72292f6f000",
         "type": "tabs",
         "children": [
           {
-            "id": "2bedfa994ce94d07",
+            "id": "7c501d1448934ec2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Statistics/Gibbs Sampler.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Statistics/Gibbs Sampler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Statistics/Gibbs Sampler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Statistics/Gibbs Sampler.md"
               }
             }
           },
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +195,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2bedfa994ce94d07",
+  "active": "7c501d1448934ec2",
   "lastOpenFiles": [
+    "Statistics/Monte Carlo Sampling.md",
+    "Statistics/Monte Carlo Methods.md",
+    "Statistics/Metropolis-Hastings Sampler.md",
+    "Statistics/Gibbs Sampler.md",
+    "Data Science/MCMC.md",
+    "Statistics/Mahalanobis Distance.md",
+    "README.md",
     "Tasks.md",
     "test.md",
     "Statistics.md",
@@ -204,10 +212,6 @@
     "Kubernetes.md",
     "MLOps Roadmap.md",
     "MLOps.md",
-    "Statistics/Monte Carlo Sampling.md",
-    "Statistics/Monte Carlo Methods.md",
-    "Data Science/MCMC.md",
-    "README.md",
     "Data Science/Model Evaluation.md",
     "Data Science/Bayesian Inference.md",
     "Optimisation.md",
@@ -219,9 +223,6 @@
     "Data Science/LSTM.md",
     "Data Science/kernel Methods.md",
     "Data Science/Hopfield Networks.md",
-    "Data Science/Handling Missing Values.md",
-    "Data Science/Anomaly Detection.md",
-    "Statistics/Copula.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
