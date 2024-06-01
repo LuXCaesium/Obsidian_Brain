@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b3e68098b3d5cca1",
+        "id": "dd9e9263fa26f850",
         "type": "tabs",
         "children": [
           {
-            "id": "27907a6a6866dbbc",
+            "id": "2bedfa994ce94d07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -185,34 +194,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "27907a6a6866dbbc",
+  "active": "2bedfa994ce94d07",
   "lastOpenFiles": [
-    "Statistics/Variational Inference.md",
+    "Tasks.md",
+    "test.md",
     "Statistics.md",
+    "Data Science.md",
+    "Hoeffding's inequality.md",
+    "Kubernetes.md",
+    "MLOps Roadmap.md",
+    "MLOps.md",
+    "Statistics/Monte Carlo Sampling.md",
+    "Statistics/Monte Carlo Methods.md",
     "Data Science/MCMC.md",
+    "README.md",
+    "Data Science/Model Evaluation.md",
+    "Data Science/Bayesian Inference.md",
+    "Optimisation.md",
+    "Data Science/Statistical Property Testing For Generative Models.md",
+    "Data Science/Time Series to Supervised Learning.md",
+    "Data Science/tf-idf.md",
+    "Statistics/Variational Inference.md",
     "Data Science/Managing machine learning infrastructure as code with Terraform.md",
     "Data Science/LSTM.md",
     "Data Science/kernel Methods.md",
     "Data Science/Hopfield Networks.md",
     "Data Science/Handling Missing Values.md",
     "Data Science/Anomaly Detection.md",
-    "Data Science/Bayesian Inference.md",
     "Statistics/Copula.md",
-    "Statistics/Determine Number of Clusters in a Dataset.md",
-    "Statistics/Directed Graphs and Conditional Independence.md",
-    "Statistics/Axioms of Probability.md",
-    "Statistics/Foundational Statistics.md",
-    "Statistics/Hotelling's T-squared distribution.md",
-    "Statistics/Multivariate Analysis.md",
-    "Statistics/Monte Carlo Sampling.md",
-    "Statistics/Monte Carlo Methods.md",
-    "Data Science/Statistical Property Testing For Generative Models.md",
-    "Data Science/Naive Bayes classifier.md",
-    "Statistics/Quantile Regression.md",
-    "Statistics/Mahalanobis Distance.md",
-    "templates/Meeting.md",
-    "Tasks.md",
-    "test.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",

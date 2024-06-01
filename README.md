@@ -18,6 +18,9 @@ This repository highlights my journey into the study of data. That might be data
 
 #### 1. Statistical Learning
 #### 2. Monte Carlo Methods
+- [[Monte Carlo Sampling]]
+- [[Monte Carlo Estimation]]
+- [[Monte Carlo Optimisation]]
 #### 3. Unsupervised Learning
 #### 4. Regression
 #### 5. Regularisation and Kernel Methods
