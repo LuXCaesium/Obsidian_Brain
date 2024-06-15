@@ -25,13 +25,20 @@ The above is what we call a *systematic gibbs sampler* as the components are upd
 
 ## Motivating Example: A Bayesian Hierarchical Model
 
+*Source*: [Advanced Simulation Methods](https://www.stats.ox.ac.uk/~deligian/pdf/sc5/notes/notes5.pdf)
+
 The following data is the number of failures $p_i$ over time intervals $t_i$ of 10 nuclear pumps:
 
-| Pump $i$      | 1     | 2     | 3     | 4      | 5    |
-| ------------- | ----- | ----- | ----- | ------ | ---- |
-| # Failures pi | 5     | 1     | 5     | 14     | 3    |
-| Times ti      | 94.32 | 15.72 | 62.88 | 125.76 | 5.24 |
+| Pump $i$         | 1     | 2     | 3     | 4      | 5    |
+| ---------------- | ----- | ----- | ----- | ------ | ---- |
+| # Failures $p_i$ | 5     | 1     | 5     | 14     | 3    |
+| Times $t_i$      | 94.32 | 15.72 | 62.88 | 125.76 | 5.24 |
 
+| Pump $i$         | 6     | 7    | 8    | 9    | 10    |
+| ---------------- | ----- | ---- | ---- | ---- | ----- |
+| # Failures $p_i$ | 19    | 1    | 1    | 4    | 22    |
+| Times $t_i$      | 31.44 | 1.05 | 1.05 | 2.10 | 10.48 |
+We model failures of the $i-th$ pump as a Poisson process with parameter $\lambda_i$ over time $t_i$. So number of failures $P_i$ follows a *Poisson* distribution of parameters $\lambda_it_i$. We want to infer $\lambda_{1:10} = (\lambda_1, \dots, \lambda_10 )$ from the data.
 
 
 
