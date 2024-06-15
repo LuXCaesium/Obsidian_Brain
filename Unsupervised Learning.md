@@ -25,3 +25,7 @@ $$\mathcal{l}(g) := - \mathbb{E}\ln g(\boldsymbol{X}) = - \int f(\boldsymbol{x})
 Minimising this is often infeasible so we aim to minimise the **Cross-Entropy training loss**:
 $$\mathcal{l}_{\tau}(g) := \frac{1}{n} \sum_{i=1}^{n} \text{Loss}(f(\boldsymbol{x}_i), g(\boldsymbol{x}_i)) = - \frac{1}{n}\sum_{i=1}^{n} \ln g(\boldsymbol{x}_i)$$
 which is equivalent to solving: $\max_{g \in \mathcal{G}} \sum_{i=1}^{n} \ln g(\boldsymbol{x}_i)$ and a key to this is selecting a suitable $\mathcal{G}$ usually set to $\{g(.|\theta), \theta \in \Theta\}$.
+
+## Expectation-Maximisation (EM) Algorithm
+
+This is a general algorithm for maximisation of complicated log-likelihood functions through the introduction of auxiliary variables.
