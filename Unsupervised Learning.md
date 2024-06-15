@@ -14,7 +14,7 @@ In contrast to the supervised case, where a *response* variable $y$ is explained
 Suppose we want to learn the unknown pdf $f$ of $\boldsymbol{X}$ based on an outcome $\tau = \{ \boldsymbol{x}_1, \dots, \boldsymbol{x}_n \}$ of the training data $\mathcal{T} := \{ \boldsymbol{X}_1, \dots, \boldsymbol{X}_n \}$.  In a similar vein to [[Supervised Learning]], we wish to find a function $g$, which is now probability density that best approximates the pdf $f$ in terms of minimising a risk:
 
 $$\mathcal{l}(g) := \mathbb{E} \text{Loss}(f(\boldsymbol{X}), g(\boldsymbol{X}))$$
-Where $\text{Loss}$ is some loss function, for example the **Kullback-leibler risk** 
+Where $\text{Loss}$ is some loss function, for example the **Kullback-leibler risk**:
 
 $$\mathcal{l}(g) := \mathbb{E}\ln\frac{f(\boldsymbol{X})}{g(\boldsymbol{X})} = \mathbb{E}\ln f(\boldsymbol{X}) - \mathbb{E}\ln g(\boldsymbol{X})$$
 
@@ -24,3 +24,4 @@ If $\mathcal{G}$ is a class of functions containing f, then minimising the above
 $$\mathcal{l}(g) := - \mathbb{E}\ln g(\boldsymbol{X}) = - \int f(\boldsymbol{x}) \ln g(\boldsymbol{x}) \,d\boldsymbol{x}$$
 Minimising this is often infeasible so we aim to minimise the **Cross-Entropy training loss**:
 $$\mathcal{l}_{\tau}(g) := \frac{1}{n} \sum_{i=1}^{n} \text{Loss}(f(\boldsymbol{x}_i), g(\boldsymbol{x}_i)) = - \frac{1}{n}\sum_{i=1}^{n} \ln g(\boldsymbol{x}_i)$$
+which is equivalent to solving: $\max_{g \in \mathcal{G}} \sum_{i=1}^{n} \ln g(\boldsymbol{x}_i)$ and a key to this is selecting a suitable $\mathcal{G}$ usually set to $\{g(.|\theta), \theta \in \Theta\}$.
