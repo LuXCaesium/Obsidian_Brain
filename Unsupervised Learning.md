@@ -19,6 +19,8 @@ Where $\text{Loss}$ is some loss function, for example the **Kullback-leibler ri
 $$\mathcal{l}(g) := \mathbb{E}\ln\frac{f(\boldsymbol{X})}{g(\boldsymbol{X})} = \mathbb{E}\ln f(\boldsymbol{X}) - \mathbb{E}\ln g(\boldsymbol{X})$$
 
 
-Since the term $\mathbb{E}\ln f(\boldsymbol{X})$ does not contain $g$ then it plays no role in the minimisation. So by removing this term, we obtain the **Cross-Entropy risk**:
+If $\mathcal{G}$ is a class of functions containing f, then minimising the above will yield the correct minimiser of $f$. Since the term $\mathbb{E}\ln f(\boldsymbol{X})$ does not contain $g$ then it plays no role in the minimisation. So by removing this term, we obtain the **Cross-Entropy risk**:
 
-$$\mathcal{l}(g) := \mathbb{E}\ln\frac{f(\boldsymbol{X})}{g(\boldsymbol{X})} = \mathbb{E}\ln f(\boldsymbol{X}) - \mathbb{E}\ln g(\boldsymbol{X})$$
+$$\mathcal{l}(g) := - \mathbb{E}\ln g(\boldsymbol{X}) = - \int f(\boldsymbol{x}) \ln g(\boldsymbol{x}) \,d\boldsymbol{x}$$
+Minimising this is often infeasible so we aim to minimise the **Cross-Entropy training loss**:
+$$\mathcal{l}_{\tau}(g) := \frac{1}{n} \sum_{i=1}^{n} \text{Loss}(f(\boldsymbol{x}_i), g(\boldsymbol{x}_i)) = $$
