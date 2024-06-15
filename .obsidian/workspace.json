@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67def72292f6f000",
+        "id": "994ee51a03f37be5",
         "type": "tabs",
         "children": [
           {
-            "id": "7c501d1448934ec2",
+            "id": "6be329b264afedeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Gibbs Sampler.md",
+                "file": "Unsupervised Learning.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8e758340b567a5a2",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Gibbs Sampler.md",
+                "file": "Unsupervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Gibbs Sampler.md",
+                "file": "Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Gibbs Sampler.md"
+                "file": "Unsupervised Learning.md"
               }
             }
           },
@@ -196,25 +195,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c501d1448934ec2",
+  "active": "6be329b264afedeb",
   "lastOpenFiles": [
-    "Statistics/Monte Carlo Sampling.md",
+    "Data Science.md",
+    "Unsupervised Learning.md",
     "Statistics/Monte Carlo Methods.md",
+    "Statistics/Monte Carlo Sampling.md",
     "Statistics/Metropolis-Hastings Sampler.md",
     "Statistics/Gibbs Sampler.md",
+    "Data Science/Bayesian Inference.md",
+    "Data Science/Naive Bayes classifier.md",
+    "Data Science/Model Evaluation.md",
     "Data Science/MCMC.md",
     "Statistics/Mahalanobis Distance.md",
     "README.md",
     "Tasks.md",
     "test.md",
     "Statistics.md",
-    "Data Science.md",
     "Hoeffding's inequality.md",
     "Kubernetes.md",
     "MLOps Roadmap.md",
     "MLOps.md",
-    "Data Science/Model Evaluation.md",
-    "Data Science/Bayesian Inference.md",
     "Optimisation.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Science/Time Series to Supervised Learning.md",
@@ -222,8 +223,6 @@
     "Statistics/Variational Inference.md",
     "Data Science/Managing machine learning infrastructure as code with Terraform.md",
     "Data Science/LSTM.md",
-    "Data Science/kernel Methods.md",
-    "Data Science/Hopfield Networks.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",

@@ -38,7 +38,7 @@ The following data is the number of failures $p_i$ over time intervals $t_i$ of 
 | ---------------- | ----- | ---- | ---- | ---- | ----- |
 | # Failures $p_i$ | 19    | 1    | 1    | 4    | 22    |
 | Times $t_i$      | 31.44 | 1.05 | 1.05 | 2.10 | 10.48 |
-We model failures of the $i-th$ pump as a Poisson process with parameter $\lambda_i$ over time $t_i$. So number of failures $P_i$ follows a *Poisson* distribution of parameters $\lambda_it_i$. We want to infer $\lambda_{1:10} = (\lambda_1, \dots, \lambda_10 )$ from the data.
+We model failures of the $i-th$ pump as a Poisson process with parameter $\lambda_i$ over time $t_i$. So the number of failures $P_i$ follows a *Poisson* distribution of parameters $\lambda_it_i$. We want to infer $\lambda_{1:10} = (\lambda_1, \dots, \lambda_10 )$ from the data.
 
 
 
