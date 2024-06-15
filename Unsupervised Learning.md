@@ -13,5 +13,12 @@ In contrast to the supervised case, where a *response* variable $y$ is explained
 
 Suppose we want to learn the unknown pdf $f$ of $\boldsymbol{X}$ based on an outcome $\tau = \{ \boldsymbol{x}_1, \dots, \boldsymbol{x}_n \}$ of the training data $\mathcal{T} := \{ \boldsymbol{X}_1, \dots, \boldsymbol{X}_n \}$.  In a similar vein to [[Supervised Learning]], we wish to find a function $g$, which is now probability density that best approximates the pdf $f$ in terms of minimising a risk:
 
-$$\mathcal{l}(g) := \mathbb{E}(Loss(f(\boldsymbol{X}), g(\boldsymbol{X})))$$
+$$\mathcal{l}(g) := \mathbb{E} \text{Loss}(f(\boldsymbol{X}), g(\boldsymbol{X}))$$
+Where $\text{Loss}$ is some loss function, for example the **Kullback-leibler risk** 
 
+$$\mathcal{l}(g) := \mathbb{E}\ln\frac{f(\boldsymbol{X})}{g(\boldsymbol{X})} = \mathbb{E}\ln f(\boldsymbol{X}) - \mathbb{E}\ln g(\boldsymbol{X})$$
+
+
+Since the term $\mathbb{E}\ln f(\boldsymbol{X})$ does not contain $g$ then it plays no role in the minimisation. So by removing this term, we obtain the **Cross-Entropy risk**:
+
+$$\mathcal{l}(g) := \mathbb{E}\ln\frac{f(\boldsymbol{X})}{g(\boldsymbol{X})} = \mathbb{E}\ln f(\boldsymbol{X}) - \mathbb{E}\ln g(\boldsymbol{X})$$
