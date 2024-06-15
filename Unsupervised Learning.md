@@ -23,4 +23,4 @@ If $\mathcal{G}$ is a class of functions containing f, then minimising the above
 
 $$\mathcal{l}(g) := - \mathbb{E}\ln g(\boldsymbol{X}) = - \int f(\boldsymbol{x}) \ln g(\boldsymbol{x}) \,d\boldsymbol{x}$$
 Minimising this is often infeasible so we aim to minimise the **Cross-Entropy training loss**:
-$$\mathcal{l}_{\tau}(g) := \frac{1}{n} \sum_{i=1}^{n} \text{Loss}(f(\boldsymbol{x}_i), g(\boldsymbol{x}_i)) = $$
+$$\mathcal{l}_{\tau}(g) := \frac{1}{n} \sum_{i=1}^{n} \text{Loss}(f(\boldsymbol{x}_i), g(\boldsymbol{x}_i)) = - \frac{1}{n}\sum_{i=1}^{n} \ln g(\boldsymbol{x}_i)$$
