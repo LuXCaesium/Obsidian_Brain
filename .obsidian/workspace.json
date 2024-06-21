@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unsupervised Learning.md",
+                "file": "Data Science/Unsupervised Learning.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb75dd7e7dd8faad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineering.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00b779a3a8e87c42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MCDS Skills.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised Learning.md",
+                "file": "MCDS Skills.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised Learning.md",
+                "file": "MCDS Skills.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised Learning.md"
+                "file": "MCDS Skills.md"
               }
             }
           },
@@ -195,10 +222,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6be329b264afedeb",
+  "active": "00b779a3a8e87c42",
   "lastOpenFiles": [
+    "Data Engineering.md",
+    "MCDS Skills.md",
     "Data Science.md",
-    "Unsupervised Learning.md",
+    "Optimisation.md",
+    "README.md",
+    "Statistics.md",
+    "Tasks.md",
+    "test.md",
+    "Boosting.md",
+    "Software Development/Crafting Tech Specs.md",
+    "Deployment",
+    "Data Science/Unsupervised Learning.md",
     "Statistics/Monte Carlo Methods.md",
     "Statistics/Monte Carlo Sampling.md",
     "Statistics/Metropolis-Hastings Sampler.md",
@@ -208,21 +245,12 @@
     "Data Science/Model Evaluation.md",
     "Data Science/MCMC.md",
     "Statistics/Mahalanobis Distance.md",
-    "README.md",
-    "Tasks.md",
-    "test.md",
-    "Statistics.md",
     "Hoeffding's inequality.md",
-    "Kubernetes.md",
-    "MLOps Roadmap.md",
+    "Deployment/Kubernetes.md",
+    "Deployment/MLOps Roadmap.md",
     "MLOps.md",
-    "Optimisation.md",
     "Data Science/Statistical Property Testing For Generative Models.md",
     "Data Science/Time Series to Supervised Learning.md",
-    "Data Science/tf-idf.md",
-    "Statistics/Variational Inference.md",
-    "Data Science/Managing machine learning infrastructure as code with Terraform.md",
-    "Data Science/LSTM.md",
     "assets/kldiv.png",
     "assets/Kubernetes_Deployment.svg",
     "assets/Kubernetes_Cluster.svg",
@@ -237,7 +265,6 @@
     "Notes/2023",
     "Notes/Weekly/2023/04-April",
     "Notes/Weekly/2023",
-    "Notes/Monthly/2023",
     "assets/LSTM3-var-tied.png",
     "assets/LSTM3-var-GRU.png",
     "assets/LSTM3-var-peepholes.png",
