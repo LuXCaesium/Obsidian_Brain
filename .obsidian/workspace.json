@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6be329b264afedeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Unsupervised Learning.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb75dd7e7dd8faad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineering.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "00b779a3a8e87c42",
             "type": "leaf",
             "state": {
@@ -46,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,6 +197,7 @@
   },
   "active": "00b779a3a8e87c42",
   "lastOpenFiles": [
+    "Data Science/Unsupervised Learning.md",
     "Data Engineering.md",
     "MCDS Skills.md",
     "Data Science.md",
@@ -235,7 +209,6 @@
     "Boosting.md",
     "Software Development/Crafting Tech Specs.md",
     "Deployment",
-    "Data Science/Unsupervised Learning.md",
     "Statistics/Monte Carlo Methods.md",
     "Statistics/Monte Carlo Sampling.md",
     "Statistics/Metropolis-Hastings Sampler.md",
