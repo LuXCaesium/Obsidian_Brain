@@ -7,7 +7,11 @@ tags:
 
 Here we outline the core competencies for for Math, computational and data science skills.
 
-
+| Competence               | Knowledge                                                          | Skill                                                                                                                                                                                                                               | Mastery                                                                       | Where am I ? |
+| ------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------ |
+| Mathematical Foundations | Describe concepts & with assistance <br>apply most of the methods. | Can do most of the following confidently:<br><br>- Basic Numerical Methods<br>- Calculus<br>- Linear Algebra<br>- Optimisation<br>- Differential & Integral equations<br>- Number representation<br>- Interpolation & approximation | Uses complex methods to solve problems. Publishes papers, gives lectures etc. |              |
+| Prob & Stats             |                                                                    |                                                                                                                                                                                                                                     |                                                                               |              |
+| Specialist Math          |                                                                    |                                                                                                                                                                                                                                     |                                                                               |              |
 
 
 
